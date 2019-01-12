@@ -1,0 +1,86 @@
+.footer-wrapper {
+	background-color: $color-primary-medium;		
+	background-image: url('../img/bg-footer-blue.jpg');
+	background-position: center bottom;
+	background-repeat: no-repeat;
+}
+
+.footer-top-inner {	
+	height: 200px;
+	font-size: 40px;
+	text-align: center;
+}
+
+.footer-scroll-top {
+	color: rgba(255, 255, 255, .2);
+	display: inline-block;
+	@include transition(color .2s linear);
+	margin-top: 130px;
+
+	&:hover {
+		color: rgba(255, 255, 255, .5);
+	}
+}	
+
+.footer-bottom {
+	background-color: rgba(0, 0, 0, .2);
+	color: $color-primary-lighter;
+	min-height: 100px;
+
+	a {
+		color: $color-primary-light;
+		text-decoration: underline;
+
+		&:hover {
+			color: $color-primary-light;
+		}
+	}
+}
+
+.footer-bottom-copyright {
+	float: left;
+	font-weight: 300;
+	margin-top: 34px;
+}
+
+.footer-bottom-nav {
+	float: right;
+
+	a {
+		@include border-radius(0px !important);
+		color: $color-primary-lighter;
+		font-weight: 800;
+		line-height: 40px;
+		margin-left: 35px;
+		@include opacity(.6);
+		padding: 0px !important;
+		text-decoration: none;
+		text-transform: uppercase;
+		@include transition(opacity .2s linear);
+
+		&:hover {
+			background-color: transparent !important;
+			border-bottom: 3px solid $color-primary-lighter;
+			color: $color-primary-lighter;
+			@include opacity(1);
+			padding-bottom: 4px;
+
+			&:before {
+				background-image: url('../img/arrow-hover.png');	
+			}
+		}
+
+		&:before {
+			background-image: url('../img/arrow.png');
+			content: '';
+			display: block;
+			height: 29px;
+			@include opacity(.5);
+			width: 5px;
+		}
+	}
+
+	li:first-child a {
+		margin-left: 0px;
+	}
+}

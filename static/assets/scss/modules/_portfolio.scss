@@ -1,0 +1,168 @@
+.portfolio-grid-item {
+	padding: 0px;
+}
+
+.portfolio-grid-item-inner {
+	color: #fff;
+	display: block;
+	height: 0;
+	padding-bottom: 100%;
+	position: relative;
+	width: 100%;
+
+	&:hover {
+		color: #fff;
+	}
+
+	h2 {
+		font-size: 22px;
+		font-weight: 500;
+		margin: 0px 0px 15px 0px;
+		padding: 0px;
+	}
+
+	.btn {
+		bottom: 20px;
+		left: 20px;
+		position: absolute;
+	}
+}
+
+.portfolio-grid-inner {
+	padding: 0px 15px;
+}
+
+
+.portfolio-grid-inner-wrapper {
+	padding: 0px;
+}
+
+.portfolio-grid-item-icon {
+	color: #fff;
+	font-size: 88px;
+	text-align: center;
+
+	i {
+		left: 50%;
+		margin-left: -40px;
+		margin-top: -45px;
+		position: absolute;		
+		top: 50%;
+	}
+}
+
+.portfolio-grid-item-content {
+	color: $color-font;
+	padding: 20px;
+
+	p {
+		font-size: 15px;
+		line-height: 24px;
+	}
+}
+
+.portfolio-grid-item-arrow-left {
+	&:before {
+		border: 14px solid transparent;
+		border-right-color: $color-gray;
+		content: '';
+		display: block;
+		height: 0px;
+		left: -28px;
+		position: absolute;
+		top: 17px;
+		width: 0px;
+		z-index: 2;
+	}
+}
+
+.portfolio-grid-item-arrow-right {
+	&:before {
+		border: 14px solid transparent;
+		border-left-color: $color-gray;
+		content: '';
+		display: block;
+		height: 0px;		
+		position: absolute;
+		right: -28px;
+		top: 17px;	
+		width: 0px;
+		z-index: 2;
+	}
+}
+
+.portfolio-items {
+	margin: 0px;
+}
+
+.portfolio-item {		
+	padding: 0px;
+
+	img {
+		width: 100%;
+	}
+}
+
+.portfolio-item-inner {
+	height: 0px;
+	padding-bottom: 100%;
+	width: 100%;
+}
+
+.portfolio-target {
+	display: block;
+	overflow: hidden;
+	position: relative;
+
+	&:hover {
+		.portfolio-target-hover	{
+			top: 0px;
+		}
+	}
+}
+
+.portfolio-target-hover {
+	background-color: $color-primary-medium;
+	display: block;
+	height: 100%;
+	left: 0px;
+	@include opacity(.7);
+	position: absolute;
+	text-align: center;
+	top: -100%;
+	@include transition(top .2s linear);
+	width: 100%;
+
+	i {
+		@extend .vertical-align;
+		color: #fff;
+		font-size: 54px;
+	}
+}
+
+.portfolio-filter {
+	margin: 30px 0px 50px 0px;
+	padding: 0px;
+
+	li {
+		display: inline-block;
+
+		a {
+			border: 2px solid transparent;
+			@include border-radius(6px);
+			color: $color-font;
+			display: block;
+			font-size: 16px;
+			font-weight: 500;
+			padding: 6px 20px;
+			@include transition(color .2s linear, border-color .2s linear);
+		}		
+
+		&.selected {
+			a {
+				border-color: $color-primary-light;
+				color: $color-primary-light;
+			}	
+		}		
+	}
+}

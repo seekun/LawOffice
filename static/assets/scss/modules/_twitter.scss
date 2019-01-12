@@ -1,0 +1,25 @@
+.twitter {
+	background-image: url('../img/twitters.png');
+	background-position: 50px 50px;
+	background-repeat: no-repeat;
+	min-height: 370px;
+
+	.block-title {
+		color: #fff;
+
+		.light {
+			color: #afe8ff;
+		}
+	}
+
+	.block-large-text {
+		color: #fff;
+	}
+
+	.has-arrow {
+		&:before {
+			background-image: url('../img/arrow-white.png');
+			@include opacity(1);
+		}
+	}
+}

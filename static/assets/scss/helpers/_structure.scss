@@ -1,0 +1,25 @@
+#wrapper {
+	display: table;
+	height: 100%;
+	overflow: hidden;
+	width: 100%;
+}
+
+.main-wrapper {
+	display: table-row;
+	height: 100%;
+}
+
+.header-wrapper, .footer-wrapper {
+	display: table-row;
+	height: 1px;
+}
+
+.main {
+	position: relative;
+	top: -130px;
+}
+
+.main-inner {
+	position: relative;
+}

@@ -1,0 +1,107 @@
+.pricing {
+	margin: 0px;
+}
+
+.pricing-col {
+	background-color: #03698f;
+	color: rgba(255, 255, 255, .8);
+	padding: 0px 0px 50px 0px; 
+	text-align: center;
+
+	&.azur {
+		background-color: $color-azur;
+		.btn-white {
+			&:hover {
+				color: $color-azur;
+			}
+		}
+	}
+
+	&.blue {
+		background-color: $color-blue;
+		.btn-white {
+			&:hover {
+				color: $color-blue;
+			}
+		}
+	}
+
+	&.green {
+		background-color: $color-green;
+		.btn-white {
+			&:hover {
+				color: $color-green;
+			}
+		}
+	}
+
+	&.magenta {
+		background-color: $color-magenta;
+		.btn-white {
+			&:hover {
+				color: $color-magenta;
+			}
+		}
+	}
+
+	&.top {
+		@include transform(scale(1.1));
+		z-index: 2;
+	}
+
+	.btn-white {
+		&:hover {
+			background-color: #fff;
+			color: #03698f;
+			@include opacity(1);
+		}
+	}
+}
+
+.pricing-title {
+	font-size: 36px;
+	font-weight: 800;
+	line-height: 80px;
+	margin: 0px;
+	padding: 0px;
+	text-transform: uppercase;
+}
+
+.pricing-value {
+	background-color: lighten(#03698f, 5%);
+	font-size: 36px;
+	font-weight: 300;
+	line-height: 90px;
+
+	.azur & {
+		background-color: lighten($color-azur, 5%);
+	}
+
+	.green & {
+		background-color: lighten($color-green, 5%);
+	}	
+
+	.magenta & {
+		background-color: lighten($color-magenta, 5%);		
+	}
+
+	.blue & {
+		background-color: lighten($color-blue, 5%);		
+	}	
+}
+
+.pricing-list {
+	font-size: 17px;
+	list-style: none;
+	margin: 0px 0px 50px 0px;
+	padding: 0px;
+
+	li {
+		border-bottom: 1px solid rgba(255, 255, 255, .2);
+		line-height: 47px;
+
+		&:last-child {
+			border-bottom: 0px;
+		}
+	}
+}
