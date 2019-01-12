@@ -24,7 +24,7 @@ from web.views import index
 urlpatterns = [
                   url(r'^admin/', admin.site.urls),
                   url(r'^web/', include('web.urls')),
-                  url(r'^', index, name='index'),
+                  url(r'^$', index, name='index'),
                   url(r'mdeditor/', include('mdeditor.urls')),
                   url(r'^static/(?P<path>.*)$', serve, {'document_root': settings.STATIC_ROOT}),
                   url(r'^upload/(?P<path>.*)$', serve, {'document_root': settings.MEDIA_ROOT}),
