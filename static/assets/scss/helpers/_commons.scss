@@ -1,0 +1,103 @@
+.separator {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.vertical-align {
+	position: relative;
+	@include transform(translateY(-50%));
+	top: 50%;
+}
+
+.align-bottom {
+	bottom: 0px;
+	position: absolute;
+	width: 100%;
+}
+
+.center {
+	text-align: center;
+}
+
+.background-primary-medium {
+	background-color: $color-primary-medium;
+}
+
+.background-white {
+	background-color: #fff;
+}
+
+.background-gray {
+	background-color: $color-gray;
+}
+
+.background-green {
+	background-color: $color-green;
+}
+
+.background-magenta {
+	background-color: $color-magenta;
+}
+
+.background-blue {
+	background-color: $color-blue;
+}
+
+.background-azur {
+	background-color: $color-azur;
+}
+
+.background-twitter {
+	background-color: #00aced;		
+}
+
+.background-purple {
+	background-color: $color-purple;		
+}
+
+.background-fancy {
+	background-color: $color-primary-medium;
+	background-image: url('../img/bg-blue.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	color: #fff;
+}
+
+.no-margin-bottom {
+	margin-bottom: 0px !important;
+}
+
+.fullwidth {
+	margin-left: -440px !important;
+	margin-right: -440px !important;
+	padding-left: 440px !important;	
+	padding-right: 440px !important;
+}
+
+.mb100 {
+	margin-bottom: 100px !important;
+}
+
+.mb50 {
+	margin-bottom: 50px !important;
+}
+
+.badge {
+	background-color: $color-primary-lightest;
+	@include border-radius(4px);
+	color: $color-primary-light !important;
+	font-size: 14px;
+	font-weight: 500;
+	padding: 8px 14px;
+
+	i {
+		font-size: 14px !important;
+	}
+}
+
+.tags {
+	.btn {
+		margin-bottom: 16px;
+		margin-right: 13px;
+	}
+}

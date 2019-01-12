@@ -1,7 +1,6 @@
 from django.contrib import admin
 from .models import IndexPicture, Project, News
 
-admin.register(IndexPicture)
-admin.register(Project)
-admin.register(News)
-# Register your models here.
+admin.site.register(IndexPicture)
+admin.site.register(Project)
+admin.site.register(News)

@@ -1,0 +1,46 @@
+.bootstrap-carousel {
+	@extend .background-fancy;
+	
+	height: 510px;
+	overflow: hidden;
+	padding: 0px;
+
+	.carousel {
+		height: 510px;
+		padding: 80px 0px 0px 0px;
+	}
+
+	.carousel-inner {
+		min-height: 510px;
+	}
+}
+
+.carousel-control.left, .carousel-control.right {
+	@include background-image(none);
+	border: 2px	solid #fff;
+	@include border-radius(50%);
+	display: block;	
+	height: 35px;
+	margin-top: -18px;
+	text-align: center;
+	@include text-shadow(none);	
+	top: 50%;
+	width: 35px;
+
+	i {		
+		font-size: 18px;
+		margin-top: 7px;
+	}
+}
+
+.carousel-indicators {
+	bottom: -50px;
+}
+
+.carousel-control.left {
+	margin-left: -25px;
+}
+
+.carousel-control.right {
+	margin-right: -25px;
+}

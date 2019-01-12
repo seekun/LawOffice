@@ -1,0 +1,62 @@
+.btn {
+	background-color: transparent;
+	color: $color-primary-light;
+	font-weight: 600;	
+	padding: 0px;
+	position: relative;	
+	@include transition(opacity .2s linear);
+
+	&:focus, &:active {
+		background-color: transparent;
+		@include box-shadow(none);
+		bottom: -1px;
+	}
+
+	i {
+		font-size: 30px;
+		font-weight: normal;
+		margin-right: 15px;
+		vertical-align: middle;
+	}
+
+	&:hover {
+		color: $color-primary-light;		
+		@include opacity(.7);
+		text-decoration: underline;
+	}
+}
+
+.btn-primary {
+	border: 2px solid $color-primary-light;
+	@include border-radius(5px);	
+	padding: 7px 15px;
+	text-transform: uppercase;
+	@include transition(border-color .2s linear);
+
+	&:focus, &:active, &:hover {
+		background-color: transparent;
+		border-color: $color-primary-lighter;
+		color: $color-primary-light;
+		text-decoration: none;
+	}	
+}
+
+.btn-white {
+	@extend .btn-primary;
+	background-color: rgba(255, 255, 255, .1);
+	border-color: rgba(255, 255, 255, .8);
+	color: #fff;
+
+	&:focus, &:active, &:hover {		
+		background-color: rgba(255, 255, 255, .1);
+		border-color: rgba(255, 255, 255, .8);
+		color: #fff;
+	}
+}
+
+.btn-large {
+	font-size: 18px;
+	font-weight: 700;	
+	padding: 11px 30px;
+	text-transform: uppercase;
+}

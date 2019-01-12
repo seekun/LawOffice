@@ -1,0 +1,153 @@
+.has-ears {
+	margin-left: -60px !important;
+	margin-right: -60px !important;
+	padding-left: 60px !important;
+	padding-right: 60px !important;
+	position: relative;
+
+	.content & {
+		margin-left: -75px !important;
+		margin-right: -75px !important;
+	}
+
+	&:before {
+		border-bottom: 60px solid $color-primary-lightest;
+		border-left: 60px solid transparent;
+		content: '';
+		display: block;		
+		height: 0px;
+		left: 0px;
+		position: absolute;
+		top: -60px;
+		width: 0px;
+	}
+
+	&:after {
+		border-bottom: 60px solid $color-primary-lightest;
+		border-right: 60px solid transparent;
+		content: '';
+		display: block;		
+		height: 0px;		
+		position: absolute;
+		right: 0px;
+		top: -60px;
+		width: 0px;
+	}
+
+	&.background-twitter, &.twitter {
+		&:before, &:after {
+			border-bottom-color: #1299cc;
+		}		
+	}
+}
+
+.dig-it {	
+	bottom: -200px !important;
+	margin-bottom: 0px !important;
+	margin-top: -200px !important;	
+	position: relative; 
+}
+
+.block-content {
+	margin-bottom: 100px;
+}
+
+.block-title {
+	color: $color-primary-title;
+	font-size: 60px;
+	font-weight: 800;
+	margin: 0px 0px 40px 0px;
+	padding: 0px;
+
+	.light {
+		color: $color-primary-title-light;
+	}
+
+	&.white {
+		color: #fff;
+	}
+
+	.background-twitter & {
+		.light {
+			color: #afe8ff;
+		}
+	}
+
+	.background-fancy &, .background-primary-medium & {
+		color: #fff;
+	}
+}
+
+.block-subtitle {
+	@extend .block-title;
+
+	font-size: 36px;
+}
+
+.block-large-text {
+	font-size: 18px;
+	font-weight: 300;
+
+	p {
+		margin-bottom: 30px;
+	}
+
+	&.make-it-dinosauric {
+		font-size: 20px;
+		font-weight: 700;
+		text-transform: uppercase;
+	}
+}
+
+.has-arrow {
+	padding-left: 70px;
+	position: relative;
+
+	&:before {
+		background-image: url('../img/arrow-black.png');
+		background-position: left top;
+		background-repeat: no-repeat;
+		content: '';
+		display: block;
+		height: 5px;
+		left: 0px;
+		@include opacity(.4);
+		position: absolute;
+		top: 10px;
+		width: 50px;
+	}
+
+	&.white, .background-primary-medium & {
+		&:before {
+			background-image: url('../img/arrow-white.png');
+		}
+	}	
+}
+
+.block-content-inner {
+	padding: 100px 60px;
+
+	.small-padding & {
+		padding: 40px 60px;
+	}
+
+	.no-padding & {
+		padding: 0px;
+	}
+}
+
+.reset-block-padding {
+	margin-left: -60px !important;
+	margin-right: -60px !important;
+}
+
+.reset-block-padding-bottom {
+	margin-bottom: -100px;
+}
+
+.reset-block-padding-all {
+	margin-bottom: -100px !important;
+	margin-left: -60px !important;
+	margin-right: -60px !important;
+	margin-top: -100px !important;
+}

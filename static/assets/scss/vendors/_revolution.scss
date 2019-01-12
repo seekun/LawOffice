@@ -1,0 +1,51 @@
+.tp-leftarrow.default {
+	background-image: none;
+	border: 2px solid rgba(255, 255, 255, .3);
+	@include border-radius(50%);	
+	margin-top: -35px !important;
+	text-align: center;
+	@include transition(all .2s linear);
+
+	&:after {		
+		color: rgba(255, 255, 255, .3);
+		content: '\f053';
+		display: block;
+		font-family: 'FontAwesome';
+		margin-top: 6px;
+	}
+
+	&:hover {
+		border: 2px solid rgba(255, 255, 255, .7);
+
+		&:after {
+			color: rgba(255, 255, 255, .7);
+		}
+	}
+}
+
+.tp-rightarrow.default {
+	@extend .tp-leftarrow.default;
+
+	&:after {
+		content: '\f054';
+	}
+}
+
+.tp-caption a {
+	color: #fff;
+
+	&:hover {
+		color: #fff;
+	}
+}
+
+.tp-bullets.simplebullets.round .bullet {
+	background-image: none;
+	border: 3px solid rgba(255, 255, 255, .5);
+	@include border-radius(50%);
+	margin: 0px 3px;
+
+	&.selected {
+		border: 3px solid rgba(255, 255, 255, 1);
+	}
+}

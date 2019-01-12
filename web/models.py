@@ -13,8 +13,8 @@ from PIL import Image
 
 #  首页轮播图
 class IndexPicture(models.Model):
-    name = models.CharField(max_length=100, null=True, blank=True)
-    picture = models.ImageField(upload_to="picture", null=True, blank=True)
+    name = models.CharField('名称',max_length=100, null=True, blank=True)
+    picture = models.ImageField('图片',upload_to="picture", null=True, blank=True)
 
     def __str__(self):
         return self.name

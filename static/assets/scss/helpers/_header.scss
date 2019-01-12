@@ -1,0 +1,139 @@
+.header-wrapper {
+	background-color: $color-primary-medium;
+	background-image: url('../img/bg-header-blue.png');
+	background-position: center -80px;
+	background-repeat: no-repeat;
+	color: #fff;
+}
+
+.header {
+	background-color: rgba(0, 0, 0, .2);
+}
+
+.header-inner {
+	height: 120px;
+}
+
+.header-logo {
+	@extend .vertical-align;
+	display: block;
+	float: left;
+	margin-right: 100px;
+}
+
+.navbar-toggle {
+	background-color: transparent;
+	@include border-radius(0px);
+	position: absolute;
+	right: 0px;
+	top: 35px;
+
+	.icon-bar {
+		background-color: #fff;
+	}
+}
+
+.header-nav {
+	float: left;
+	margin-right: 40px;
+
+	li.active a {
+		background-color: transparent !important;
+		border-bottom: 3px solid $color-primary-lighter;
+		color: $color-primary-lighter;
+		padding-bottom: 4px;
+
+		&:before {
+			background-image: url('../img/arrow-hover.png');	
+			@include opacity(.5);
+		}		
+	}
+
+	a {
+		@include border-radius(0px !important);
+		color: #fff;
+		display: block;
+		font-size: 16px;
+		font-weight: 800;
+		line-height: 30px;
+		margin-left: 35px;
+		padding: 50px 0px 0px 0px !important;
+		text-decoration: none;
+		text-transform: uppercase;
+		@include transition(color .2s linear);
+
+		&:hover {
+			background-color: transparent !important;
+			border-bottom: 3px solid $color-primary-lighter;
+			color: $color-primary-lighter;
+			padding-bottom: 4px;
+
+			&:before {
+				background-image: url('../img/arrow-hover.png');	
+				@include opacity(.5);
+			}
+		}
+
+		&:before {
+			background-image: url('../img/arrow.png');
+			content: '';
+			display: block;
+			height: 29px;
+			left: 0px;
+			position: absolute;			
+			@include opacity(.2);
+			top: 0px;
+			@include transition(opacity .2s linear);
+			width: 5px;
+		}
+	}	
+}
+
+.header-content {
+	padding: 0px 0px 130px 0px;
+}
+
+.header-title {	
+	padding: 90px 0px 220px 0px;
+}
+
+.header-title-main {
+	color: #fff;	
+	float: left;
+	font-size: 60px;
+	font-weight: 800;	
+	margin: 0px;
+	padding: 0px;
+}
+
+.header-title-search {
+	margin-top: 20px;
+}
+
+.header-title-nav {
+	float: right;
+	margin-top: 10px;
+
+	a {
+		border: 2px solid transparent;
+		color: #fff;
+		font-size: 16px;
+		padding: 5px 22px !important;
+		@include transition(border-color .2s linear, color .2s linear);
+
+		.active & {
+			display: none !important;
+		}
+	}
+
+	li {		
+		margin-left: 10px !important;
+	}
+
+	li.active a, a:hover, li.active a:hover {
+		background-color: transparent !important;
+		@include border-radius(4px);
+		border: 2px solid rgba(255, 255, 255, .6);
+		color: #fff;
+	}
+}
