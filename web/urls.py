@@ -6,8 +6,10 @@ from django.urls import path
 
 
 app_name = 'web'
-urlpatterns = [
-    # url(r'^index/', views.index, name='index'),
 
+urlpatterns = [
+    url(r'^index/', views.index, name='index'),
+    url(r'^services/', views.services, name='services'),
+    url(r'^test1/', views.test1, name='test1'),
 
 ]

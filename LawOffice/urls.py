@@ -6,6 +6,8 @@ from django.conf.urls.static import static
 from django.conf import settings
 from django.views.static import serve
 from web.views import index
+
+
 urlpatterns = [
                   path('admin/', admin.site.urls),
                   url(r'^web/', include('web.urls')),

@@ -17,12 +17,12 @@
     <link href="{% static 'assets/css/owl.carousel.css' %}" rel="stylesheet">
     <link href="{% static 'assets/js/google-code-prettify/prettify.css' %}" rel="stylesheet">
     <link href="{% static 'assets/js/fancybox/jquery.fancybox.css' %}" rel="stylesheet" type="text/css" media="all" />
-    <link href="{% static 'assets/js/fancybox/helpers/jquery.fancybox-thumbs.css?v=1.0.2' %}" rel="stylesheet" type="text/css" />
+    <link href="{% static 'assets/js/fancybox/helpers/jquery.fancybox-thumbs.css' %}" rel="stylesheet" type="text/css" />
     <link href="{% static 'assets/css/style.css' %}" rel="stylesheet">
     <link href="{% static 'assets/css/color/blue.css' %}" rel="stylesheet">
-    <link href='http://fonts.useso.com/css?family=Josefin+Sans:400,600,700,400italic,600italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.useso.com/css?family=Raleway:400,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.useso.com/css?family=Dosis:200,300,400,500,600,700,800' rel='stylesheet' type='text/css'>
+{#    <link href='http://fonts.useso.com/css?family=Josefin+Sans:400,600,700,400italic,600italic,700italic' rel='stylesheet' type='text/css'>#}
+{#    <link href='http://fonts.useso.com/css?family=Raleway:400,300,500,600,700,800,900' rel='stylesheet' type='text/css'>#}
+{#    <link href='http://fonts.useso.com/css?family=Dosis:200,300,400,500,600,700,800' rel='stylesheet' type='text/css'>#}
     <link href="{% static 'assets/type/fontello.css' %}" rel="stylesheet">
     <link href="{% static 'assets/type/budicons.css' %}" rel="stylesheet">
 
@@ -34,56 +34,54 @@
   <div class="navbar default">
     <div class="navbar-header">
       <div class="container">
-        <div class="basic-wrapper"> <a class="btn responsive-menu pull-right" data-toggle="collapse" data-target=".navbar-collapse"><i class='icon-menu-1'></i></a> <a class="navbar-brand" href="index.html"><img src="style/images/logo.png" alt="" data-src="style/images/logo.png" data-ret="style/images/logo@2x.png" class="retina" /></a> </div>
+        <div class="basic-wrapper"> <a class="btn responsive-menu pull-right" data-toggle="collapse" data-target=".navbar-collapse"><i class='icon-menu-1'></i></a> <a class="navbar-brand" href="{% url 'web:index' %}"><img src="{% static 'assets/img/logo.png' %}" alt="" data-src="{% static 'assets/img/logo.png' %}" data-ret="{% static 'assets/img/logo.png' %}" class="retina" /></a> </div>
         <nav class="collapse navbar-collapse pull-right">
           <ul class="nav navbar-nav">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#pricing">Pricing</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li class="dropdown"><a href="#" class="dropdown-toggle js-activated">Features</a>
-              <ul class="dropdown-menu">
-                <li class="dropdown-submenu"><a href="#">Blog</a>
-                  <ul class="dropdown-menu">
-                    <li><a href="blog.html">Medium Image Layout</a></li>
-                    <li><a href="blog2.html">Grid Blog</a></li>
-                    <li><a href="blog3.html">Grid Blog with Sidebar</a></li>
-                    <li><a href="blog4.html">Classic Blog</a></li>
-                    <li><a href="blog-post.html">Blog Post</a></li>
-                  </ul>
-                </li>
-                <li class="dropdown-submenu"><a href="#">Portfolio Posts</a>
-                  <ul class="dropdown-menu">
-                    <li><a href="portfolio-post.html">Post with Wide Slider</a></li>
-                    <li><a href="portfolio-post2.html">Post with Half Slider</a></li>
-                    <li><a href="portfolio-post3.html">Post with Carousel Gallery</a></li>
-                    <li><a href="portfolio-post4.html">Post with Multiple Images</a></li>
-                    <li><a href="portfolio-post5.html">Post with Half Images</a></li>
-                    <li><a href="portfolio-post6.html">Post with Fullscreen Slider</a></li>
-                    <li><a href="portfolio-post7.html">Post with Fullwidth Video</a></li>
-                    <li><a href="portfolio-post8.html">Post with Half Video</a></li>
-                  </ul>
-                </li>
-                <li><a href="elements.html">Elements</a></li>
-                <li><a href="headings.html">Headings</a></li>
-                <li><a href="footer.html">Footer with Widgets</a></li>
-                <li><a href="pricing.html">Pricing Table</a></li>
-                <li><a href="fontello.html">Font Icons - Fontello</a></li>
-               <li><a href="budicon.html">Font Icons - Budicon</a></li>
-				<li><a href="shared on weidea.net">More</a></li>
-              </ul>
-            </li>
+            <li><a href="{% url 'web:index' %}">首页</a></li>
+            <li><a href="{% url 'web:services' %}">项目</a></li>
+            <li><a href="#about">关于我们</a></li>
+            <li><a href="#about">期刊资料</a></li>
+{#            <li class="dropdown"><a href="#" class="dropdown-toggle js-activated">Features</a>#}
+{#              <ul class="dropdown-menu">#}
+{#                <li class="dropdown-submenu"><a href="#">Blog</a>#}
+{#                  <ul class="dropdown-menu">#}
+{#                    <li><a href="blog.html">Medium Image Layout</a></li>#}
+{#                    <li><a href="blog2.html">Grid Blog</a></li>#}
+{#                    <li><a href="blog3.html">Grid Blog with Sidebar</a></li>#}
+{#                    <li><a href="blog4.html">Classic Blog</a></li>#}
+{#                    <li><a href="blog-post.html">Blog Post</a></li>#}
+{#                  </ul>#}
+{#                </li>#}
+{#                <li class="dropdown-submenu"><a href="#">Portfolio Posts</a>#}
+{#                  <ul class="dropdown-menu">#}
+{#                    <li><a href="portfolio-post.html">Post with Wide Slider</a></li>#}
+{#                    <li><a href="portfolio-post2.html">Post with Half Slider</a></li>#}
+{#                    <li><a href="portfolio-post3.html">Post with Carousel Gallery</a></li>#}
+{#                    <li><a href="portfolio-post4.html">Post with Multiple Images</a></li>#}
+{#                    <li><a href="portfolio-post5.html">Post with Half Images</a></li>#}
+{#                    <li><a href="portfolio-post6.html">Post with Fullscreen Slider</a></li>#}
+{#                    <li><a href="portfolio-post7.html">Post with Fullwidth Video</a></li>#}
+{#                    <li><a href="portfolio-post8.html">Post with Half Video</a></li>#}
+{#                  </ul>#}
+{#                </li>#}
+{#                <li><a href="elements.html">Elements</a></li>#}
+{#                <li><a href="headings.html">Headings</a></li>#}
+{#                <li><a href="footer.html">Footer with Widgets</a></li>#}
+{#                <li><a href="pricing.html">Pricing Table</a></li>#}
+{#                <li><a href="fontello.html">Font Icons - Fontello</a></li>#}
+{#               <li><a href="budicon.html">Font Icons - Budicon</a></li>#}
+{#				<li><a href="shared on weidea.net">More</a></li>#}
+{#              </ul>#}
+{#            </li>#}
           </ul>
         </nav>
       </div>
     </div>
     <!--/.nav-collapse -->
   </div>
-{% block content %}
+    {% block content %}
 
-{% endblock %}
+    {% endblock %}
 </div>
 <footer class="footer">
     <div class="container inner">

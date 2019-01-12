@@ -251,7 +251,8 @@ hr {
     margin-bottom: 70px;
 }
 .anchor {
-    display: block
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
 .alert {
     padding-bottom: 13px
@@ -1369,7 +1370,7 @@ footer .post-list li em {
 .tp-bannertimer {
     width: 100%;
     height: 10px;
-    background: url(style/images/timer.png);
+    background: url(/static/assets/img/timer.png);
     position: absolute;
     z-index: 200;
 }
