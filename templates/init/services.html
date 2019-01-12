@@ -23,17 +23,24 @@
 {#            <p class="lead main text-center">伟大的设计理解客户需求</p>#}
             <div class="grid-portfolio fix-portfolio">
               <ul class="filter">
-                <li><a class="active" href="#" data-filter="*">所有</a></li>
-                <li><a href="#" data-filter=".web">办公楼</a></li>
-                <li><a href="#" data-filter=".graphic">教育及研究</a></li>
-                <li><a href="#" data-filter=".photo">住宅</a></li>
-                <li><a href="#" data-filter=".motion">基础设施</a></li>
+                  {% for type in allType %}
+                      {% if type.nameEN == displayProject %}
+                        <li><a class="active" href="/web/services/?category={{ type.nameEN }}&page=1" data-filter="*">{{ type.nameCN }}</a></li>
+                      {% else %}
+                          <li><a href="/web/services/?category={{ type.nameEN }}&page=1" data-filter="*">{{ type.nameCN }}</a></li>
+                      {% endif %}
+                  {% endfor %}
+{#                    <li><a class="active" href="#" data-filter="*">所有</a></li>#}
+{#                    <li><a href="{% url 'web:services' 'OfficeBuilding' %}" data-filter=".web">办公楼</a></li>#}
+{#                    <li><a href="{% url 'web:services' 'EducationResearch' %}" data-filter=".graphic">教育及研究</a></li>#}
+{#                    <li><a href="{% url 'web:services' 'Residential' %}" data-filter=".photo">住宅</a></li>#}
+{#                    <li><a href="{% url 'web:services' 'Infrastructure' %}" data-filter=".motion">基础设施</a></li>#}
               </ul>
 
               <!-- /filter -->
 
               <ul class="content-slider items">
-                  {% for item in allProject %}
+                  {% for item in projectList %}
                 <li class="item thumb web">
                   <figure>
                       <a href="{% url 'web:detail' item.id %}" class="imgParse" >
@@ -45,105 +52,35 @@
                   </figure>
                 </li>
                   {% endfor %}
-                <li class="item thumb graphic">
-                  <figure><a href="#" data-contenturl="portfolio-post2.html" data-callback="callPortfolioScripts();" data-contentcontainer=".pcw">
-                    <div class="text-overlay">
-                      <div class="info">Half Slider</div>
-                    </div>
-                    <img src="{% static 'assets/img/art/p2.jpg' %}" alt="" /> </a></figure>
-                </li>
-                <li class="item thumb web">
-                  <figure><a href="#" data-contenturl="portfolio-post3.html" data-callback="callPortfolioScripts();" data-contentcontainer=".pcw">
-                    <div class="text-overlay">
-                      <div class="info">Carousel Gallery</div>
-                    </div>
-                    <img src="{% static 'assets/img/art/p3.jpg' %}" alt="" /> </a></figure>
-                </li>
-                <li class="item thumb web">
-                  <figure><a href="#" data-contenturl="portfolio-post4.html" data-callback="callPortfolioScripts();" data-contentcontainer=".pcw">
-                    <div class="text-overlay">
-                      <div class="info">Multiple Images</div>
-                    </div>
-                    <img src="{% static 'assets/img/art/p4.jpg' %}" alt="" /> </a></figure>
-                </li>
-                <li class="item thumb photo">
-                  <figure><a href="#" data-contenturl="portfolio-post5.html" data-callback="callPortfolioScripts();" data-contentcontainer=".pcw">
-                    <div class="text-overlay">
-                      <div class="info">Multiple Half Images</div>
-                    </div>
-                    <img src="{% static 'assets/img/art/p5.jpg' %}" alt="" /> </a></figure>
-                </li>
-                <li class="item thumb motion">
-                  <figure><a href="#" data-contenturl="portfolio-post6.html" data-callback="callPortfolioScripts();" data-contentcontainer=".pcw">
-                    <div class="text-overlay">
-                      <div class="info">Fullscreen Slider</div>
-                    </div>
-                    <img src="{% static 'assets/img/art/p6.jpg' %}" alt="" /> </a></figure>
-                </li>
-                <li class="item thumb photo">
-                  <figure><a href="#" data-contenturl="portfolio-post7.html" data-callback="callPortfolioScripts();" data-contentcontainer=".pcw">
-                    <div class="text-overlay">
-                      <div class="info">Fullwidth Video</div>
-                    </div>
-                    <img src="{% static 'assets/img/art/p7.jpg' %}" alt="" /> </a></figure>
-                </li>
-                <li class="item thumb web">
-                  <figure><a href="#" data-contenturl="portfolio-post8.html" data-callback="callPortfolioScripts();" data-contentcontainer=".pcw">
-                    <div class="text-overlay">
-                      <div class="info">Half Video</div>
-                    </div>
-                    <img src="{% static 'assets/img/art/p8.jpg' %}" alt="" /> </a></figure>
-                </li>
-                <li class="item thumb graphic">
-                  <figure><a href="#" data-contenturl="portfolio-post.html" data-callback="callPortfolioScripts();" data-contentcontainer=".pcw">
-                    <div class="text-overlay">
-                      <div class="info">Fullwidth Slider</div>
-                    </div>
-                    <img src="{% static 'assets/img/art/p9.jpg' %}" alt="" /> </a></figure>
-                </li>
-                <li class="item thumb web">
-                  <figure><a href="#" data-contenturl="portfolio-post2.html" data-callback="callPortfolioScripts();" data-contentcontainer=".pcw">
-                    <div class="text-overlay">
-                      <div class="info">Half Slider</div>
-                    </div>
-                    <img src="{% static 'assets/img/art/p10.jpg' %}" alt="" /> </a></figure>
-                </li>
-                <li class="item thumb motion">
-                  <figure><a href="#" data-contenturl="portfolio-post3.html" data-callback="callPortfolioScripts();" data-contentcontainer=".pcw">
-                    <div class="text-overlay">
-                      <div class="info">Carousel Gallery</div>
-                    </div>
-                    <img src="{% static 'assets/img/art/p11.jpg' %}" alt="" /> </a></figure>
-                </li>
-                <li class="item thumb motion">
-                  <figure><a href="#" data-contenturl="portfolio-post4.html" data-callback="callPortfolioScripts();" data-contentcontainer=".pcw">
-                    <div class="text-overlay">
-                      <div class="info">Multiple Images</div>
-                    </div>
-                    <img src="{% static 'assets/img/art/p12.jpg' %}" alt="" /> </a></figure>
-                </li>
-                <li class="item thumb photo">
-                  <figure><a href="#" data-contenturl="portfolio-post5.html" data-callback="callPortfolioScripts();" data-contentcontainer=".pcw">
-                    <div class="text-overlay">
-                      <div class="info">Multiple Half Images</div>
-                    </div>
-                    <img src="{% static 'assets/img/art/p13.jpg' %}" alt="" /> </a></figure>
-                </li>
-                <li class="item thumb graphic">
-                  <figure><a href="#" data-contenturl="portfolio-post6.html" data-callback="callPortfolioScripts();" data-contentcontainer=".pcw">
-                    <div class="text-overlay">
-                      <div class="info">Fullscreen Slider</div>
-                    </div>
-                    <img src="{% static 'assets/img/art/p14.jpg' %}" alt="" /> </a></figure>
-                </li>
-                <li class="item thumb web">
-                  <figure><a href="#" data-contenturl="portfolio-post7.html" data-callback="callPortfolioScripts();" data-contentcontainer=".pcw">
-                    <div class="text-overlay">
-                      <div class="info">Fullwidth Video</div>
-                    </div>
-                    <img src="{% static 'assets/img/art/p15.jpg' %}" alt="" /> </a></figure>
-                </li>
               </ul>
+                <ul class="pagination" id="pager">
+                    {% if projectList.has_previous %}
+                        <li class="previous">
+                            <a href="/web/services/?category={{ category }}&page={{ projectList.previous_page_number }}">上一页</a>
+                        </li>
+                    {% else %}
+                        <li class="disabled"><a href="#">上一页</a></li>
+                    {% endif %}
+                    {% for num in paginator.page_range %}
+                        {% if num == currentPage %}
+                            <li class="item active">
+                                <a href="/web/services/?category={{ category }}&page={{ num }}">{{ num }}</a>
+                            </li>
+                        {% else %}
+                            <li class="item">
+                                <a href="/web/services/?category={{ category }}&page={{ num }}">num</a>
+                            </li>
+                        {% endif %}
+                    {% endfor %}
+                    {% if projectList.has_next %}
+                        <li class="previous">
+                            <a href="/web/services/?category={{ category }}&page={{ projectList.next_page_number }}">下一页</a>
+                        </li>
+                    {% else %}
+                        <li class="disabled"><a href="#">下一页</a></li>
+                    {% endif %}
+
+                </ul>
               <!-- /.items -->
             </div>
             <!-- /.portfolio -->

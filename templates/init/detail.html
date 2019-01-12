@@ -9,11 +9,6 @@
 <meta name="author" content="">
 
 <title>{% block title %}{{ find.title }}{% endblock %}</title>
-
-</head>
-
-
-
 </head>
 <body>
 {% block content %}
@@ -35,8 +30,8 @@
           </p>
 
           <p>Sed posuere consectetur est at lobortis. Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna vel.</p>
-          <a href="#" class="btn">See Project</a> </div>
         <!-- /.col-sm-8 -->
+            <a href="{% url 'web:services' %}" class="btn">返回</a> </div>
         <div class="col-sm-4 lp30">
           <ul class="item-details">
             <li>
@@ -55,24 +50,9 @@
       <!-- /.row --> 
       
     </div>
-    <div class="dark-wrapper">
-      <div class="container inner text-center">
-        <h1 class="share-button">Click <span class="colored">&</span> Share the Love</h1>
-        <div class="share-links">
-          <ul>
-            <li><a class="btn share-facebook" href="#">Like</a></li>
-            <li><a class="btn share-twitter" href="#">Tweet</a></li>
-            <li><a class="btn share-pinterest" href="#">Pin it</a></li>
-          </ul>
-        </div>
-        <!-- /.share-links --> 
-      </div>
-      <!-- /.container --> 
-    </div>
     <!-- /.dark-wrapper --> 
   </div>
 {% endblock %}
-</div>
 
 </body>
 </html>

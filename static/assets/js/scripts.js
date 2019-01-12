@@ -656,18 +656,18 @@ $(document).ready(function () {
         $('.fix-portfolio .items').isotope('reLayout')
     });
     
-    $('.fix-portfolio .filter li a').click(function () {
-
-        $('.fix-portfolio .filter li a').removeClass('active');
-        $(this).addClass('active');
-
-        var selector = $(this).attr('data-filter');
-        $container.isotope({
-            filter: selector
-        });
-
-        return false;
-    });
+    // $('.fix-portfolio .filter li a').click(function () {
+    //
+    //     $('.fix-portfolio .filter li a').removeClass('active');
+    //     $(this).addClass('active');
+    //
+    //     var selector = $(this).attr('data-filter');
+    //     $container.isotope({
+    //         filter: selector
+    //     });
+    //
+    //     return false;
+    // });
 });
 /*-----------------------------------------------------------------------------------*/
 /*	REVOLUTION
