@@ -37,7 +37,7 @@ def services(request):
         allProject = Project.objects.filter(projectType=findType)
     else:
         allProject = Project.objects.all()
-    paginator = Paginator(allProject, 9)
+    paginator = Paginator(allProject, 6)
     page = request.GET.get('page', 1)
     currentPage = int(page)
     try:
