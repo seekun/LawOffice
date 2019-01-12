@@ -132,16 +132,23 @@ EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 # reset password
 # https://www.zmrenwu.com/post/49/
 
-AUTHENTICATION_BACKENDS = (
-    'django.contrib.auth.backends.ModelBackend',
-    'users.backends.EmailBackend',
-)
+# AUTHENTICATION_BACKENDS = (
+#     'django.contrib.auth.backends.ModelBackend',
+#     'users.backends.EmailBackend',
+# )
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'upload').replace("//", "/")
 MEDIA_URL = '/upload/'
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+STATICFILES_DIRS = (
+    ('static/assets/css', os.path.join(STATIC_ROOT, 'css').replace('\\', '/')),
+    ('static/assets/img', os.path.join(STATIC_ROOT, 'img').replace('\\', '/')),
+    ('static/assets/js', os.path.join(STATIC_ROOT, 'js').replace('\\', '/')),
+)
+
+
 # STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
 USE_TZ = False
 

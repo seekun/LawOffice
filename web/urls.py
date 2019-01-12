@@ -7,6 +7,7 @@ from django.urls import path
 
 app_name = 'web'
 urlpatterns = [
-    url(r'^index/', views.index, name='index'),
+    # url(r'^index/', views.index, name='index'),
+
 
 ]
