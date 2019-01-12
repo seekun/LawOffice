@@ -1,3 +1,4 @@
+from markdown import Markdown
 from django.shortcuts import render
 from .models import IndexPicture, Project
 
@@ -25,3 +26,18 @@ def services(request):
 
 def test1(request):
     return render(request, 'init/test1.html')
+
+
+def detail(request, id):
+    finds = Project.objects.filter(id=id)
+    if finds:
+        find = finds[0]
+    else:
+        find = None
+
+    markdowner = Markdown()
+    find.content = markdowner.convert(find.content)
+
+    context = {}
+    context['find'] = find
+    return render(request, 'init/detail.html', context)

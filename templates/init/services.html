@@ -35,11 +35,14 @@
               <ul class="content-slider items">
                   {% for item in allProject %}
                 <li class="item thumb web">
-                  <figure><a href="#" data-contenturl="portfolio-post.html" data-callback="callPortfolioScripts();" data-contentcontainer=".pcw">
-                    <div class="text-overlay">
-                      <div class="info">{{ item.title }}</div>
-                    </div>
-                    <img src="{{ item.picture.url }}" alt="" /> </a></figure>
+                  <figure>
+                      <a href="{% url 'web:detail' item.id %}" class="imgParse" >
+                        <div class="text-overlay">
+                          <div class="info">{{ item.title }}</div>
+                        </div>
+                        <img src="{{ item.picture.url }}" alt="" />
+                      </a>
+                  </figure>
                 </li>
                   {% endfor %}
                 <li class="item thumb graphic">

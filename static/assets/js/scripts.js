@@ -115,193 +115,193 @@ $(document).ready(function () {
     });
 
     // FIRST ADD THE HANDLING ON THE DIFFERENT PORTFOLIO ITEMS
-    items.slice(0, items.length).each(function (i) {
-        var item = jQuery(this);
-        item.data('index', i);
-
-        if (jQuery.support.leadingWhitespace == false){
-
-        	var conurl = jQuery(this).data('contenturl');
-        	item.attr('href',conurl);
-
-        }
-
-        else
-        // THE HANDLING IN CASE ITEM IS CLICKED
-        item.click(function () {
-	        item.addClass("clicked-no-slide-anim");
-            var cur = item.data('index');
-            var hashy = window.pageYOffset;
-
-
-
-            if (jQuery('.dark-wrapper.fixed').length == 0) {
-                // PREPARE THE CURRENT CONTENT OF BODY AND WRAP IT
-                jQuery('.body-wrapper').wrapInner('<div class="fullcontent-slider-getaway-wrapper"><div class="fullcontent-slider-getaway-slide"></div></div>');
-                var origheight = jQuery('.fullcontent-slider-getaway-slide').height();
-
-                //BUILD THE PANEL
-
-                jQuery('body').append('<div class="navcoverpage light-wrapper"></div>' +
-                    '<div class="navfake dark-wrapper">' +
-
-                    '<div class="page-title">' +
-                    '<div class="container inner">' +
-                    '<div class="navigation">' +
-                    '<a href="#" id="gwi-thumbs" class="btn pull-left back">Back</a>' +
-                    '<a href="#" id="gwi-next" class="btn pull-right rm0 nav-next-item">Next</a>' +
-                    '<a href="#" id="gwi-prev" class="btn pull-right rm5 nav-prev-item">Prev</a>' +
-                    '</div>' +
-                    '<div class="clear"></div>' +
-                    '</div>' +
-                    '</div>' +
-                    '</div>');
-
-                //ADD A NEW CONTENT WRAPPER
-                var conurl = jQuery(this).data('contenturl');
-                var concon = jQuery(this).data('contentcontainer');
-
-                updateURLParameter(conurl);
-
-                var extraclass = "";
-
-
-                jQuery('body').append('<div class="preparedtostart right fullcontent-content-wrapper-new ' + extraclass + ' ' + animclass + '"></div>');
-
-                // FIRST WE LOAD THE VERY FIRST ITEM, WHEN PANEL IS ALREAD IN
-                setTimeout(function () {
-                    if (conurl != undefined && conurl.length > 0) {
-
-                        jQuery('.fullcontent-content-wrapper-new').load(conurl + " " + concon, function () {
-
-
-                            jQuery('.preparedtostart.fullcontent-content-wrapper-new').find('.footer-wrapper').remove();
-                            jQuery('.navfake h1').html(jQuery('.fullcontent-content-wrapper-new .title').html()).removeClass("novisibility");
-                            animateContents(mainContOut, jQuery('.fullcontent-slider-getaway-slide'), jQuery('.preparedtostart.fullcontent-content-wrapper-new'), speed);
-                            jQuery('.fullcontent-slider-getaway-slide').css({
-                                height: "100%",
-                                overflow: 'hidden'
-                            })
-                            jQuery('body,html').animate({
-                                scrollTop: "0px"
-                            }, {
-                                duration: 10,
-                                queue: false
-                            });
-
-                            var callback = new Function(item.data('callback'));
-                            callback();
-                        });
-
-                    } else {
-                        jQuery('.fullcontent-content-wrapper-new').append(jQuery(this).data('content'));
-                    }
-                }, speed + 200);
-
-
-                // SHOW THE PANEL
-                jQuery('.navfake').animate({
-                    left: '0px'
-                }, {
-                    duration: speed - 200,
-                    queue: false
-                });
-                jQuery('.navcoverpage').animate({
-                    left: '0px'
-                }, {
-                    duration: speed - 200,
-                    queue: false
-                });
-
-
-
-
-                // THE CLICK ON THE THUMB SHOULD ACT LIKE
-                jQuery(document).on('click', '#gwi-thumbs', function () {
-                	 updateURLParameter();
-	                jQuery('.clicked-no-slide-anim').removeClass('clicked-no-slide-anim');
-                    jQuery('.preparedtoleave').animate({
-                        opacity: 0
-                    }, {
-                        duration: speed - 100,
-                        queue: false,
-                        complete: function () {
-                            jQuery(this).remove();
-                        }
-                    });
-                    setTimeout(function () {
-                        jQuery('body,html').animate({
-                            scrollTop: hashy + "px"
-                        }, {
-                            duration: 10,
-                            queue: false
-                        });
-
-                        jQuery('.fullcontent-slider-getaway-slide').css({
-                            visibility: 'visible'
-                        }).animate({
-                            left: '0px'
-                        }, {
-                            duration: speed,
-                            queue: false
-                        });
-                        jQuery('.navcoverpage').animate({
-                            left: '100%'
-                        }, {
-                            duration: speed,
-                            queue: false,
-                            complete: function () {
-                                jQuery(this).remove();
-                            }
-                        });
-                        jQuery('.navfake').animate({
-                            left: '100%'
-                        }, {
-                            duration: speed,
-                            queue: false,
-                            complete: function () {
-                                jQuery(this).remove();
-                            }
-                        });
-                        jQuery('.fullcontent-slider-getaway-slide').unwrap().find('div:nth(0)').unwrap();
-
-                    }, speed - 100);
-
-
-                    return false;
-                }) // END OF CLICK ON ICON-TH
-
-                // THE CLICK ON THE PREV OR NEXT BUTTON
-                jQuery('#gwi-next').click(function () {
-
-                    cur = cur + 1;
-                    if (cur > items.length) cur = 0;
-                    var nextitem;
-                    items.slice(cur, cur + 1).each(function () {
-                        nextitem = jQuery(this);
-                    });
-                    swapContents(nextitem, 1, animclass, speed);
-                    return false;
-
-                });
-
-                // THE CLICK ON THE PREV OR NEXT BUTTON
-                jQuery('#gwi-prev').click(function () {
-                    cur = cur - 1;
-                    if (cur < 0) cur = items.length - 1;
-                    var nextitem;
-                    items.slice(cur, cur + 1).each(function () {
-                        nextitem = jQuery(this);
-                    });
-                    swapContents(nextitem, 0, animclass, speed);
-                    return false;
-                });
-
-            }
-            return false;
-        }); // END OF CLICK HANDLING ON PORTFOLIO ITEM
-
-   }); // END OF HANDLING ON EACH PORTFOLIO ITEM
+   //  items.slice(0, items.length).each(function (i) {
+   //      var item = jQuery(this);
+   //      item.data('index', i);
+   //
+   //      if (jQuery.support.leadingWhitespace == false){
+   //
+   //      	var conurl = jQuery(this).data('contenturl');
+   //      	item.attr('href',conurl);
+   //
+   //      }
+   //
+   //      else
+   //      // THE HANDLING IN CASE ITEM IS CLICKED
+   //      item.click(function () {
+	//         item.addClass("clicked-no-slide-anim");
+   //          var cur = item.data('index');
+   //          var hashy = window.pageYOffset;
+   //
+   //
+   //
+   //          if (jQuery('.dark-wrapper.fixed').length == 0) {
+   //              // PREPARE THE CURRENT CONTENT OF BODY AND WRAP IT
+   //              jQuery('.body-wrapper').wrapInner('<div class="fullcontent-slider-getaway-wrapper"><div class="fullcontent-slider-getaway-slide"></div></div>');
+   //              var origheight = jQuery('.fullcontent-slider-getaway-slide').height();
+   //
+   //              //BUILD THE PANEL
+   //
+   //              jQuery('body').append('<div class="navcoverpage light-wrapper"></div>' +
+   //                  '<div class="navfake dark-wrapper">' +
+   //
+   //                  '<div class="page-title">' +
+   //                  '<div class="container inner">' +
+   //                  '<div class="navigation">' +
+   //                  '<a href="#" id="gwi-thumbs" class="btn pull-left back">Back</a>' +
+   //                  '<a href="#" id="gwi-next" class="btn pull-right rm0 nav-next-item">Next</a>' +
+   //                  '<a href="#" id="gwi-prev" class="btn pull-right rm5 nav-prev-item">Prev</a>' +
+   //                  '</div>' +
+   //                  '<div class="clear"></div>' +
+   //                  '</div>' +
+   //                  '</div>' +
+   //                  '</div>');
+   //
+   //              //ADD A NEW CONTENT WRAPPER
+   //              var conurl = jQuery(this).data('contenturl');
+   //              var concon = jQuery(this).data('contentcontainer');
+   //
+   //              updateURLParameter(conurl);
+   //
+   //              var extraclass = "";
+   //
+   //
+   //              // jQuery('body').append('<div class="preparedtostart right fullcontent-content-wrapper-new ' + extraclass + ' ' + animclass + '"></div>');
+   //              //
+   //              // // FIRST WE LOAD THE VERY FIRST ITEM, WHEN PANEL IS ALREAD IN
+   //              // setTimeout(function () {
+   //              //     if (conurl != undefined && conurl.length > 0) {
+   //              //
+   //              //         jQuery('.fullcontent-content-wrapper-new').load(conurl + " " + concon, function () {
+   //              //
+   //              //
+   //              //             jQuery('.preparedtostart.fullcontent-content-wrapper-new').find('.footer-wrapper').remove();
+   //              //             jQuery('.navfake h1').html(jQuery('.fullcontent-content-wrapper-new .title').html()).removeClass("novisibility");
+   //              //             animateContents(mainContOut, jQuery('.fullcontent-slider-getaway-slide'), jQuery('.preparedtostart.fullcontent-content-wrapper-new'), speed);
+   //              //             jQuery('.fullcontent-slider-getaway-slide').css({
+   //              //                 height: "100%",
+   //              //                 overflow: 'hidden'
+   //              //             })
+   //              //             jQuery('body,html').animate({
+   //              //                 scrollTop: "0px"
+   //              //             }, {
+   //              //                 duration: 10,
+   //              //                 queue: false
+   //              //             });
+   //              //
+   //              //             var callback = new Function(item.data('callback'));
+   //              //             callback();
+   //              //         });
+   //              //
+   //              //     } else {
+   //              //         jQuery('.fullcontent-content-wrapper-new').append(jQuery(this).data('content'));
+   //              //     }
+   //              // }, speed + 200);
+   //
+   //
+   //              // SHOW THE PANEL
+   //              // jQuery('.navfake').animate({
+   //              //     left: '0px'
+   //              // }, {
+   //              //     duration: speed - 200,
+   //              //     queue: false
+   //              // });
+   //              // jQuery('.navcoverpage').animate({
+   //              //     left: '0px'
+   //              // }, {
+   //              //     duration: speed - 200,
+   //              //     queue: false
+   //              // });
+   //
+   //
+   //
+   //
+   //              // THE CLICK ON THE THUMB SHOULD ACT LIKE
+   //              jQuery(document).on('click', '#gwi-thumbs', function () {
+   //              	 updateURLParameter();
+	//                 jQuery('.clicked-no-slide-anim').removeClass('clicked-no-slide-anim');
+   //                  jQuery('.preparedtoleave').animate({
+   //                      opacity: 0
+   //                  }, {
+   //                      duration: speed - 100,
+   //                      queue: false,
+   //                      complete: function () {
+   //                          jQuery(this).remove();
+   //                      }
+   //                  });
+   //                  setTimeout(function () {
+   //                      jQuery('body,html').animate({
+   //                          scrollTop: hashy + "px"
+   //                      }, {
+   //                          duration: 10,
+   //                          queue: false
+   //                      });
+   //
+   //                      jQuery('.fullcontent-slider-getaway-slide').css({
+   //                          visibility: 'visible'
+   //                      }).animate({
+   //                          left: '0px'
+   //                      }, {
+   //                          duration: speed,
+   //                          queue: false
+   //                      });
+   //                      jQuery('.navcoverpage').animate({
+   //                          left: '100%'
+   //                      }, {
+   //                          duration: speed,
+   //                          queue: false,
+   //                          complete: function () {
+   //                              jQuery(this).remove();
+   //                          }
+   //                      });
+   //                      jQuery('.navfake').animate({
+   //                          left: '100%'
+   //                      }, {
+   //                          duration: speed,
+   //                          queue: false,
+   //                          complete: function () {
+   //                              jQuery(this).remove();
+   //                          }
+   //                      });
+   //                      jQuery('.fullcontent-slider-getaway-slide').unwrap().find('div:nth(0)').unwrap();
+   //
+   //                  }, speed - 100);
+   //
+   //
+   //                  return false;
+   //              }) // END OF CLICK ON ICON-TH
+   //
+   //              // THE CLICK ON THE PREV OR NEXT BUTTON
+   //              jQuery('#gwi-next').click(function () {
+   //
+   //                  cur = cur + 1;
+   //                  if (cur > items.length) cur = 0;
+   //                  var nextitem;
+   //                  items.slice(cur, cur + 1).each(function () {
+   //                      nextitem = jQuery(this);
+   //                  });
+   //                  swapContents(nextitem, 1, animclass, speed);
+   //                  return false;
+   //
+   //              });
+   //
+   //              // THE CLICK ON THE PREV OR NEXT BUTTON
+   //              jQuery('#gwi-prev').click(function () {
+   //                  cur = cur - 1;
+   //                  if (cur < 0) cur = items.length - 1;
+   //                  var nextitem;
+   //                  items.slice(cur, cur + 1).each(function () {
+   //                      nextitem = jQuery(this);
+   //                  });
+   //                  swapContents(nextitem, 0, animclass, speed);
+   //                  return false;
+   //              });
+   //
+   //          }
+   //          return false;
+   //      }); // END OF CLICK HANDLING ON PORTFOLIO ITEM
+   //
+   // }); // END OF HANDLING ON EACH PORTFOLIO ITEM
 
    var firstfound=0;
    items.slice(0, items.length).each(function (i) {
@@ -481,42 +481,42 @@ jQuery(document).ready(function () {
 /*-----------------------------------------------------------------------------------*/
 /*	CALL PORTFOLIO SCRIPTS
 /*-----------------------------------------------------------------------------------*/
-function callPortfolioScripts() {
-
-    		  jQuery('.player').fitVids();
-    
-    		  $('.portfolio-slider').owlCarousel({
-                items: 1,
-                nav:true,
-                navText: ['<i class="icon-left-open-big"></i>','<i class="icon-right-open-big"></i>'],
-                dots: true,
-                autoHeight: false,
-                loop: true,
-                margin: 0,
-                navContainerClass: 'owl-slider-nav',
-				navClass: [ 'owl-slider-prev', 'owl-slider-next' ],
-				controlsClass: 'owl-slider-controls'
-              });
-              
-              $('.carousel-gallery').owlCarousel({
-			    margin:10,
-			    navText: ['<i class="icon-left-open-big"></i>','<i class="icon-right-open-big"></i>'],
-			    navContainerClass: 'owl-slider-nav',
-				navClass: [ 'owl-slider-prev', 'owl-slider-next' ],
-				controlsClass: 'owl-slider-controls',
-			    nav:true,
-			    dots: false,
-			    items:1,
-			    responsive:{
-			    	450:{
-			            items:2
-			        },
-			    	1400:{
-			            items:3
-			        }
-			    } 
-			}); 
-};
+// function callPortfolioScripts() {
+//
+//     		  jQuery('.player').fitVids();
+//
+//     		  $('.portfolio-slider').owlCarousel({
+//                 items: 1,
+//                 nav:true,
+//                 navText: ['<i class="icon-left-open-big"></i>','<i class="icon-right-open-big"></i>'],
+//                 dots: true,
+//                 autoHeight: false,
+//                 loop: true,
+//                 margin: 0,
+//                 navContainerClass: 'owl-slider-nav',
+// 				navClass: [ 'owl-slider-prev', 'owl-slider-next' ],
+// 				controlsClass: 'owl-slider-controls'
+//               });
+//
+//               $('.carousel-gallery').owlCarousel({
+// 			    margin:10,
+// 			    navText: ['<i class="icon-left-open-big"></i>','<i class="icon-right-open-big"></i>'],
+// 			    navContainerClass: 'owl-slider-nav',
+// 				navClass: [ 'owl-slider-prev', 'owl-slider-next' ],
+// 				controlsClass: 'owl-slider-controls',
+// 			    nav:true,
+// 			    dots: false,
+// 			    items:1,
+// 			    responsive:{
+// 			    	450:{
+// 			            items:2
+// 			        },
+// 			    	1400:{
+// 			            items:3
+// 			        }
+// 			    }
+// 			});
+// };
 /*-----------------------------------------------------------------------------------*/
 /*	MENU
 /*-----------------------------------------------------------------------------------*/
