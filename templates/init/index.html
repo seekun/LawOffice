@@ -20,14 +20,14 @@
       <div class="fullscreenbanner-container revolution">
         <div class="fullscreenbanner">
           <ul>
-            <li data-transition="fade"> <img src="{% static 'assets/img/art/slider-bg1.jpg' %}" alt="" />
+            <li data-transition="fade"> <img src="{{ Last.picture.url }}" alt="" />
               <div class="caption large sfb" data-x="center" data-y="245" data-speed="900" data-start="800" data-easing="Sine.easeOut">Hello We're Frost</div>
               <div class="caption small sfb" data-x="center" data-y="319" data-speed="900" data-start="1500" data-easing="Sine.easeOut">A digital & branding agency based in neverland</div>
               <div class="caption small sfb" data-x="center" data-y="362" data-speed="900" data-start="2200" data-easing="Sine.easeOut">
                 <div class="smooth"><a href="#portfolio" class="btn btn-border">See Our Projects</a></div>
               </div>
             </li>
-            <li data-transition="fade"> <img src="{% static 'assets/img/art/slider-bg2.jpg' %}" alt="" />
+            <li data-transition="fade"> <img src="{{ secondLasts.picture.url }}" alt="" />
               <div class="caption large customin customout" data-x="center" data-y="255" data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
 						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
 						data-speed="600"
@@ -43,7 +43,8 @@
 						data-endspeed="300"
 						data-endeasing="Power1.easeIn">Specializing in branding, motion video & mobile applications</div>
             </li>
-            <li data-transition="fade"> <img src="{% static 'assets/img/art/slider-bg3.jpg' %}" alt="" />
+
+            <li data-transition="fade"> <img src="{{ thirdLasts.picture.url }}" alt="" />
               <div class="caption large lite sfb" data-x="center" data-y="245" data-speed="900" data-start="800" data-easing="Sine.easeOut">Your needs are important</div>
               <div class="caption small lite sfb" data-x="center" data-y="319"  data-speed="900" data-start="1500" data-easing="Sine.easeOut">Because great design comes with understanding customer needs</div>
               <div class="caption small sfb" data-x="center" data-y="362" data-speed="900" data-start="2200" data-easing="Sine.easeOut">

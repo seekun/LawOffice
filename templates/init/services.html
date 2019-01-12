@@ -33,13 +33,15 @@
               <!-- /filter -->
 
               <ul class="content-slider items">
+                  {% for item in allProject %}
                 <li class="item thumb web">
                   <figure><a href="#" data-contenturl="portfolio-post.html" data-callback="callPortfolioScripts();" data-contentcontainer=".pcw">
                     <div class="text-overlay">
-                      <div class="info">Fullwidth Slider</div>
+                      <div class="info">{{ item.title }}</div>
                     </div>
-                    <img src="{% static 'assets/img/art/p1.jpg' %}" alt="" /> </a></figure>
+                    <img src="{{ item.picture.url }}" alt="" /> </a></figure>
                 </li>
+                  {% endfor %}
                 <li class="item thumb graphic">
                   <figure><a href="#" data-contenturl="portfolio-post2.html" data-callback="callPortfolioScripts();" data-contentcontainer=".pcw">
                     <div class="text-overlay">
