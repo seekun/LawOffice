@@ -140,8 +140,9 @@ EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 #     # 'users.backends.EmailBackend',
 # )
 
-MEDIA_ROOT = os.path.join(BASE_DIR, 'upload').replace('\\', '/')+'/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'upload').replace("//", "/")
 MEDIA_URL = '/upload/'
+
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
@@ -154,3 +155,4 @@ CKEDITOR_JQUERY_URL = 'https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery
 CKEDITOR_UPLOAD_PATH = 'upload/'
 CKEDITOR_IMAGE_BACKEND = "pillow"
 # upload_path = "/Users/sk/PycharmProjects/ahu/upload/"
+upload_path = "/home/ubuntu/sites/demo.windytrees.cn/LawOffice/upload/"

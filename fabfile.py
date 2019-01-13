@@ -11,12 +11,11 @@ env.hosts = ['www.ahutong.com']
 env.port = '22'
 
 def deploy():
-    source_folder = '/home/ubuntu/sites/demo.windytrees.cn/LawOffice/LawOffice'
+    source_folder = '/home/ubuntu/sites/demo.windytrees.cn/LawOffice'
 
     run('cd %s && git pull' % source_folder )
     run("""
         cd {} &&
-        ../env/bin/pip install -r requirements.txt &&
         ../env/bin/python manage.py collectstatic --noinput &&
         ../env/bin/python manage.py makemigrations&&
         ../env/bin/python manage.py migrate --run-syncdb

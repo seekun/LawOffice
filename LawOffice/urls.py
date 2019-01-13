@@ -13,6 +13,8 @@ urlpatterns = [
                   url(r'^web/', include('web.urls')),
                   url(r'^$', index, name='index'),
                   url(r'mdeditor/', include('mdeditor.urls')),
+                  url(r'^ckeditor/', include('ckeditor_uploader.urls')),
+                  url(r'mdeditor/', include('mdeditor.urls')),
                   url(r'^static/(?P<path>.*)$', serve, {'document_root': settings.STATIC_ROOT}),
                   url(r'^upload/(?P<path>.*)$', serve, {'document_root': settings.MEDIA_ROOT}),
 
