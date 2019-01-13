@@ -112,17 +112,21 @@ def about(request):
 def news(request):
     context = {}
     news = News.objects.order_by('-time')
-    page_items = 2
-    page_robot = Paginator(news, page_items)
-    page = request.GET.get('page')
-    news_list = page_robot.get_page(page)
+    paginator = Paginator(news, 6)
+    page = request.GET.get('page', 1)
+    currentPage = int(page)
+    try:
+        news_list = paginator.page(page)
+    except PageNotAnInteger:
+        news_list = paginator.page(1)
+    except EmptyPage:
+        news_list = paginator.page(paginator.num_pages)
     context['news_list'] = news_list
     print(news_list)
     return render(request, 'web/news.html', context)
 
 
 def news_detail(request, id):
-    print(News.objects.all())
     finds = News.objects.filter(id=id)
     if finds:
         find = finds[0]

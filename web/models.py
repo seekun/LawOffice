@@ -29,8 +29,8 @@ class Project(models.Model):
         ('住宅', '住宅 '),
         ('基础设施', '基础设施 ')
     )
-    title = models.CharField('标题', max_length=20, null=True, blank=True)
-    description = models.CharField('简介', max_length=50, null=True, blank=True)
+    title = models.CharField('标题', max_length=50, null=True, blank=True)
+    description = models.TextField('简介', max_length=500, null=True, blank=True)
     projectType = models.CharField('项目类型', max_length=50, choices=choiceType, default='办公楼')
     projectTime = models.DateField('项目时间', max_length=50, null=True, blank=True)
     picture = ProcessedImageField(upload_to="project", null=True, blank=True,
@@ -48,10 +48,10 @@ class Project(models.Model):
 
 # 新闻或党建工作
 class News(models.Model):
-    title = models.CharField('标题', max_length=20, null=True, blank=True)
-    description = models.CharField('简介', max_length=50, null=True, blank=True)
+    title = models.CharField('标题', max_length=50, null=True, blank=True)
+    description = models.TextField('简介', max_length=500, null=True, blank=True)
     time = models.DateTimeField('创建时间', null=True, blank=True, default=now)
-    content = MDTextField('内容')
+    content = MDTextField('内容',null=True, blank=True,)
 
     def __str__(self):
         return self.title

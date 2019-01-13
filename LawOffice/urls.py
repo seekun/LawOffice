@@ -1,6 +1,6 @@
 from django.conf.urls import url, include
 from django.contrib import admin
-from django.urls import path
+# from django.urls import path
 from web import views
 from django.conf.urls.static import static
 from django.conf import settings
@@ -9,7 +9,7 @@ from web.views import index
 
 
 urlpatterns = [
-                  path('admin/', admin.site.urls),
+                  url('admin/', admin.site.urls),
                   url(r'^web/', include('web.urls')),
                   url(r'^$', index, name='index'),
                   url(r'mdeditor/', include('mdeditor.urls')),

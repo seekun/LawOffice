@@ -13,6 +13,7 @@
 <body>
 {% block content %}
 
+<br>
 <div class="body-wrapper">
   <div class="offset"></div>
   <div class="light-wrapper">
@@ -24,9 +25,9 @@
             <div class="text-overlay">
               <div class="info" href="{% url 'web:news_detail' news.id %}">阅读更多</div>
             </div>
-            <img src="{% static 'images/04.jpg' %}" alt="" /></a></figure>
+           </a></figure>
           <div class="post-content">
-            <h2 class="post-title"><a href="blog-post.html">{{ news.title}}</a></h2>
+            <h2 class="post-title"><a href="{% url 'web:news_detail' news.id %}">{{ news.title}}</a></h2>
             <div class="meta"><span class="date">{{ news.time }}</span></div>
             <p>{{ news.description }}</p>
             <a  class="more"  href="{% url 'web:news_detail' news.id %}">继续阅读</a> </div>
