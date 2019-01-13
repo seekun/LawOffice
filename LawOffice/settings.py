@@ -13,7 +13,7 @@ https://docs.djangoproject.com/en/2.1/ref/settings/
 import os
 
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost ', 'ahutong.com', '193.112.97.157']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost ', '.ahutong.com', '193.112.97.157']
 
 # AUTH_USER_MODEL = 'users.User'
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
