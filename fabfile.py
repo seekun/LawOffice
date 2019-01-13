@@ -1,17 +1,17 @@
 from fabric.api import env, run
 from fabric.operations import sudo
 
-GIT_REPO = "https://github.com/seekun/ahu.git"
+GIT_REPO = "https://github.com/seekun/LawOffice.git"
 # GIT_REPO = "https://gitee.com/seekun/ahu.git"
 
 env.user = 'ubuntu'
 env.password = '7bRnLy^$^!sYSRMK'
-env.hosts = ['www.windytrees.cn']
-# env.hosts = ['132.232.181.46']
+# env.hosts = ['www.windytrees.cn']
+env.hosts = ['193.112.97.157']
 env.port = '22'
 
 def deploy():
-    source_folder = '/home/ubuntu/sites/demo.windytrees.cn/ahu'
+    source_folder = '/home/ubuntu/sites/demo.windytrees.cn/LawOffice'
 
     run('cd %s && git pull' % source_folder )
     run("""
