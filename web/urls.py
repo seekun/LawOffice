@@ -9,6 +9,7 @@ app_name = 'web'
 urlpatterns = (
     url(r'^index/', views.index, name='index'),
     url(r'^services/', views.services, name='services'),
+    url(r'^contact/', views.contact, name='contact'),
     url(r'^test1/', views.test1, name='test1'),
     # url(r'^servicesOther/(?P<displayProject>\w+)/(?P<page>.*?)$', views.servicesOther, name='servicesOther'),
     # url(r'^services/(?P<displayProject>.*?)/(?P<page>.*?)$', views.services, name='services'),

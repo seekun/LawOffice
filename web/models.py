@@ -34,9 +34,9 @@ class Project(models.Model):
     projectType = models.CharField('项目类型', max_length=50, choices=choiceType, default='办公楼')
     projectTime = models.DateField('项目时间', max_length=50, null=True, blank=True)
     picture = ProcessedImageField(upload_to="project", null=True, blank=True,
-                                  processors=[ResizeToFill(440, 330)],
+                                  processors=[ResizeToFill(1540, 1100)],
                                   format='JPEG',
-                                  options={'quality': 85},
+                                  options={'quality': 95},
                                   )
 
     time = models.DateTimeField('创建时间', null=True, blank=True, default=now)

@@ -75,3 +75,6 @@ def detail(request, id):
     context['find'] = find
     return render(request, 'init/detail.html', context)
 
+
+def contact(request):
+    return render(request, 'init/contact.html')
