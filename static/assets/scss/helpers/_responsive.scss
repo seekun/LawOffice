@@ -1,0 +1,282 @@
+/**********************************************************************
+ * TABLET LANDSCAPE
+ **********************************************************************/
+@media (min-width: 992px) and (max-width: 1199px) {
+	.header-logo {
+		margin-right: 20px;
+	}
+
+	.header-nav {
+		margin-right: 20px;
+
+		a {
+			margin-left: 20px;
+		}
+	}
+
+	.header .social {
+		float: right;
+	}
+
+	.footer-bottom-nav {
+		a {
+			margin-left: 15px;
+		}
+	}	
+}
+
+/**********************************************************************
+ * TABLET PORTRAIT
+ **********************************************************************/
+@media (min-width: 768px) and (max-width: 991px) {
+	.header-nav {
+		border-top: 1px solid rgba(255, 255, 255, .2);
+		clear: both;
+		float: none;
+		margin: 0px;		
+		text-align: center;
+
+		a {
+			margin: 0px 15px;
+			padding-top: 15px !important;
+		}
+
+		a:before {
+			display: none;
+		}
+
+		.nav {
+			display: inline-block;
+		}
+	}
+
+	.header-inner {
+		height: 165px;
+		position: relative;
+	}
+
+	.header-logo {
+		margin-bottom: 20px;
+		margin-top: 20px;
+		top: inherit;
+		@include transform(translateY(0%));
+	}
+
+	.header .social {
+		position: absolute;
+		right: 15px;
+		top: 45px;
+		@include transform(translateY(0%));
+	}
+
+	.footer-bottom-copyright {
+		float: none;
+		text-align: center;
+	}
+
+	.footer-bottom-nav {
+		float: none;
+		text-align: center;
+
+		a {
+			margin: 0px 20px;
+
+			&:before {
+				display: none;
+			}
+		}
+
+		.nav {
+			display: inline-block;
+		}
+	}
+
+	.block-title {
+		font-size: 42px;
+	}
+
+	.sm-no-arrow {
+		&:before {
+			display: none !important;
+		}
+	}
+
+	.sm-no-float {
+		float: none !important;
+	}
+
+	.sm-float-left {
+		float: left !important;
+	}
+
+	.sm-float-right {
+		float: right !important;
+	}
+}
+
+/**********************************************************************
+ * PHONE
+ **********************************************************************/
+ @media (max-width: 768px) {
+ 	body {
+ 		font-size: 12px;
+ 	}
+
+ 	.has-ears {
+ 		margin-left: 0px !important;
+ 		margin-right: 0px !important;
+ 		padding-left: 0px !important;
+ 		padding-right: 0px !important;
+
+ 		&:before, &:after {
+ 			display: none !important;
+ 		}
+ 	}
+
+ 	.block-title {
+ 		font-size: 28px;
+ 	}
+
+ 	.block-large-text {
+ 		font-size: 14px;
+ 	}
+
+ 	.block-content-inner {
+ 		padding-left: 10px;
+ 		padding-right: 10px;
+ 	}
+
+	.reset-block-padding {
+		margin-left: -10px !important;
+		margin-right: -10px !important;
+	}
+
+	.reset-block-padding-bottom {
+		margin-bottom: -100px;
+	}
+
+	.reset-block-padding-all {
+		margin-left: -10px !important;
+		margin-right: -10px !important;
+	}
+
+	.small-padding .block-content-inner {
+		padding: 40px 10px;
+	}
+
+ 	.xs-mb30 {
+ 		margin-bottom: 30px !important;
+ 	}
+
+ 	.xs-no-square {
+ 		height: inherit;
+ 		padding-bottom: inherit;
+ 	}
+
+ 	.xs-no-arrow {
+ 		&:before {
+ 			display: none;
+ 		}
+ 	}
+
+ 	.xs-center {
+ 		text-align: center;
+ 	}
+
+ 	.xs-float-left {
+ 		float: left !important;
+ 	}
+
+ 	.xs-float-right {
+ 		float: right !important;
+ 	}
+
+ 	.header .social {
+ 		display: none;
+ 	}
+
+ 	.header-title-nav { 
+ 		clear: both;
+ 		float: left;
+ 		margin-top: 20px;
+ 	}
+		
+
+	.portfolio-grid-item-content {
+		padding-bottom: 70px;
+	}
+
+ 	.pricing-col.top {
+ 		@include transform(scale(1.0));
+ 	}
+
+ 	.background-fancy {
+ 		background-image: none;
+ 	}
+
+ 	.header-nav {
+ 		background-color: rgba(0, 0, 0, .6);
+ 		border: 0px;
+ 		height: 0px;
+ 		left: 0px;
+ 		margin-top: 53px;
+ 		overflow: hidden;
+ 		position: absolute;
+ 		right: 0px;
+ 		top: 66px;
+ 		z-index: 9999;
+
+ 		li {
+ 			float: none !important;
+ 			margin: 0px;
+ 		}
+
+ 		a {
+ 			display: block;
+ 			margin: 0px;
+ 			padding: 5px 15px !important;
+
+ 			&:hover {
+ 				border: 0px;
+ 			}
+
+ 			&:before {
+ 				display: none;
+ 			}
+ 		}
+ 	}
+
+	.portfolio-filter li {
+		display: block; 
+	}
+
+	.footer-bottom-copyright {
+		text-align: center;
+	}
+
+	.footer-bottom-nav {
+		float: none;
+
+		li {
+			border-bottom: 1px solid rgba(255, 255, 255, .2);
+			display: block;
+			float: none;
+
+			a {
+				margin: 0px 15px !important;
+
+				&:hover {
+					border: 0px;
+				}
+
+				&:before {
+					display: none;
+				}
+			}
+
+			&:last-child {
+				border-bottom: 0px;
+			}
+		}
+	}
+ }

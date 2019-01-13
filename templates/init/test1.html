@@ -1,0 +1,149 @@
+{% extends 'init/base.html' %}
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+
+<title>{% block title %}Services{% endblock %}</title>
+
+</head>
+<body>
+{% block content %}
+    <div id="portfolio" class="section anchor">
+        <div class="dark-wrapper">
+          <div class="container inner">
+            <h2 class="section-title text-center">Our Awesome Projects</h2>
+            <p class="lead main text-center">Great design comes with understanding customer needs</p>
+            <div class="grid-portfolio fix-portfolio">
+              <ul class="filter">
+                <li><a class="active" href="#" data-filter="*">All</a></li>
+                <li><a href="#" data-filter=".web">Web Design</a></li>
+                <li><a href="#" data-filter=".graphic">Graphic Design</a></li>
+                <li><a href="#" data-filter=".photo">Photography</a></li>
+                <li><a href="#" data-filter=".motion">Motion Design</a></li>
+              </ul>
+
+              <!-- /filter -->
+
+              <ul class="content-slider items">
+                <li class="item thumb web">
+                  <figure><a href="#" data-contenturl="portfolio-post.html" data-callback="callPortfolioScripts();" data-contentcontainer=".pcw">
+                    <div class="text-overlay">
+                      <div class="info">Fullwidth Slider</div>
+                    </div>
+                    <img src="{% static 'assets/img/art/p1.jpg' %}" alt="" /> </a></figure>
+                </li>
+                <li class="item thumb graphic">
+                  <figure><a href="#" data-contenturl="portfolio-post2.html" data-callback="callPortfolioScripts();" data-contentcontainer=".pcw">
+                    <div class="text-overlay">
+                      <div class="info">Half Slider</div>
+                    </div>
+                    <img src="{% static 'assets/img/art/p2.jpg' %}" alt="" /> </a></figure>
+                </li>
+                <li class="item thumb web">
+                  <figure><a href="#" data-contenturl="portfolio-post3.html" data-callback="callPortfolioScripts();" data-contentcontainer=".pcw">
+                    <div class="text-overlay">
+                      <div class="info">Carousel Gallery</div>
+                    </div>
+                    <img src="{% static 'assets/img/art/p3.jpg' %}" alt="" /> </a></figure>
+                </li>
+                <li class="item thumb web">
+                  <figure><a href="#" data-contenturl="portfolio-post4.html" data-callback="callPortfolioScripts();" data-contentcontainer=".pcw">
+                    <div class="text-overlay">
+                      <div class="info">Multiple Images</div>
+                    </div>
+                    <img src="{% static 'assets/img/art/p4.jpg' %}" alt="" /> </a></figure>
+                </li>
+                <li class="item thumb photo">
+                  <figure><a href="#" data-contenturl="portfolio-post5.html" data-callback="callPortfolioScripts();" data-contentcontainer=".pcw">
+                    <div class="text-overlay">
+                      <div class="info">Multiple Half Images</div>
+                    </div>
+                    <img src="{% static 'assets/img/art/p5.jpg' %}" alt="" /> </a></figure>
+                </li>
+                <li class="item thumb motion">
+                  <figure><a href="#" data-contenturl="portfolio-post6.html" data-callback="callPortfolioScripts();" data-contentcontainer=".pcw">
+                    <div class="text-overlay">
+                      <div class="info">Fullscreen Slider</div>
+                    </div>
+                    <img src="{% static 'assets/img/art/p6.jpg' %}" alt="" /> </a></figure>
+                </li>
+                <li class="item thumb photo">
+                  <figure><a href="#" data-contenturl="portfolio-post7.html" data-callback="callPortfolioScripts();" data-contentcontainer=".pcw">
+                    <div class="text-overlay">
+                      <div class="info">Fullwidth Video</div>
+                    </div>
+                    <img src="{% static 'assets/img/art/p7.jpg' %}" alt="" /> </a></figure>
+                </li>
+                <li class="item thumb web">
+                  <figure><a href="#" data-contenturl="portfolio-post8.html" data-callback="callPortfolioScripts();" data-contentcontainer=".pcw">
+                    <div class="text-overlay">
+                      <div class="info">Half Video</div>
+                    </div>
+                    <img src="{% static 'assets/img/art/p8.jpg' %}" alt="" /> </a></figure>
+                </li>
+                <li class="item thumb graphic">
+                  <figure><a href="#" data-contenturl="portfolio-post.html" data-callback="callPortfolioScripts();" data-contentcontainer=".pcw">
+                    <div class="text-overlay">
+                      <div class="info">Fullwidth Slider</div>
+                    </div>
+                    <img src="{% static 'assets/img/art/p9.jpg' %}" alt="" /> </a></figure>
+                </li>
+                <li class="item thumb web">
+                  <figure><a href="#" data-contenturl="portfolio-post2.html" data-callback="callPortfolioScripts();" data-contentcontainer=".pcw">
+                    <div class="text-overlay">
+                      <div class="info">Half Slider</div>
+                    </div>
+                    <img src="{% static 'assets/img/art/p10.jpg' %}" alt="" /> </a></figure>
+                </li>
+                <li class="item thumb motion">
+                  <figure><a href="#" data-contenturl="portfolio-post3.html" data-callback="callPortfolioScripts();" data-contentcontainer=".pcw">
+                    <div class="text-overlay">
+                      <div class="info">Carousel Gallery</div>
+                    </div>
+                    <img src="{% static 'assets/img/art/p11.jpg' %}" alt="" /> </a></figure>
+                </li>
+                <li class="item thumb motion">
+                  <figure><a href="#" data-contenturl="portfolio-post4.html" data-callback="callPortfolioScripts();" data-contentcontainer=".pcw">
+                    <div class="text-overlay">
+                      <div class="info">Multiple Images</div>
+                    </div>
+                    <img src="{% static 'assets/img/art/p12.jpg' %}" alt="" /> </a></figure>
+                </li>
+                <li class="item thumb photo">
+                  <figure><a href="#" data-contenturl="portfolio-post5.html" data-callback="callPortfolioScripts();" data-contentcontainer=".pcw">
+                    <div class="text-overlay">
+                      <div class="info">Multiple Half Images</div>
+                    </div>
+                    <img src="{% static 'assets/img/art/p13.jpg' %}" alt="" /> </a></figure>
+                </li>
+                <li class="item thumb graphic">
+                  <figure><a href="#" data-contenturl="portfolio-post6.html" data-callback="callPortfolioScripts();" data-contentcontainer=".pcw">
+                    <div class="text-overlay">
+                      <div class="info">Fullscreen Slider</div>
+                    </div>
+                    <img src="{% static 'assets/img/art/p14.jpg' %}" alt="" /> </a></figure>
+                </li>
+                <li class="item thumb web">
+                  <figure><a href="#" data-contenturl="portfolio-post7.html" data-callback="callPortfolioScripts();" data-contentcontainer=".pcw">
+                    <div class="text-overlay">
+                      <div class="info">Fullwidth Video</div>
+                    </div>
+                    <img src="{% static 'assets/img/art/p15.jpg' %}" alt="" /> </a></figure>
+                </li>
+              </ul>
+              <!-- /.items -->
+            </div>
+            <!-- /.portfolio -->
+          </div>
+    </div>
+  </div>
+  <!-- /#portfolio -->
+{% endblock %}
+
+</body>
+</html>
