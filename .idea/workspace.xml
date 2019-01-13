@@ -2,7 +2,631 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="268ef48a-c27c-41b5-88b8-23bd390c1772" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/static/assets/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/css/color/blue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/css/color/gray.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/css/color/green.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/css/color/orange.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/css/color/pink.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/css/color/purple.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/css/color/red.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/css/owl.carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/css/settings.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/css/style-dosis.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/css/style-josefin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/art/a1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/art/a2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/art/a3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/art/about.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/art/author.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/art/b1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/art/b2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/art/b3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/art/b4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/art/b5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/art/b6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/art/b7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/art/b8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/art/b9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/art/bb1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/art/bb2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/art/bb3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/art/bp1-full.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/art/bp1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/art/bp2-full.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/art/bp2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/art/p1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/art/p10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/art/p11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/art/p12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/art/p13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/art/p14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/art/p15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/art/p2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/art/p3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/art/p4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/art/p5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/art/p6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/art/p7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/art/p8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/art/p9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/art/parallax1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/art/parallax2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/art/parallax3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/art/parallax4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/art/pp1-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/art/pp1-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/art/pp1-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/art/pp2-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/art/pp2-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/art/pp2-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/art/pp3-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/art/pp3-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/art/pp3-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/art/pp3-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/art/pp3-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/art/pp3-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/art/pp4-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/art/pp4-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/art/pp4-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/art/pp5-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/art/pp5-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/art/pp6-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/art/pp6-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/art/slider-bg1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/art/slider-bg2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/art/slider-bg3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/art/team1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/art/team2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/art/team3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/art/u1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/art/u2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/art/u3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/art/u4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/blank.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/grab.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/grabbing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/logo@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/map-pin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/img/mappin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/js/fancybox/blank.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/js/fancybox/fancybox_overlay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/js/fancybox/helpers/fancybox_buttons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/js/fancybox/helpers/jquery.fancybox-buttons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/js/fancybox/helpers/jquery.fancybox-buttons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/js/fancybox/helpers/jquery.fancybox-media.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/js/fancybox/helpers/jquery.fancybox-thumbs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/js/fancybox/helpers/jquery.fancybox-thumbs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/js/fancybox/jquery.fancybox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/js/google-code-prettify/prettify.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/js/google-code-prettify/prettify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/js/html5shiv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/js/instafeed.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/js/jquery.easytabs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/js/jquery.fancybox.pack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/js/jquery.fitvids.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/js/jquery.isotope.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/js/jquery.slickforms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/js/jquery.themepunch.plugins.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/js/jquery.themepunch.revolution.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/js/owl.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/js/retina.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/js/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/js/twitter-bootstrap-hover-dropdown.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/type/budicons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/type/budicons/budicon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/type/budicons/budicon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/type/budicons/budicon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/type/budicons/budicon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/type/fontello.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/type/fontello/fontello-circle.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/type/fontello/fontello-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/type/fontello/fontello-circle.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/type/fontello/fontello-circle.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/type/fontello/fontello-social.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/type/fontello/fontello-social.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/type/fontello/fontello-social.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/type/fontello/fontello-social.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/type/fontello/fontello.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/type/fontello/fontello.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/type/fontello/fontello.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/type/fontello/fontello.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets02/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets02/libraries/rs-plugin/assets/timer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/detail.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/list_custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/semantic.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/init/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/init/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/web/news.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/web/news2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/web/news_detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LawOffice/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/LawOffice/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/.sass-cache/562be41a49005fe38f87ac712d329a358ab9c45e/_support.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/.sass-cache/562be41a49005fe38f87ac712d329a358ab9c45e/_support.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/.sass-cache/5cf62943c834c0543b612cbbe48ec72b562f546d/_article.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/.sass-cache/5cf62943c834c0543b612cbbe48ec72b562f546d/_article.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/.sass-cache/5cf62943c834c0543b612cbbe48ec72b562f546d/_blocks.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/.sass-cache/5cf62943c834c0543b612cbbe48ec72b562f546d/_blocks.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/.sass-cache/5cf62943c834c0543b612cbbe48ec72b562f546d/_buttons.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/.sass-cache/5cf62943c834c0543b612cbbe48ec72b562f546d/_buttons.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/.sass-cache/5cf62943c834c0543b612cbbe48ec72b562f546d/_colors.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/.sass-cache/5cf62943c834c0543b612cbbe48ec72b562f546d/_colors.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/.sass-cache/5cf62943c834c0543b612cbbe48ec72b562f546d/_comments.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/.sass-cache/5cf62943c834c0543b612cbbe48ec72b562f546d/_comments.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/.sass-cache/5cf62943c834c0543b612cbbe48ec72b562f546d/_commons.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/.sass-cache/5cf62943c834c0543b612cbbe48ec72b562f546d/_commons.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/.sass-cache/5cf62943c834c0543b612cbbe48ec72b562f546d/_elements.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/.sass-cache/5cf62943c834c0543b612cbbe48ec72b562f546d/_elements.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/.sass-cache/5cf62943c834c0543b612cbbe48ec72b562f546d/_footer.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/.sass-cache/5cf62943c834c0543b612cbbe48ec72b562f546d/_footer.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/.sass-cache/5cf62943c834c0543b612cbbe48ec72b562f546d/_forms.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/.sass-cache/5cf62943c834c0543b612cbbe48ec72b562f546d/_forms.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/.sass-cache/5cf62943c834c0543b612cbbe48ec72b562f546d/_header.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/.sass-cache/5cf62943c834c0543b612cbbe48ec72b562f546d/_header.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/.sass-cache/5cf62943c834c0543b612cbbe48ec72b562f546d/_responsive.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/.sass-cache/5cf62943c834c0543b612cbbe48ec72b562f546d/_responsive.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/.sass-cache/5cf62943c834c0543b612cbbe48ec72b562f546d/_social.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/.sass-cache/5cf62943c834c0543b612cbbe48ec72b562f546d/_social.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/.sass-cache/5cf62943c834c0543b612cbbe48ec72b562f546d/_structure.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/.sass-cache/5cf62943c834c0543b612cbbe48ec72b562f546d/_structure.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/.sass-cache/62bcbd1a87cedd7cf40d41d080c841d00721bb7b/_hacks.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/.sass-cache/62bcbd1a87cedd7cf40d41d080c841d00721bb7b/_hacks.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/.sass-cache/74d7171cce6cc25dc83edb485e64324ef17569a6/_bootstrap_carousel.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/.sass-cache/74d7171cce6cc25dc83edb485e64324ef17569a6/_bootstrap_carousel.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/.sass-cache/74d7171cce6cc25dc83edb485e64324ef17569a6/_isotope.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/.sass-cache/74d7171cce6cc25dc83edb485e64324ef17569a6/_isotope.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/.sass-cache/74d7171cce6cc25dc83edb485e64324ef17569a6/_revolution.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/.sass-cache/74d7171cce6cc25dc83edb485e64324ef17569a6/_revolution.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/.sass-cache/a810055ce11db6f77fb9b549e38b34000fce256c/_badges.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/.sass-cache/a810055ce11db6f77fb9b549e38b34000fce256c/_badges.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/.sass-cache/a810055ce11db6f77fb9b549e38b34000fce256c/_buttons.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/.sass-cache/a810055ce11db6f77fb9b549e38b34000fce256c/_buttons.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/.sass-cache/a810055ce11db6f77fb9b549e38b34000fce256c/_carousel.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/.sass-cache/a810055ce11db6f77fb9b549e38b34000fce256c/_carousel.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/.sass-cache/a810055ce11db6f77fb9b549e38b34000fce256c/_code.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/.sass-cache/a810055ce11db6f77fb9b549e38b34000fce256c/_code.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/.sass-cache/a810055ce11db6f77fb9b549e38b34000fce256c/_forms.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/.sass-cache/a810055ce11db6f77fb9b549e38b34000fce256c/_forms.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/.sass-cache/a810055ce11db6f77fb9b549e38b34000fce256c/_grid.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/.sass-cache/a810055ce11db6f77fb9b549e38b34000fce256c/_grid.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/.sass-cache/a810055ce11db6f77fb9b549e38b34000fce256c/_list-group.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/.sass-cache/a810055ce11db6f77fb9b549e38b34000fce256c/_list-group.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/.sass-cache/a810055ce11db6f77fb9b549e38b34000fce256c/_mixins.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/.sass-cache/a810055ce11db6f77fb9b549e38b34000fce256c/_mixins.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/.sass-cache/a810055ce11db6f77fb9b549e38b34000fce256c/_navbar.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/.sass-cache/a810055ce11db6f77fb9b549e38b34000fce256c/_navbar.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/.sass-cache/a810055ce11db6f77fb9b549e38b34000fce256c/_navs.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/.sass-cache/a810055ce11db6f77fb9b549e38b34000fce256c/_navs.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/.sass-cache/a810055ce11db6f77fb9b549e38b34000fce256c/_normalize.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/.sass-cache/a810055ce11db6f77fb9b549e38b34000fce256c/_normalize.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/.sass-cache/a810055ce11db6f77fb9b549e38b34000fce256c/_print.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/.sass-cache/a810055ce11db6f77fb9b549e38b34000fce256c/_print.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/.sass-cache/a810055ce11db6f77fb9b549e38b34000fce256c/_responsive-utilities.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/.sass-cache/a810055ce11db6f77fb9b549e38b34000fce256c/_responsive-utilities.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/.sass-cache/a810055ce11db6f77fb9b549e38b34000fce256c/_scaffolding.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/.sass-cache/a810055ce11db6f77fb9b549e38b34000fce256c/_scaffolding.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/.sass-cache/a810055ce11db6f77fb9b549e38b34000fce256c/_tables.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/.sass-cache/a810055ce11db6f77fb9b549e38b34000fce256c/_tables.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/.sass-cache/a810055ce11db6f77fb9b549e38b34000fce256c/_type.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/.sass-cache/a810055ce11db6f77fb9b549e38b34000fce256c/_type.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/.sass-cache/a810055ce11db6f77fb9b549e38b34000fce256c/_utilities.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/.sass-cache/a810055ce11db6f77fb9b549e38b34000fce256c/_utilities.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/.sass-cache/a810055ce11db6f77fb9b549e38b34000fce256c/_variables.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/.sass-cache/a810055ce11db6f77fb9b549e38b34000fce256c/_variables.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/.sass-cache/b5533024623e32dd5f817638f67ff4f9d2bcad55/_blog.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/.sass-cache/b5533024623e32dd5f817638f67ff4f9d2bcad55/_blog.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/.sass-cache/b5533024623e32dd5f817638f67ff4f9d2bcad55/_partners.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/.sass-cache/b5533024623e32dd5f817638f67ff4f9d2bcad55/_partners.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/.sass-cache/b5533024623e32dd5f817638f67ff4f9d2bcad55/_portfolio.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/.sass-cache/b5533024623e32dd5f817638f67ff4f9d2bcad55/_portfolio.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/.sass-cache/b5533024623e32dd5f817638f67ff4f9d2bcad55/_pricings.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/.sass-cache/b5533024623e32dd5f817638f67ff4f9d2bcad55/_pricings.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/.sass-cache/b5533024623e32dd5f817638f67ff4f9d2bcad55/_team.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/.sass-cache/b5533024623e32dd5f817638f67ff4f9d2bcad55/_team.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/.sass-cache/b5533024623e32dd5f817638f67ff4f9d2bcad55/_twitter.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/.sass-cache/b5533024623e32dd5f817638f67ff4f9d2bcad55/_twitter.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/.sass-cache/b5533024623e32dd5f817638f67ff4f9d2bcad55/_widgets.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/.sass-cache/b5533024623e32dd5f817638f67ff4f9d2bcad55/_widgets.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/.sass-cache/d2042ca810cacc3672db299a2c47e5033a2dd18d/_border-radius.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/.sass-cache/d2042ca810cacc3672db299a2c47e5033a2dd18d/_border-radius.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/.sass-cache/d2042ca810cacc3672db299a2c47e5033a2dd18d/_box-shadow.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/.sass-cache/d2042ca810cacc3672db299a2c47e5033a2dd18d/_box-shadow.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/.sass-cache/d2042ca810cacc3672db299a2c47e5033a2dd18d/_images.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/.sass-cache/d2042ca810cacc3672db299a2c47e5033a2dd18d/_images.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/.sass-cache/d2042ca810cacc3672db299a2c47e5033a2dd18d/_opacity.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/.sass-cache/d2042ca810cacc3672db299a2c47e5033a2dd18d/_opacity.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/.sass-cache/d2042ca810cacc3672db299a2c47e5033a2dd18d/_text-shadow.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/.sass-cache/d2042ca810cacc3672db299a2c47e5033a2dd18d/_text-shadow.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/.sass-cache/d2042ca810cacc3672db299a2c47e5033a2dd18d/_transform.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/.sass-cache/d2042ca810cacc3672db299a2c47e5033a2dd18d/_transform.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/.sass-cache/d2042ca810cacc3672db299a2c47e5033a2dd18d/_transition.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/.sass-cache/d2042ca810cacc3672db299a2c47e5033a2dd18d/_transition.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/.sass-cache/e5807f9565277fd6c231f4ae4db40843f76a8f51/_bootstrap.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/.sass-cache/e5807f9565277fd6c231f4ae4db40843f76a8f51/_bootstrap.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/.sass-cache/e5807f9565277fd6c231f4ae4db40843f76a8f51/gosloo.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/.sass-cache/e5807f9565277fd6c231f4ae4db40843f76a8f51/gosloo.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/bg-header-blue.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/bg-header-blue.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/config.rb" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/config.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/css/animate.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/css/animate.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/css/gosloo.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/css/gosloo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/arrow-black.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/img/arrow-black.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/arrow-hover.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/img/arrow-hover.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/arrow-white.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/img/arrow-white.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/arrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/img/arrow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/bg-blue.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/img/bg-blue.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/bg-footer-blue.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/img/bg-footer-blue.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/bg-header-blue.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/img/bg-header-blue.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/img/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/map.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/img/map.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/tmp/carousels/mobile.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/img/tmp/carousels/mobile.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/tmp/carousels/woman.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/img/tmp/carousels/woman.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/tmp/logos/codecanyon.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/img/tmp/logos/codecanyon.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/tmp/logos/codecanyon.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/img/tmp/logos/codecanyon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/tmp/logos/graphicriver.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/img/tmp/logos/graphicriver.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/tmp/logos/graphicriver.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/img/tmp/logos/graphicriver.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/tmp/logos/photodune.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/img/tmp/logos/photodune.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/tmp/logos/photodune.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/img/tmp/logos/photodune.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/tmp/logos/themeforest.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/img/tmp/logos/themeforest.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/tmp/logos/themeforest.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/img/tmp/logos/themeforest.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/tmp/members/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/img/tmp/members/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/tmp/members/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/img/tmp/members/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/tmp/members/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/img/tmp/members/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/tmp/members/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/img/tmp/members/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/tmp/portfolio/1-large.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/img/tmp/portfolio/1-large.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/tmp/portfolio/1-small.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/img/tmp/portfolio/1-small.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/tmp/portfolio/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/img/tmp/portfolio/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/tmp/portfolio/10-small.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/img/tmp/portfolio/10-small.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/tmp/portfolio/10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/img/tmp/portfolio/10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/tmp/portfolio/11-small.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/img/tmp/portfolio/11-small.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/tmp/portfolio/11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/img/tmp/portfolio/11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/tmp/portfolio/12-small.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/img/tmp/portfolio/12-small.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/tmp/portfolio/12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/img/tmp/portfolio/12.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/tmp/portfolio/2-small.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/img/tmp/portfolio/2-small.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/tmp/portfolio/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/img/tmp/portfolio/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/tmp/portfolio/3-small.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/img/tmp/portfolio/3-small.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/tmp/portfolio/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/img/tmp/portfolio/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/tmp/portfolio/4-small.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/img/tmp/portfolio/4-small.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/tmp/portfolio/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/img/tmp/portfolio/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/tmp/portfolio/5-small.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/img/tmp/portfolio/5-small.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/tmp/portfolio/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/img/tmp/portfolio/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/tmp/portfolio/6-small.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/img/tmp/portfolio/6-small.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/tmp/portfolio/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/img/tmp/portfolio/6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/tmp/portfolio/7-small.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/img/tmp/portfolio/7-small.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/tmp/portfolio/7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/img/tmp/portfolio/7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/tmp/portfolio/8-small.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/img/tmp/portfolio/8-small.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/tmp/portfolio/8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/img/tmp/portfolio/8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/tmp/portfolio/9-small.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/img/tmp/portfolio/9-small.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/tmp/portfolio/9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/img/tmp/portfolio/9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/tmp/slider/dude.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/img/tmp/slider/dude.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/tmp/slider/hand.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/img/tmp/slider/hand.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/transparent.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/img/transparent.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/img/twitters.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/img/twitters.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/gosloo.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/js/gosloo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/js/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/CONTRIBUTING.md" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/CONTRIBUTING.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/Rakefile" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/Rakefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/bootstrap-sass.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/bootstrap-sass.gemspec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/lib/bootstrap-sass.rb" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/lib/bootstrap-sass.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/lib/bootstrap-sass/engine.rb" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/lib/bootstrap-sass/engine.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/lib/bootstrap-sass/sass_functions.rb" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/lib/bootstrap-sass/sass_functions.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/lib/bootstrap-sass/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/lib/bootstrap-sass/version.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/tasks/converter.rb" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/tasks/converter.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/tasks/converter/char_string_scanner.rb" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/tasks/converter/char_string_scanner.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/tasks/converter/fonts_conversion.rb" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/tasks/converter/fonts_conversion.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/tasks/converter/js_conversion.rb" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/tasks/converter/js_conversion.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/tasks/converter/less_conversion.rb" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/tasks/converter/less_conversion.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/tasks/converter/logger.rb" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/tasks/converter/logger.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/tasks/converter/network.rb" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/tasks/converter/network.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/templates/project/_variables.scss.erb" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/templates/project/_variables.scss.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/templates/project/manifest.rb" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/templates/project/manifest.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/templates/project/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/templates/project/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/test/compass_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/test/compass_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/test/compilation_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/test/compilation_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/test/dummy/README.rdoc" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/test/dummy/README.rdoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/test/dummy/Rakefile" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/test/dummy/Rakefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/test/dummy/app/assets/images/.keep" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/test/dummy/app/assets/images/.keep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/test/dummy/app/assets/javascripts/application.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/test/dummy/app/assets/javascripts/application.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/test/dummy/app/assets/stylesheets/application.css.sass" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/test/dummy/app/assets/stylesheets/application.css.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/test/dummy/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/test/dummy/app/controllers/application_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/test/dummy/app/controllers/pages_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/test/dummy/app/controllers/pages_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/test/dummy/app/helpers/application_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/test/dummy/app/helpers/application_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/test/dummy/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/test/dummy/app/views/layouts/application.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/test/dummy/app/views/pages/root.html.slim" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/test/dummy/app/views/pages/root.html.slim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/test/dummy/bin/bundle" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/test/dummy/bin/bundle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/test/dummy/bin/rails" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/test/dummy/bin/rails" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/test/dummy/bin/rake" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/test/dummy/bin/rake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/test/dummy/config.ru" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/test/dummy/config.ru" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/test/dummy/config/application.rb" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/test/dummy/config/application.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/test/dummy/config/boot.rb" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/test/dummy/config/boot.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/test/dummy/config/environment.rb" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/test/dummy/config/environment.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/test/dummy/config/environments/development.rb" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/test/dummy/config/environments/development.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/test/dummy/config/environments/production.rb" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/test/dummy/config/environments/production.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/test/dummy/config/environments/test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/test/dummy/config/environments/test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/test/dummy/config/initializers/backtrace_silencers.rb" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/test/dummy/config/initializers/backtrace_silencers.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/test/dummy/config/initializers/filter_parameter_logging.rb" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/test/dummy/config/initializers/filter_parameter_logging.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/test/dummy/config/initializers/inflections.rb" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/test/dummy/config/initializers/inflections.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/test/dummy/config/initializers/mime_types.rb" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/test/dummy/config/initializers/mime_types.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/test/dummy/config/initializers/secret_token.rb" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/test/dummy/config/initializers/secret_token.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/test/dummy/config/initializers/session_store.rb" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/test/dummy/config/initializers/session_store.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/test/dummy/config/initializers/wrap_parameters.rb" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/test/dummy/config/initializers/wrap_parameters.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/test/dummy/config/locales/en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/test/dummy/config/locales/en.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/test/dummy/config/locales/es.yml" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/test/dummy/config/locales/es.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/test/dummy/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/test/dummy/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/test/dummy/db/test.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/test/dummy/db/test.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/test/dummy/lib/assets/.keep" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/test/dummy/lib/assets/.keep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/test/dummy/log/.keep" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/test/dummy/log/.keep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/test/dummy/public/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/test/dummy/public/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/test/dummy/public/422.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/test/dummy/public/422.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/test/dummy/public/500.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/test/dummy/public/500.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/test/dummy/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/test/dummy/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/test/dummy_sass_only/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/test/dummy_sass_only/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/test/dummy_sass_only/compile.rb" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/test/dummy_sass_only/compile.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/test/dummy_sass_only/import_all.sass" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/test/dummy_sass_only/import_all.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/test/gemfiles/sass_3_2.gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/test/gemfiles/sass_3_2.gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/test/gemfiles/sass_head.gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/test/gemfiles/sass_head.gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/test/pages_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/test/pages_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/test/sass_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/test/sass_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/test/sprockets_rails_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/test/sprockets_rails_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/test/support/integration_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/test/support/integration_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/test/test_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/test/test_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/vendor/assets/fonts/bootstrap/glyphicons-halflings-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/vendor/assets/fonts/bootstrap/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/vendor/assets/fonts/bootstrap/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/vendor/assets/fonts/bootstrap/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/vendor/assets/fonts/bootstrap/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/vendor/assets/fonts/bootstrap/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/vendor/assets/fonts/bootstrap/glyphicons-halflings-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/vendor/assets/fonts/bootstrap/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/vendor/assets/javascripts/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/vendor/assets/javascripts/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/vendor/assets/javascripts/bootstrap/affix.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/vendor/assets/javascripts/bootstrap/affix.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/vendor/assets/javascripts/bootstrap/alert.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/vendor/assets/javascripts/bootstrap/alert.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/vendor/assets/javascripts/bootstrap/button.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/vendor/assets/javascripts/bootstrap/button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/vendor/assets/javascripts/bootstrap/carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/vendor/assets/javascripts/bootstrap/carousel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/vendor/assets/javascripts/bootstrap/collapse.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/vendor/assets/javascripts/bootstrap/collapse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/vendor/assets/javascripts/bootstrap/dropdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/vendor/assets/javascripts/bootstrap/dropdown.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/vendor/assets/javascripts/bootstrap/modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/vendor/assets/javascripts/bootstrap/modal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/vendor/assets/javascripts/bootstrap/popover.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/vendor/assets/javascripts/bootstrap/popover.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/vendor/assets/javascripts/bootstrap/scrollspy.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/vendor/assets/javascripts/bootstrap/scrollspy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/vendor/assets/javascripts/bootstrap/tab.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/vendor/assets/javascripts/bootstrap/tab.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/vendor/assets/javascripts/bootstrap/tooltip.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/vendor/assets/javascripts/bootstrap/tooltip.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/vendor/assets/javascripts/bootstrap/transition.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/vendor/assets/javascripts/bootstrap/transition.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/vendor/assets/stylesheets/bootstrap.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/vendor/assets/stylesheets/bootstrap.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_alerts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_alerts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_badges.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_badges.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_breadcrumbs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_breadcrumbs.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_button-groups.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_button-groups.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_carousel.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_carousel.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_close.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_close.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_code.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_code.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_component-animations.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_component-animations.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_dropdowns.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_dropdowns.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_forms.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_glyphicons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_glyphicons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_grid.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_input-groups.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_input-groups.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_jumbotron.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_jumbotron.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_labels.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_labels.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_list-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_list-group.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_media.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_modals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_modals.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_navbar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_navs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_navs.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_normalize.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_normalize.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_pager.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_pager.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_pagination.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_pagination.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_panels.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_panels.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_popovers.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_popovers.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_print.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_print.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_progress-bars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_progress-bars.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_responsive-utilities.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_responsive-utilities.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_scaffolding.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_scaffolding.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_tables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_tables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_theme.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_theme.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_thumbnails.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_thumbnails.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_tooltip.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_tooltip.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_type.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_type.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_utilities.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_utilities.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_wells.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/vendor/assets/stylesheets/bootstrap/_wells.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/bootstrap-sass/vendor/assets/stylesheets/bootstrap/bootstrap.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/bootstrap-sass/vendor/assets/stylesheets/bootstrap/bootstrap.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/font-awesome/css/font-awesome.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/font-awesome/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/font-awesome/fonts/FontAwesome.otf" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/font-awesome/fonts/fontawesome-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/font-awesome/fonts/fontawesome-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/font-awesome/fonts/fontawesome-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/font-awesome/less/bordered-pulled.less" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/font-awesome/less/bordered-pulled.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/font-awesome/less/core.less" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/font-awesome/less/core.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/font-awesome/less/fixed-width.less" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/font-awesome/less/fixed-width.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/font-awesome/less/font-awesome.less" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/font-awesome/less/font-awesome.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/font-awesome/less/icons.less" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/font-awesome/less/icons.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/font-awesome/less/larger.less" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/font-awesome/less/larger.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/font-awesome/less/list.less" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/font-awesome/less/list.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/font-awesome/less/mixins.less" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/font-awesome/less/mixins.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/font-awesome/less/path.less" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/font-awesome/less/path.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/font-awesome/less/rotated-flipped.less" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/font-awesome/less/rotated-flipped.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/font-awesome/less/spinning.less" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/font-awesome/less/spinning.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/font-awesome/less/stacked.less" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/font-awesome/less/stacked.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/font-awesome/less/variables.less" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/font-awesome/less/variables.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/font-awesome/scss/_bordered-pulled.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/font-awesome/scss/_bordered-pulled.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/font-awesome/scss/_core.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/font-awesome/scss/_core.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/font-awesome/scss/_fixed-width.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/font-awesome/scss/_fixed-width.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/font-awesome/scss/_icons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/font-awesome/scss/_icons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/font-awesome/scss/_larger.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/font-awesome/scss/_larger.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/font-awesome/scss/_list.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/font-awesome/scss/_list.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/font-awesome/scss/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/font-awesome/scss/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/font-awesome/scss/_path.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/font-awesome/scss/_path.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/font-awesome/scss/_rotated-flipped.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/font-awesome/scss/_rotated-flipped.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/font-awesome/scss/_spinning.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/font-awesome/scss/_spinning.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/font-awesome/scss/_stacked.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/font-awesome/scss/_stacked.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/font-awesome/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/font-awesome/scss/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/font-awesome/scss/font-awesome.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/font-awesome/scss/font-awesome.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/isotope/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/isotope/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/isotope/.tm_properties" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/isotope/.tm_properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/isotope/CONTRIBUTING.mdown" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/isotope/CONTRIBUTING.mdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/isotope/README.mdown" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/isotope/README.mdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/isotope/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/isotope/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/isotope/_includes/add-buttons.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/isotope/_includes/add-buttons.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/isotope/_includes/change-sizes.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/isotope/_includes/change-sizes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/isotope/_includes/developer-buy-button.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/isotope/_includes/developer-buy-button.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/isotope/_includes/element-partial.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/isotope/_includes/element-partial.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/isotope/_includes/elements-demo-foot.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/isotope/_includes/elements-demo-foot.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/isotope/_includes/elements-demo-head.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/isotope/_includes/elements-demo-head.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/isotope/_includes/filter-buttons.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/isotope/_includes/filter-buttons.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/isotope/_includes/inf-scroll-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/isotope/_includes/inf-scroll-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/isotope/_includes/layout-change.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/isotope/_includes/layout-change.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/isotope/_includes/layout-options.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/isotope/_includes/layout-options.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/isotope/_includes/option-set-buttons.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/isotope/_includes/option-set-buttons.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/isotope/_includes/org-buy-button.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/isotope/_includes/org-buy-button.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/isotope/_includes/random-sizes.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/isotope/_includes/random-sizes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/isotope/_includes/sort-buttons.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/isotope/_includes/sort-buttons.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/isotope/_layouts/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/isotope/_layouts/default.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/isotope/_posts/custom-layout-modes/2011-05-18-centered-masonry.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/isotope/_posts/custom-layout-modes/2011-05-18-centered-masonry.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/isotope/_posts/custom-layout-modes/2011-05-22-category-rows.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/isotope/_posts/custom-layout-modes/2011-05-22-category-rows.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/isotope/_posts/custom-layout-modes/2011-07-07-masonry-corner-stamp.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/isotope/_posts/custom-layout-modes/2011-07-07-masonry-corner-stamp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/isotope/_posts/custom-layout-modes/2011-07-14-masonry-gutters.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/isotope/_posts/custom-layout-modes/2011-07-14-masonry-gutters.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/isotope/_posts/custom-layout-modes/2011-10-18-spine-align.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/isotope/_posts/custom-layout-modes/2011-10-18-spine-align.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/isotope/_posts/custom-layout-modes/2011-12-05-big-graph.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/isotope/_posts/custom-layout-modes/2011-12-05-big-graph.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/isotope/_posts/custom-layout-modes/2012-01-03-masonry-column-shift.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/isotope/_posts/custom-layout-modes/2012-01-03-masonry-column-shift.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/isotope/_posts/demos/2010-12-12-basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/isotope/_posts/demos/2010-12-12-basic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/isotope/_posts/demos/2010-12-13-elements-complete.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/isotope/_posts/demos/2010-12-13-elements-complete.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/isotope/_posts/demos/2010-12-16-elements-partial.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/isotope/_posts/demos/2010-12-16-elements-partial.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/isotope/_posts/demos/2010-12-29-layout-modes.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/isotope/_posts/demos/2010-12-29-layout-modes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/isotope/_posts/demos/2010-12-30-filtering.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/isotope/_posts/demos/2010-12-30-filtering.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/isotope/_posts/demos/2010-12-30-sorting.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/isotope/_posts/demos/2010-12-30-sorting.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/isotope/_posts/demos/2010-12-31-relayout.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/isotope/_posts/demos/2010-12-31-relayout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/isotope/_posts/demos/2011-01-02-adding-items.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/isotope/_posts/demos/2011-01-02-adding-items.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/isotope/_posts/demos/2011-01-02-infinite-scroll.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/isotope/_posts/demos/2011-01-02-infinite-scroll.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/isotope/_posts/demos/2011-01-11-images.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/isotope/_posts/demos/2011-01-11-images.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/isotope/_posts/demos/2011-03-29-combination-filters.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/isotope/_posts/demos/2011-03-29-combination-filters.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/isotope/_posts/demos/2011-06-13-hash-history.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/isotope/_posts/demos/2011-06-13-hash-history.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/isotope/_posts/demos/2011-09-30-fluid-responsive.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/isotope/_posts/demos/2011-09-30-fluid-responsive.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/isotope/_posts/demos/2011-12-22-removing.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/isotope/_posts/demos/2011-12-22-removing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/isotope/_posts/docs/2010-12-01-introduction.md" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/isotope/_posts/docs/2010-12-01-introduction.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/isotope/_posts/docs/2010-12-03-options.md" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/isotope/_posts/docs/2010-12-03-options.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/isotope/_posts/docs/2010-12-04-methods.md" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/isotope/_posts/docs/2010-12-04-methods.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/isotope/_posts/docs/2010-12-05-layout-modes.md" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/isotope/_posts/docs/2010-12-05-layout-modes.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/isotope/_posts/docs/2010-12-06-filtering.md" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/isotope/_posts/docs/2010-12-06-filtering.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/isotope/_posts/docs/2010-12-07-sorting.md" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/isotope/_posts/docs/2010-12-07-sorting.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/isotope/_posts/docs/2010-12-09-animating.md" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/isotope/_posts/docs/2010-12-09-animating.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/isotope/_posts/docs/2010-12-10-adding-items.md" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/isotope/_posts/docs/2010-12-10-adding-items.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/isotope/_posts/docs/2011-05-25-extending-isotope.md" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/isotope/_posts/docs/2011-05-25-extending-isotope.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/isotope/_posts/docs/2011-06-16-hash-history-jquery-bbq.md" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/isotope/_posts/docs/2011-06-16-hash-history-jquery-bbq.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/isotope/_posts/docs/2011-12-11-help.md" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/isotope/_posts/docs/2011-12-11-help.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/isotope/_posts/docs/2011-12-20-license.md" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/isotope/_posts/docs/2011-12-20-license.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/isotope/_posts/pages/2011-01-01-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/isotope/_posts/pages/2011-01-01-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/isotope/_posts/pages/2011-01-01-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/isotope/_posts/pages/2011-01-01-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/isotope/_posts/pages/2011-01-01-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/isotope/_posts/pages/2011-01-01-4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/isotope/_posts/pages/2011-01-01-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/isotope/_posts/pages/2011-01-01-5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/isotope/_posts/pages/2011-01-01-6.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/isotope/_posts/pages/2011-01-01-6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/isotope/_posts/tests/2010-01-01-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/isotope/_posts/tests/2010-01-01-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/isotope/_posts/tests/2011-03-27-destroy.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/isotope/_posts/tests/2011-03-27-destroy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/isotope/_posts/tests/2011-03-27-flash.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/isotope/_posts/tests/2011-03-27-flash.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/isotope/_posts/tests/2011-03-27-no-items.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/isotope/_posts/tests/2011-03-27-no-items.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/isotope/_posts/tests/2011-04-26-item-position-data.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/isotope/_posts/tests/2011-04-26-item-position-data.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/isotope/_posts/tests/2011-05-13-jquery-animation.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/isotope/_posts/tests/2011-05-13-jquery-animation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/isotope/_posts/tests/2011-05-24-elements-complete-test.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/isotope/_posts/tests/2011-05-24-elements-complete-test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/isotope/_posts/tests/2011-05-31-tiny-text.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/isotope/_posts/tests/2011-05-31-tiny-text.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/isotope/_posts/tests/2011-08-19-right-to-left.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/isotope/_posts/tests/2011-08-19-right-to-left.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/isotope/_posts/tests/2011-08-23-unclickable-filtered.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/isotope/_posts/tests/2011-08-23-unclickable-filtered.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/isotope/_posts/tests/2011-10-19-callbacks.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/isotope/_posts/tests/2011-10-19-callbacks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/isotope/_posts/tests/2012-02-07-onlayout.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/isotope/_posts/tests/2012-02-07-onlayout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/isotope/_posts/tests/2012-08-11-combo-sort-history.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/isotope/_posts/tests/2012-08-11-combo-sort-history.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/isotope/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/isotope/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/isotope/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/isotope/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/isotope/jquery.isotope.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/isotope/jquery.isotope.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/isotope/jquery.isotope.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/isotope/jquery.isotope.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/isotope/js/fake-element.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/isotope/js/fake-element.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/isotope/js/jquery-1.7.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/isotope/js/jquery-1.7.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/isotope/js/jquery.ba-bbq.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/isotope/js/jquery.ba-bbq.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/isotope/js/jquery.infinitescroll.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/isotope/js/jquery.infinitescroll.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/isotope/js/make-big-graph-projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/isotope/js/make-big-graph-projects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/isotope/minify.sh" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/isotope/minify.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/jquery-smooth-scroll/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/jquery-smooth-scroll/.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/jquery-smooth-scroll/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/jquery-smooth-scroll/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/jquery-smooth-scroll/Gruntfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/jquery-smooth-scroll/Gruntfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/jquery-smooth-scroll/LICENSE-MIT" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/jquery-smooth-scroll/LICENSE-MIT" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/jquery-smooth-scroll/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/jquery-smooth-scroll/bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/jquery-smooth-scroll/demo/bbq-fixed.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/jquery-smooth-scroll/demo/bbq-fixed.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/jquery-smooth-scroll/demo/bbq.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/jquery-smooth-scroll/demo/bbq.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/jquery-smooth-scroll/demo/fixed-fix.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/jquery-smooth-scroll/demo/fixed-fix.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/jquery-smooth-scroll/demo/fixed-nojs-fix.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/jquery-smooth-scroll/demo/fixed-nojs-fix.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/jquery-smooth-scroll/demo/fixed-nojs.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/jquery-smooth-scroll/demo/fixed-nojs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/jquery-smooth-scroll/demo/fixed.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/jquery-smooth-scroll/demo/fixed.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/jquery-smooth-scroll/demo/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/jquery-smooth-scroll/demo/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/jquery-smooth-scroll/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/jquery-smooth-scroll/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/jquery-smooth-scroll/jquery.smooth-scroll.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/jquery-smooth-scroll/jquery.smooth-scroll.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/jquery-smooth-scroll/jquery.smooth-scroll.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/jquery-smooth-scroll/jquery.smooth-scroll.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/jquery-smooth-scroll/lib/jquery.ba-bbq.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/jquery-smooth-scroll/lib/jquery.ba-bbq.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/jquery-smooth-scroll/lib/jquery/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/jquery-smooth-scroll/lib/jquery/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/jquery-smooth-scroll/lib/qunit/qunit.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/jquery-smooth-scroll/lib/qunit/qunit.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/jquery-smooth-scroll/lib/qunit/qunit.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/jquery-smooth-scroll/lib/qunit/qunit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/jquery-smooth-scroll/lib/tmpl/footer.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/jquery-smooth-scroll/lib/tmpl/footer.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/jquery-smooth-scroll/lib/tmpl/header.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/jquery-smooth-scroll/lib/tmpl/header.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/jquery-smooth-scroll/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/jquery-smooth-scroll/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/jquery-smooth-scroll/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/jquery-smooth-scroll/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/jquery-smooth-scroll/smooth-scroll.jquery.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/jquery-smooth-scroll/smooth-scroll.jquery.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/jquery-smooth-scroll/src/jquery.smooth-scroll.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/jquery-smooth-scroll/src/jquery.smooth-scroll.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/rs-plugin/assets/arrow_large_left.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/rs-plugin/assets/arrow_large_left.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/rs-plugin/assets/arrow_large_right.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/rs-plugin/assets/arrow_large_right.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/rs-plugin/assets/arrow_left.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/rs-plugin/assets/arrow_left.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/rs-plugin/assets/arrow_left2.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/rs-plugin/assets/arrow_left2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/rs-plugin/assets/arrow_right.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/rs-plugin/assets/arrow_right.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/rs-plugin/assets/arrow_right2.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/rs-plugin/assets/arrow_right2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/rs-plugin/assets/arrowleft.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/rs-plugin/assets/arrowleft.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/rs-plugin/assets/arrowright.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/rs-plugin/assets/arrowright.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/rs-plugin/assets/arrows.psd" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/rs-plugin/assets/arrows.psd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/rs-plugin/assets/black50.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/rs-plugin/assets/black50.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/rs-plugin/assets/boxed_bgtile.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/rs-plugin/assets/boxed_bgtile.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/rs-plugin/assets/bullet.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/rs-plugin/assets/bullet.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/rs-plugin/assets/bullet_boxed.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/rs-plugin/assets/bullet_boxed.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/rs-plugin/assets/bullets.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/rs-plugin/assets/bullets.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/rs-plugin/assets/bullets.psd" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/rs-plugin/assets/bullets.psd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/rs-plugin/assets/bullets2.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/rs-plugin/assets/bullets2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/rs-plugin/assets/coloredbg.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/rs-plugin/assets/coloredbg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/rs-plugin/assets/grain.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/rs-plugin/assets/grain.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/rs-plugin/assets/gridtile.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/rs-plugin/assets/gridtile.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/rs-plugin/assets/gridtile_3x3.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/rs-plugin/assets/gridtile_3x3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/rs-plugin/assets/gridtile_3x3_white.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/rs-plugin/assets/gridtile_3x3_white.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/rs-plugin/assets/gridtile_white.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/rs-plugin/assets/gridtile_white.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/rs-plugin/assets/large_left.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/rs-plugin/assets/large_left.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/rs-plugin/assets/large_right.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/rs-plugin/assets/large_right.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/rs-plugin/assets/loader.gif" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/rs-plugin/assets/loader.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/rs-plugin/assets/loader2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/rs-plugin/assets/loader2.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/rs-plugin/assets/navigdots.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/rs-plugin/assets/navigdots.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/rs-plugin/assets/navigdots_bgtile.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/rs-plugin/assets/navigdots_bgtile.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/rs-plugin/assets/shadow1.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/rs-plugin/assets/shadow1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/rs-plugin/assets/shadow2.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/rs-plugin/assets/shadow2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/rs-plugin/assets/shadow3.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/rs-plugin/assets/shadow3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/rs-plugin/assets/small_arrows.psd" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/rs-plugin/assets/small_arrows.psd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/rs-plugin/assets/small_left.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/rs-plugin/assets/small_left.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/rs-plugin/assets/small_left_boxed.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/rs-plugin/assets/small_left_boxed.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/rs-plugin/assets/small_right.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/rs-plugin/assets/small_right.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/rs-plugin/assets/small_right_boxed.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/rs-plugin/assets/small_right_boxed.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/rs-plugin/assets/timer.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/img/timer.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/rs-plugin/assets/timerdot.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/rs-plugin/assets/timerdot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/rs-plugin/assets/transparent.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/rs-plugin/assets/transparent.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/rs-plugin/assets/white50.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/rs-plugin/assets/white50.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/rs-plugin/css/settings-ie8.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/rs-plugin/css/settings-ie8.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/rs-plugin/css/settings.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/rs-plugin/css/settings.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/rs-plugin/font/revicons.eot" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/rs-plugin/font/revicons.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/rs-plugin/font/revicons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/rs-plugin/font/revicons.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/rs-plugin/font/revicons.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/rs-plugin/font/revicons.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/rs-plugin/font/revicons.woff" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/rs-plugin/font/revicons.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/rs-plugin/images/decor_inside.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/rs-plugin/images/decor_inside.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/rs-plugin/images/decor_inside_white.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/rs-plugin/images/decor_inside_white.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/rs-plugin/images/decor_testimonial.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/rs-plugin/images/decor_testimonial.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/rs-plugin/images/gradient/g30.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/rs-plugin/images/gradient/g30.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/rs-plugin/images/gradient/g40.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/rs-plugin/images/gradient/g40.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/rs-plugin/js/jquery.themepunch.plugins.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/rs-plugin/js/jquery.themepunch.plugins.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/rs-plugin/js/jquery.themepunch.revolution.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/rs-plugin/js/jquery.themepunch.revolution.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/rs-plugin/js/jquery.themepunch.revolution.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/rs-plugin/js/jquery.themepunch.revolution.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/rs-plugin/videojs/demo.captions.vtt" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/rs-plugin/videojs/demo.captions.vtt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/rs-plugin/videojs/font/vjs.eot" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/rs-plugin/videojs/font/vjs.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/rs-plugin/videojs/font/vjs.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/rs-plugin/videojs/font/vjs.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/rs-plugin/videojs/font/vjs.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/rs-plugin/videojs/font/vjs.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/rs-plugin/videojs/font/vjs.woff" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/rs-plugin/videojs/font/vjs.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/rs-plugin/videojs/video-js.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/rs-plugin/videojs/video-js.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/rs-plugin/videojs/video-js.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/rs-plugin/videojs/video-js.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/rs-plugin/videojs/video-js.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/rs-plugin/videojs/video-js.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/rs-plugin/videojs/video-js.swf" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/rs-plugin/videojs/video-js.swf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/rs-plugin/videojs/video.dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/rs-plugin/videojs/video.dev.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/libraries/rs-plugin/videojs/video.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/libraries/rs-plugin/videojs/video.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/scss/_bootstrap.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/scss/_bootstrap.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/scss/gosloo.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/scss/gosloo.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/scss/helpers/_article.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/scss/helpers/_article.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/scss/helpers/_blocks.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/scss/helpers/_blocks.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/scss/helpers/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/scss/helpers/_buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/scss/helpers/_colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/scss/helpers/_colors.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/scss/helpers/_comments.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/scss/helpers/_comments.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/scss/helpers/_commons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/scss/helpers/_commons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/scss/helpers/_elements.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/scss/helpers/_elements.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/scss/helpers/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/scss/helpers/_footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/scss/helpers/_forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/scss/helpers/_forms.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/scss/helpers/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/scss/helpers/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/scss/helpers/_responsive.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/scss/helpers/_responsive.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/scss/helpers/_social.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/scss/helpers/_social.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/scss/helpers/_structure.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/scss/helpers/_structure.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/scss/modules/_blog.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/scss/modules/_blog.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/scss/modules/_partners.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/scss/modules/_partners.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/scss/modules/_portfolio.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/scss/modules/_portfolio.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/scss/modules/_pricings.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/scss/modules/_pricings.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/scss/modules/_team.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/scss/modules/_team.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/scss/modules/_twitter.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/scss/modules/_twitter.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/scss/modules/_widgets.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/scss/modules/_widgets.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/scss/vendors/_bootstrap_carousel.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/scss/vendors/_bootstrap_carousel.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/scss/vendors/_isotope.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/scss/vendors/_isotope.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/scss/vendors/_revolution.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets02/scss/vendors/_revolution.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/init/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/init/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/init/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/init/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,24 +638,84 @@
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/init/index.html">
+        <entry file="file://$PROJECT_DIR$/web/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+            <state relative-caret-position="366">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
               <folding>
-                <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#0#28#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/LawOffice/settings.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LawOffice/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+            <state relative-caret-position="170">
+              <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/web/news_detail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="267">
+              <caret line="28" column="33" lean-forward="true" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/init/about.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="16" column="90" lean-forward="true" selection-start-line="16" selection-start-column="90" selection-end-line="16" selection-end-column="90" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="213">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/web/news.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="117">
+              <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/init/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="406">
+              <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -42,17 +726,58 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>AUTH_USER_MODEL</find>
-      <find>HOME</find>
-      <find>REA</find>
-      <find>Beautiful Design</find>
-      <find>assets/img/tmp/slider/dude.png</find>
+      <find>img_nature_wide</find>
+      <find>.png</find>
+      <find>About</find>
+      <find>company</find>
+      <find>&lt;a href=&quot;#&quot; class=&quot;btn&quot;&gt;&lt;i class=&quot;fa fa-arrow-circle-o-right&quot;&gt;&lt;/i&gt;Read More&lt;/a&gt;</find>
+      <find>About Us</find>
+      <find>png</find>
+      <find>jpg</find>
+      <find>中磊</find>
+      <find>Our Client</find>
+      <find>Ho</find>
+      <find>Home</find>
+      <find>vid</find>
+      <find>assets</find>
+      <find>&quot;style</find>
+      <find>.css</find>
+      <find>jpg&quot;</find>
+      <find>..jpg' %}&quot;</find>
+      <find>..png</find>
+      <find>rel=&quot;{% static 'assetssheet' %}</find>
+      <find>rel=&quot;{% static 'assetssheet' %}&quot;</find>
+      <find>/images</find>
+      <find>style</find>
+      <find>style/</find>
+      <find>.jpg</find>
+      <find>&quot;{% static 'style</find>
+      <find>.css&quot;</find>
+      <find>my</find>
+      <find>item.id</find>
+      <find>figure</find>
     </findStrings>
+    <replaceStrings>
+      <replace>.css' %}</replace>
+      <replace>.png' %}</replace>
+      <replace>.jpg' %}</replace>
+      <replace>news</replace>
+      <replace>assets02</replace>
+      <replace>css %}&quot;</replace>
+      <replace>css' %}&quot;</replace>
+      <replace>.jpg' %}&quot;</replace>
+      <replace>.png</replace>
+      <replace>rel='stylesheet'</replace>
+      <replace>/img</replace>
+      <replace>&quot;{% static 'assets</replace>
+      <replace>.css' %}&quot;</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -61,24 +786,31 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/web/models.py" />
-        <option value="$PROJECT_DIR$/LawOffice/settings.py" />
         <option value="$PROJECT_DIR$/web/admin.py" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/web/views.py" />
-        <option value="$PROJECT_DIR$/web/urls.py" />
-        <option value="$PROJECT_DIR$/LawOffice/urls.py" />
         <option value="$PROJECT_DIR$/templates/init/portfolio.html" />
         <option value="$PROJECT_DIR$/templates/init/pricing.html" />
         <option value="$PROJECT_DIR$/templates/init/detail.html" />
         <option value="$PROJECT_DIR$/templates/init/contact.html" />
         <option value="$PROJECT_DIR$/templates/init/blog.html" />
-        <option value="$PROJECT_DIR$/templates/init/about.html" />
+        <option value="$PROJECT_DIR$/LawOffice/urls.py" />
+        <option value="$PROJECT_DIR$/templates/init/test.html" />
+        <option value="$PROJECT_DIR$/LawOffice/settings.py" />
         <option value="$PROJECT_DIR$/templates/init/index.html" />
+        <option value="$PROJECT_DIR$/templates/web/news2.html" />
+        <option value="$PROJECT_DIR$/static/css/detail.css" />
+        <option value="$PROJECT_DIR$/templates/init/base.html" />
+        <option value="$PROJECT_DIR$/templates/web/blog2.html" />
+        <option value="$PROJECT_DIR$/web/urls.py" />
+        <option value="$PROJECT_DIR$/web/views.py" />
+        <option value="$PROJECT_DIR$/templates/web/news_detail.html" />
+        <option value="$PROJECT_DIR$/templates/web/news.html" />
+        <option value="$PROJECT_DIR$/templates/init/about.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1944" />
+    <option name="x" value="2015" />
     <option name="y" value="23" />
     <option name="width" value="1920" />
     <option name="height" value="1057" />
@@ -91,7 +823,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -113,6 +844,18 @@
             <path>
               <item name="LawOffice" type="b2602c69:ProjectViewProjectNode" />
               <item name="LawOffice" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LawOffice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LawOffice" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LawOffice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LawOffice" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -121,23 +864,41 @@
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="init" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="LawOffice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LawOffice" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/static/assets/.sass-cache" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates/web" />
+      <recent name="$PROJECT_DIR$/static/assets/css" />
+      <recent name="$PROJECT_DIR$/static/css" />
       <recent name="$PROJECT_DIR$/static" />
-      <recent name="$PROJECT_DIR$/templates" />
+      <recent name="$PROJECT_DIR$/static/images" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/css" />
+      <recent name="$PROJECT_DIR$/static" />
+      <recent name="$PROJECT_DIR$/templates/web" />
       <recent name="$PROJECT_DIR$/templates/init" />
+      <recent name="$PROJECT_DIR$/static/assets" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -187,25 +948,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1547211442671</updated>
-      <workItem from="1547211447224" duration="10827000" />
+      <workItem from="1547211447224" duration="20950000" />
+      <workItem from="1547308746507" duration="1021000" />
+      <workItem from="1547341110586" duration="9028000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10827000" />
+    <option name="totallyTimeSpent" value="30999000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1944" y="23" width="1920" height="1057" extended-state="0" />
+    <frame x="2015" y="23" width="1920" height="1057" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19222577" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19222577" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.3823834" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -213,12 +971,18 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Mongo Explorer" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.27253887" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32953367" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Mongo Explorer" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,54 +1023,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="920">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LawOffice/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/init/portfolio.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" selection-start-column="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/init/pricing.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" selection-start-column="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/init/detail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -328,57 +1044,205 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/init/about.html">
+    <entry file="file://$PROJECT_DIR$/static/assets02/img/tmp/slider/dude.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/assets02/img/twitters.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/assets02/img/transparent.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/assets02/img/logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/assets02/img/bg-footer-blue.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/assets02/img/bg-blue.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/assets02/img/arrow-white.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/assets02/img/arrow-hover.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/assets02/img/arrow-black.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/assets02/img/arrow.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/init/test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-243">
-          <caret line="8" column="67" selection-start-line="8" selection-start-column="67" selection-end-line="8" selection-end-column="67" />
+        <state relative-caret-position="2560">
+          <caret line="128" lean-forward="true" selection-start-line="128" selection-end-line="128" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/assets/img/tmp/slider/dude.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/assets/img/twitters.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/assets/img/transparent.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/assets/img/logo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/assets/img/bg-footer-blue.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/assets/img/bg-blue.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/assets/img/arrow-white.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/assets/img/arrow-hover.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/assets/img/arrow-black.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/assets/img/arrow.png">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/templates/init/portfolio.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/init/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-          <folding>
-            <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="260">
+          <caret line="13" column="57" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/init/pricing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="35" column="51" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LawOffice/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        <state relative-caret-position="939">
+          <caret line="126" selection-start-line="126" selection-end-line="126" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/semantic.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/list_custom.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/web/news.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/assets/.sass-cache/css/color/red.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/assets/css/color/red.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/detail.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <marker date="1547346867000" expanded="true" signature="85:255" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/assets/img/art/b2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/assets/img/art/about.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/assets/img/art/a2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/assets/css/style-dosis.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/init/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LawOffice/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/04.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/web/news2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3139">
+          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/web/news_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="28" column="33" lean-forward="true" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/web/news.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/init/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="90" lean-forward="true" selection-start-line="16" selection-start-column="90" selection-end-line="16" selection-end-column="90" />
         </state>
       </provider>
     </entry>

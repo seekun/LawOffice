@@ -8,13 +8,12 @@
     <meta name="keywords" content="">
     <meta name="author" content="Pragmatic Mates s.r.o. - http://pragmaticmates.com">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="shortcut icon" href="#">    
-    <link rel="stylesheet" type="text/css" href="assets/css/animate.css" media="screen, projection">
-    <link rel="stylesheet" type="text/css" href="assets/libraries/font-awesome/css/font-awesome.css" media="screen, projection">
-    <link rel="stylesheet" type="text/css" href="assets/libraries/rs-plugin/css/settings.css" media="screen, projection">
-    <link rel="stylesheet" type="text/css" href="assets/css/animate.css" media="screen, projection">
-    <link rel="stylesheet" type="text/css" href="assets/css/gosloo.css" media="screen, projection">
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" type="text/css" href="{% static 'assets/css/animate.css' %}" media="screen, projection">
+    <link rel="stylesheet" type="text/css" href="{% static 'assets/libraries/font-awesome/css/font-awesome.css' %}" media="screen, projection">
+    <link rel="stylesheet" type="text/css" href="{% static 'assets/libraries/rs-plugin/css/settings.css' %}" media="screen, projection">
+    <link rel="stylesheet" type="text/css" href="{% static 'assets/css/animate.css' %}" media="screen, projection">
+    <link rel="stylesheet" type="text/css" href="{% static 'assets/css/gosloo.css' %}" media="screen, projection">
 
 	<link href="http://fonts.useso.com/css?family=Raleway:300,400,500,600,700,800" rel="stylesheet" type="text/css">
 
@@ -28,7 +27,7 @@
         <div class="header">
             <div class="header-inner container clearfix">
                 <a href="index.html" class="header-logo">
-                    <img src="assets/img/logo.png" alt="#">
+                    <img src="{% static 'assets/img/logo.png' %}" alt="#">
                 </a>
 
                 <nav class="header-nav navbar-collapse collapse" role="navigation">
@@ -38,7 +37,6 @@
                         <li><a href="portfolio.html">Portfolio</a></li>
                         <li><a href="blog.html">Blog</a></li>
                         <li><a href="contact.html">Contact Us</a></li> 
-<li><a href="http://www.weidea.net">More theme</a></li>                        
                     </ul><!-- /.nav -->
                 </nav><!-- /.header-nav -->
 
@@ -78,88 +76,8 @@
 
                                     <img src="{% static 'assets/img/tmp/slider/dude.png' %}" alt="#">
                                 </div>
-
-                                <!-- TITLE -->
-                                <div class="tp-caption sft"
-                                    data-start="1500"
-                                    data-x="0"
-                                    data-y="150"
-                                    data-speed="900"
-                                    data-width="248"
-                                    data-height="209">
-
-                                    <h2 class="block-title white">Lorem <span class="light">Ipsum</span></h2>
-                                </div>                                   
-
-                                <!-- DESCRIPTION -->
-                                <div class="tp-caption sft"
-                                    data-start="2000"
-                                    data-x="0"
-                                    data-y="240"
-                                    data-speed="900"
-                                    data-width="248"
-                                    data-height="209">
-
-                                    <div class="block-large-text has-arrow white">
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetuer <br>
-                                            adipiscing elit, sed diam nonummy nibh <br>
-                                            euismod tincidunt ut laoreet dolore magna <br>
-                                            aliquam erat volutpat.
-                                        </p>
-
-                                        <a href="#" class="btn btn-large btn-white">Read More</a>
-                                    </div><!-- /.block-large-text -->
-                                </div>                                
                             </li>
 
-                            <li data-transition="fade" data-masterspeed="0" data-slotamount="6">
-                                <img src="assets/img/transparent.png" alt="">
-
-                                <!-- HAND -->
-                                <div class="tp-caption sfb"
-                                    data-x="0"
-                                    data-y="0"
-                                    data-speed="900"
-                                    data-width="765"
-                                    data-height="911">
-
-                                    <img src="assets/img/tmp/slider/hand.png" alt="#">
-                                </div>
-
-                                <!-- TITLE -->
-                                <div class="tp-caption sft"
-                                    data-start="1500"
-                                    data-x="550"
-                                    data-y="150"
-                                    data-speed="900"
-                                    data-width="248"
-                                    data-height="209">
-
-                                    <h2 class="block-title white">Lorem <span class="light">Ipsum</span></h2>
-                                </div>                                   
-
-                                <!-- DESCRIPTION -->
-                                <div class="tp-caption sft"
-                                    data-start="2000"
-                                    data-x="550"
-                                    data-y="240"
-                                    data-speed="900"
-                                    data-width="248"
-                                    data-height="209">
-
-                                    <div class="block-large-text has-arrow white">
-                                        <p>
-                                            Lorem ipsum dolor sit amet, consectetuer <br>
-                                            adipiscing elit, sed diam nonummy nibh <br>
-                                            euismod tincidunt ut laoreet dolore magna <br>
-                                            aliquam erat volutpat.
-                                        </p>
-                                        
-                                        <a href="#" class="btn btn-large btn-white">Read More</a>
-                                    </div><!-- /.block-large-text -->
-                                </div>                                
-                            </li>                            
                         </ul>
                     </div><!-- /.tp-banner -->        
                 </div><!-- /.tp-banner-container -->

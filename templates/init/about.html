@@ -1,5 +1,5 @@
-{% load staticfiles %}
 <!doctype html>
+{% load staticfiles %}
 <html>
 <head>
     <meta charset="utf-8">
@@ -7,13 +7,12 @@
     <meta name="keywords" content="">
     <meta name="author" content="Pragmatic Mates s.r.o. - http://pragmaticmates.com">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link rel="shortcut icon" href="#">    
-    <link rel="stylesheet" type="text/css" href="assets/css/animate.css" media="screen, projection">
-    <link rel="stylesheet" type="text/css" href="assets/libraries/font-awesome/css/font-awesome.css" media="screen, projection">
-    <link rel="stylesheet" type="text/css" href="assets/libraries/rs-plugin/css/settings.css" media="screen, projection">
-    <link rel="stylesheet" type="text/css" href="assets/css/animate.css" media="screen, projection">
-    <link rel="stylesheet" type="text/css" href="assets/css/gosloo.css" media="screen, projection">
+    <link rel="stylesheet" type="text/css" href="{% static 'assets02/css/animate.css' %}" media="screen, projection">
+    <link rel="stylesheet" type="text/css" href="{% static 'assets02/libraries/font-awesome/css/font-awesome.css' %}" media="screen, projection">
+    <link rel="stylesheet" type="text/css" href="{% static 'assets02/libraries/rs-plugin/css/settings.css' %}" media="screen, projection">
+    <link rel="stylesheet" type="text/css" href="{% static 'assets02/css/animate.css' %}" media="screen, projection">
+    <link rel="stylesheet" type="text/css" href="{% static 'assets02/css/gosloo.css' %}" media="screen, projection">
 
 	<link href="http://fonts.useso.com/css?family=Raleway:300,400,500,600,700,800" rel="stylesheet" type="text/css">
 
@@ -24,54 +23,13 @@
 
 <div id="wrapper">
     <div class="header-wrapper">
-        <div class="header">
-            <div class="header-inner container clearfix">
-                <a href="index.html" class="header-logo">
-                    <img src="assets/img/logo.png" alt="#">
-                </a>
 
-                <nav class="header-nav navbar-collapse collapse" role="navigation">
-                    <ul class="nav nav-pills">
-                        <li><a href="index.html">Home</a></li>
-                        <li class="active"><a href="about.html">About Us</a></li>                        
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                        <li><a href="blog.html">Blog</a></li>
-                        <li><a href="contact.html">Contact Us</a></li> 
-<li><a href="http://www.weidea.net">More theme</a></li>                        
-                    </ul><!-- /.nav -->
-                </nav><!-- /.header-nav -->
-
-                <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".header-nav">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button><!-- /.navbar-toggle -->
-
-                <ul class="social">
-                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                    <li><a href="#"><i class="fa fa-flickr"></i></a></li>
-                    <li><a href="#"><i class="fa fa-tumblr"></i></a></li>                                                              
-                </ul><!-- /.social -->
-            </div><!-- /.header-inner -->
-        </div><!-- /.header -->
 
         <div class="header-title">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
-                        <h1 class="header-title-main">About Us</h1>
-
-                        <div class="header-title-nav">
-                            <ul class="nav nav-pills">
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="pricing.html">Pricing</a></li>                        
-                                <li><a href="contact.html">Contact Us</a></li> 
-<li><a href="http://www.weidea.net">More theme</a></li>                        
-                            </ul>
-                        </div><!-- /.header-title-nav -->
+                        <h1 class="header-title-main">关于我们</h1>
                     </div><!-- /.col-->
                 </div><!-- /.row -->
             </div><!-- /.container -->
@@ -98,11 +56,11 @@
                                             <div class="portfolio-grid-item portfolio-grid-item-arrow-left xs-no-arrow sm-no-arrow col-sm-6 col-md-6">
                                                 <div class="portfolio-grid-item-inner xs-no-square">
                                                     <div class="portfolio-grid-item-content">
-                                                        <h2><a href="#">Full Responsive</a></h2>
+                                                        <h2><a href="#">公司名称</a></h2>
 
-                                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.</p>
+                                                        <p>中磊工程造价咨询有限责任公司</p>
 
-                                                        <a href="#" class="btn"><i class="fa fa-arrow-circle-o-right"></i>Read More</a>
+                                                        
                                                     </div><!-- /.portfolio-item-content -->
                                                 </div><!-- /.portfolio-grid-item-inner -->
                                             </div><!-- /.portfolio-grid-item -->
@@ -112,11 +70,11 @@
                                             <div class="portfolio-grid-item portfolio-grid-item-arrow-left xs-no-arrow sm-no-arrow col-sm-6 col-md-6 pull-right sm-float-left">
                                                 <div class="portfolio-grid-item-inner xs-no-square">
                                                     <div class="portfolio-grid-item-content">
-                                                        <h2><a href="#">Unlimeted Colors</a></h2>
+                                                        <h2><a href="#">公司地址</a></h2>
 
-                                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.</p>
+                                                        <p>北京市西城区阜成门外大街1号四川大厦东塔楼18层北区</p>
 
-                                                        <a href="#" class="btn"><i class="fa fa-arrow-circle-o-right"></i>Read More</a>
+                                                        
                                                     </div><!-- /.portfolio-item-content -->
                                                 </div><!-- /.portfolio-grid-item-inner -->
                                             </div><!-- /.portfolio-grid-item -->
@@ -142,11 +100,12 @@
                                             <div class="portfolio-grid-item portfolio-grid-item-arrow-right xs-no-arrow sm-no-arrow col-sm-6 col-md-6 pull-left sm-float-right">
                                                 <div class="portfolio-grid-item-inner xs-no-square">
                                                     <div class="portfolio-grid-item-content">
-                                                        <h2><a href="#">Beautiful Design</a></h2>
+                                                        <h2><a href="#">联系方式：</a></h2>
 
-                                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.</p>
+                                                        <p> 公司电话：010 88337312</p>
+                                                        <p> 传    真：010 88337312</p>
 
-                                                        <a href="#" class="btn"><i class="fa fa-arrow-circle-o-right"></i>Read More</a>
+                                                        
                                                     </div><!-- /.portfolio-item-content -->
                                                 </div><!-- /.portfolio-grid-item-inner -->
                                             </div><!-- /.portfolio-grid-item -->
@@ -156,11 +115,11 @@
                                             <div class="portfolio-grid-item portfolio-grid-item-arrow-right xs-no-arrow sm-no-arrow col-sm-6 col-md-6">
                                                 <div class="portfolio-grid-item-inner xs-no-square">
                                                     <div class="portfolio-grid-item-content">
-                                                        <h2><a href="#">Free Support</a></h2>
+                                                        <h2><a href="#">公司宗旨</a></h2>
 
-                                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.</p>
+                                                        <p>以质量求信誉，以帮助客户发展为己任，能高标准、严要求地为社会各界客户服务，为社会经济的发展和进步做出贡献。</p>
 
-                                                        <a href="#" class="btn"><i class="fa fa-arrow-circle-o-right"></i>Read More</a>
+                                                        
                                                     </div><!-- /.portfolio-item-content -->
                                                 </div><!-- /.portfolio-grid-item-inner -->
                                             </div><!-- /.portfolio-grid-item -->
@@ -180,18 +139,18 @@
                     <!-- ABOUT OUR COMPANY -->
                     <div class="block-content has-ears background-white">
                         <div class="block-content-inner">
-                            <h2 class="block-title">About Our <span class="light">Company</span></h2>
+                            <h2 class="block-title">公司 <span class="light">介绍</span></h2>
 
                             <div class="has-arrow block-large-text">
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.
-                                </p>
+中磊工程造价咨询有限责任公司是在原中磊会计师事务所有限责任公司的基础上分立出来的中介机构。是建设部认定的工程造价咨询甲级资质单位，通过了最高人民法院司法经济鉴定，在全国同类企业中成立时间最早、开展业务时间最长的专业咨询公司之一。公司近几年连续获得全国范围内工程造价咨询营业收入综合排名前50名企业的荣誉称号，在建设部、行业协会的质量检查中受到多次高度好评，也受到客户的普遍肯定。                                </p>
 
                                 <p>
-                                    Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.
-                                </p>
+公司成立以来始终 “诚信、科学”的宗旨，公司注重企业内部质量保证体系、注重资源和专业技术资源的建立、发展和完善。以质量求信誉，以帮助客户发展为己任，能高标准、严要求地为社会各界客户服务，为社会经济的发展和进步做出贡献。                                </p>
 
-                                <a href="#" class="btn btn-primary btn-large">Read More</a>
+                                <p>专业技术力量雄厚，有国家注册造价工程师、注册咨询工程师和中高级职称为主的工程造价专业人员百余人。他们熟悉工程技术、造价控制，了解多方面法律、法规。另外，公司有数名资深专家及有影响的业内人士组成的智囊团，作为公司坚强的后盾。</p>
+
+                                <p> 公司总部位于北京市，在上海、江西、吉林、广东、山东、山西省市设有15余家分公司；拥有员工百余人，造价工程师等专业技术人员73余人，其中具有中高级职称者62余人。</p>
                             </div><!-- /.has-arrow -->
                         </div><!-- /.block-content-inner -->
                     </div><!-- /.block-content -->
@@ -199,361 +158,36 @@
                     <!-- OUR CLIENTS -->
                     <div class="block-content background-white no-margin-bottom fullwidth">
                         <div class="block-content-inner">
-                            <h2 class="block-title">Our <span class="light">Clients</span></h2>
+                            <h2 class="block-title">公司经营<span class="light">范围</span></h2>
 
                             <div class="has-arrow block-large-text mb50">
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
-                                </p>
+                                （一）建设项目建议书及可行性研究投资估算、项目经济评价报告的编制和审核；
+                                 </p>
+                                <p>（二）建设项目概预算的编制与审核，并配合设计方案比选、优化设计、限额设计等工作进行工程造价分析与控制；</p>
+                                <p> （三）建设项目合同价款的确定；合同价款的签订与调整及工程款支付，工程结算及竣工结（决）算报告的编制和审核等；</p>
+                                <p> （四）工程造价经济纠纷的鉴定和仲裁的咨询；</p>
+                                <p>   （五）提供工程造价信息服务等。</p>
+                                <p>    中磊工程造价咨询有限责任公司一直以执业质量为生存之本，在建设部、北京市建设委员会多次质量检查中受到高度好评，近几年无任何不良执业记录。</p>
                             </div><!-- /.block-large-text -->
-
-                            <div class="partners-items no-effect row">
-                                <div class="partner-item col-sm-3 col-xs-12 center">
-                                    <a href="#" class="partner-target">
-                                        <img src="assets/img/tmp/logos/themeforest.png" alt="#" class="img-responsive">
-                                    </a>
-                                </div><!-- /.partner-item -->
-
-                                <div class="partner-item col-sm-3 col-xs-12 center">
-                                    <a href="#" class="partner-target">
-                                        <img src="assets/img/tmp/logos/photodune.png" alt="#" class="img-responsive">
-                                    </a>
-                                </div><!-- /.partner-item -->
-
-                                <div class="partner-item col-sm-3 col-xs-12 center">
-                                    <a href="#" class="partner-target">
-                                        <img src="assets/img/tmp/logos/graphicriver.png" alt="#" class="img-responsive">
-                                    </a>
-                                </div><!-- /.partner-item -->
-
-                                <div class="partner-item col-sm-3 col-xs-12 center">
-                                    <a href="#" class="partner-target">
-                                        <img src="assets/img/tmp/logos/codecanyon.png" alt="#" class="img-responsive">
-                                    </a>
-                                </div><!-- /.partner-item -->                                                                
-                            </div>
-                        </div><!-- /.block-content-inner -->
-                    </div><!-- /.block-content -->
-
-                    <!-- CAROUSEL -->
-                    <div class="block-content background-primary-medium no-margin fullwidth bootstrap-carousel">
-                        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                                            
-                            <div class="carousel-inner">
-                                <div class="item active">
-                                    <div class="row">
-                                        <div class="col-xs-12 col-sm-7 col-md-5">
-                                            <h2 class="block-title">Recent <span class="light">Work</span></h2>
-
-                                            <div class="block-large-text has-arrow">
-                                                <p>
-                                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Nam liber tempor cum soluta nobis.
-                                                </p>
-
-                                                <a href="#" class="btn btn-white btn-large">View Works</a>
-                                            </div><!-- /.block-large-text -->
-                                        </div>
-
-                                        <div class="col-sm-5 col-md-7 center hidden-xs">
-                                            <img src="assets/img/tmp/carousels/mobile.png" alt="#" class="img-responsive">
-                                        </div>
-                                    </div><!-- /.row -->
-                                </div><!-- /.item -->
-
-                                <div class="item">
-                                    <div class="row">
-                                        <div class="col-sm-5 col-md-5 center hidden-xs">
-                                            <img src="assets/img/tmp/carousels/woman.png" alt="#" class="img-responsive">
-                                        </div>
-
-                                        <div class="col-xs-12 col-sm-7 col-md-7">
-                                            <h2 class="block-title">Customer <span class="light">Reviews</span></h2>
-
-                                            <div class="block-large-text has-arrow">
-                                                <p>
-                                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-                                                </p>
-                                            </div><!-- /.block-large-text -->
-                                        </div>
-                                    </div><!-- /.row -->
-                                </div><!-- /.item -->
-                            </div><!-- /.carousel-inner -->
-
-                            <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-                                <i class="fa fa-chevron-left"></i>
-                            </a><!-- /.carousel-control -->
-
-                            <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-                                <i class="fa fa-chevron-right"></i>
-                            </a><!-- /.carousel-control -->
-                        </div><!-- /.carousel -->
-                    </div><!-- /.block-content -->
-
-                    <!-- CREATIVE TEAM -->
-                    <div class="block-content background-white no-margin-bottom">
-                        <div class="block-content-inner">
-                            <h2 class="block-title">Creative <span class="light">Team</span></h2>
-
-                            <div class="block-large-text has-arrow">
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore <a href="#">blog</a> aliquam erat volutpat. 
-                                </p>
-                            </div><!-- /.block-large-text -->
-
-                            <div class="reset-block-padding reset-block-padding-bottom">
-                                <div class="team row">
-                                    <div class="team-item col-sm-6 col-md-3 hidden-xs">
-                                        <div class="team-item-inner">
-                                            <div class="team-item-image">
-                                                <a href="#">
-                                                    <span class="team-item-image-target">
-                                                        <i class="fa fa-plus-circle"></i>
-                                                    </span>
-
-                                                    <img src="assets/img/tmp/members/1.jpg" alt="#">
-                                                </a>
-                                            </div><!-- /.team-item-image -->                                
-                                        </div><!-- /.team-item-inner -->
-                                    </div><!-- /.team-item -->
-
-                                    <div class="team-item team-item-arrow-left xs-no-arrow sm-no-arrow col-sm-6 col-md-3">
-                                        <div class="team-item-inner xs-no-square">
-                                            <div class="team-item-content">
-                                                <h2><a href="#">John Doe</a></h2>
-                                                <h3>Art Director</h3>
-
-                                                <p>
-                                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.
-                                                </p>
-
-                                                <ul class="social">
-                                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                                    <li><a href="#"><i class="fa fa-flickr"></i></a></li>
-                                                    <li><a href="#"><i class="fa fa-tumblr"></i></a></li>                                                              
-                                                </ul><!-- /.social -->                                            
-                                            </div><!-- /.team-item-content -->                                
-                                        </div><!-- /.team-item-inner -->
-                                    </div><!-- /.team-item -->
-
-                                    <div class="team-item col-sm-6 col-md-3 sm-float-right hidden-xs">
-                                        <div class="team-item-inner">
-                                            <div class="team-item-image">
-                                                <a href="#">
-                                                    <span class="team-item-image-target">
-                                                        <i class="fa fa-plus-circle"></i>
-                                                    </span>
-                                                    
-                                                    <img src="assets/img/tmp/members/2.jpg" alt="#">
-                                                </a>
-                                            </div><!-- /.team-item-image -->                                
-                                        </div><!-- /.team-item-inner -->
-                                    </div><!-- /.team-item -->
-
-                                    <div class="team-item team-item-arrow-left xs-no-arrow sm-no-arrow col-sm-6 col-md-3 sm-float-left">
-                                        <div class="team-item-inner xs-no-square">
-                                            <div class="team-item-content">
-                                                <h2><a href="#">Britney Doe</a></h2>
-                                                <h3>Manager</h3>
-
-                                                <p>
-                                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.
-                                                </p>
-
-                                                <ul class="social">
-                                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                                    <li><a href="#"><i class="fa fa-flickr"></i></a></li>
-                                                    <li><a href="#"><i class="fa fa-tumblr"></i></a></li>                                                              
-                                                </ul><!-- /.social -->                                          
-                                            </div><!-- /.team-item-content -->                                
-                                        </div><!-- /.team-item-inner -->
-                                    </div><!-- /.team-item -->
-
-                                    <div class="team-item team-item-arrow-right xs-no-arrow sm-no-arrow col-sm-6 col-md-3 sm-float-right">
-                                        <div class="team-item-inner xs-no-square">
-                                            <div class="team-item-content">
-                                                <h2><a href="#">Frank Doe</a></h2>
-                                                <h3>Web Designer</h3>
-
-                                                <p>
-                                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.
-                                                </p>
-
-                                                <ul class="social">
-                                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                                    <li><a href="#"><i class="fa fa-flickr"></i></a></li>
-                                                    <li><a href="#"><i class="fa fa-tumblr"></i></a></li>                                                              
-                                                </ul><!-- /.social -->                                          
-                                            </div><!-- /.team-item-content -->                                
-                                        </div><!-- /.team-item-inner -->
-                                    </div><!-- /.team-item -->
-
-                                    <div class="team-item col-sm-6 col-md-3 sm-float-left hidden-xs">
-                                        <div class="team-item-inner">
-                                            <div class="team-item-image">
-                                                <a href="#">
-                                                    <span class="team-item-image-target">
-                                                        <i class="fa fa-plus-circle"></i>
-                                                    </span>
-                                                    
-                                                    <img src="assets/img/tmp/members/3.jpg" alt="#">
-                                                </a>
-                                            </div><!-- /.team-item-image -->                                
-                                        </div><!-- /.team-item-inner -->
-                                    </div><!-- /.team-item -->
-
-                                    <div class="team-item team-item-arrow-right xs-no-arrow sm-no-arrow col-sm-6 col-md-3">
-                                        <div class="team-item-inner xs-no-square">
-                                            <div class="team-item-content">
-                                                <h2><a href="#">Mike Doe</a></h2>
-                                                <h3>Developer</h3>
-
-                                                <p>
-                                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt.
-                                                </p>
-
-                                                <ul class="social">
-                                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                                    <li><a href="#"><i class="fa fa-flickr"></i></a></li>
-                                                    <li><a href="#"><i class="fa fa-tumblr"></i></a></li>                                                              
-                                                </ul><!-- /.social -->                                          
-                                            </div><!-- /.team-item-content -->                                
-                                        </div><!-- /.team-item-inner -->
-                                    </div><!-- /.team-item -->
-
-                                    <div class="team-item col-sm-6 col-md-3 hidden-xs">
-                                        <div class="team-item-inner">
-                                            <div class="team-item-image">
-                                                <a href="#">
-                                                    <span class="team-item-image-target">
-                                                        <i class="fa fa-plus-circle"></i>
-                                                    </span>
-                                                    
-                                                    <img src="assets/img/tmp/members/4.jpg" alt="#">
-                                                </a>
-                                            </div><!-- /.team-item-image -->                                
-                                        </div><!-- /.team-item-inner -->
-                                    </div><!-- /.team-item -->
-                                </div><!-- /.row -->
-                            </div><!-- /.reset-block-padding -->
-                        </div><!-- /.block-content-inner -->
-                    </div><!-- /.block-content -->
-
-                    <!-- TWITTER -->
-                    <div class="block-content has-ears background-twitter twitter">
-                        <div class="block-content-inner">
-                            <h2 class="block-title">New <span class="light">Tweets</span></h2>
-
-                            <div class="block-large-text has-arrow make-it-dinosauric">
-                                <div class="col-sm-8">
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh. 
-                                </div>
-
-                                <div class="col-sm-4">
-                                    <a href="#" class="btn btn-primary btn-white btn-large">Follow Us</a>
-                                </div>
-                            </div><!-- /.block-large-text -->
-                        </div><!-- /.block-content-inner -->
-                    </div><!-- /.block-content -->
-
-                    <!-- PURCHASE -->
-                    <div class="block-content background-white small-padding dig-it">
-                        <div class="block-content-inner">
-                            <div class="row">
-                                <div class="col-xs-12 xs-mb30 col-sm-8 col-md-9">
-                                    <div class="block-large-text has-arrow">
-                                        <p class="no-margin-bottom">
-                                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
-                                        </p>
-
-                                    </div><!-- /.block-large-text -->
-                                </div>
-
-                                <div class="col-xs-12 col-sm-4 col-md-3">
-                                    <a href="#" class="btn btn-large btn-primary btn-block">Purchase</a>
-                                </div>
-                            </div><!-- /.row -->
                         </div><!-- /.block-content-inner -->
                     </div><!-- /.block-content -->
                 </div><!-- /.container -->
             </div><!-- /.main-inner -->
         </div><!-- /.main -->
     </div><!-- /.main-wrapper -->
-
-    <div class="footer-wrapper">
-        <div class="footer">
-            <div class="footer-inner">
-                <div class="footer-top">
-                    <div class="container">
-                        <div class="row">
-                            <div class="footer-top-inner col-sm-12">
-                                <a href="#" class="footer-scroll-top">
-                                    <i class="fa fa-angle-double-up"></i>
-                                </a>
-                            </div><!-- /.footer-top-inner -->
-                        </div><!-- /.row -->
-                    </div><!-- /.container -->
-                </div><!-- /.footer-top -->
-
-                <div class="footer-bottom">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-12">
-                                <div class="footer-bottom-copyright">
-                                <p>
-                                    &copy; 2014 Gosloo <span class="separator">|</span> Pragmatic Mates <span class="separator">|</span> More Templates Your Company Name -
-                                </p>
-                                </div><!-- /.copyright -->
-
-                                <div class="footer-bottom-nav">
-                                    <ul class="nav nav-pills">
-                                        <li>
-                                            <a href="index.html">Home</a>                                        
-                                        </li>
-
-                                        <li>
-                                            <a href="about.html">About Us</a>
-                                        </li>
-
-                                        <li>
-                                            <a href="portfolio.html">Portfolio</a>
-                                        </li>
-
-                                        <li>
-                                            <a href="blog.html">Blog</a>
-                                        </li>               
-
-                                        <li>
-                                            <a href="contact.html">Contact us</a>
-                                        </li>                                                                                             
-                                    </ul>
-                                </div><!-- /.footer-bottom-nav -->
-                            </div><!-- /.col-sm-12 -->
-                        </div><!-- /.row -->
-                    </div><!-- /.container -->
-                </div><!-- /.footer-bottom -->
-            </div><!-- /.footer-inner -->
-        </div><!-- /.footer -->
-    </div><!-- /.footer-wrapper -->
 </div><!-- /#wrapper -->
 
-<script type="text/javascript" src="assets/js/jquery.js"></script>
-<script type="text/javascript" src="assets/libraries/bootstrap-sass/vendor/assets/javascripts/bootstrap/carousel.js"></script>
-<script type="text/javascript" src="assets/libraries/bootstrap-sass/vendor/assets/javascripts/bootstrap/button.js"></script>
-<script type="text/javascript" src="assets/libraries/bootstrap-sass/vendor/assets/javascripts/bootstrap/collapse.js"></script>
-<script type="text/javascript" src="assets/libraries/bootstrap-sass/vendor/assets/javascripts/bootstrap/transition.js"></script>
-<script type="text/javascript" src="assets/libraries/jquery-smooth-scroll/src/jquery.smooth-scroll.js"></script>
-<script type="text/javascript" src="assets/libraries/isotope/jquery.isotope.min.js"></script>
-<script type="text/javascript" src="assets/libraries/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
-<script type="text/javascript" src="assets/libraries/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
-<script type="text/javascript" src="assets/js/gosloo.js"></script>
+<script type="text/javascript" src="{% static 'assets02/js/jquery.js"></script>
+<script type="text/javascript" src="{% static 'assets02/libraries/bootstrap-sass/vendor/{% static 'assets02/javascripts/bootstrap/carousel.js"></script>
+<script type="text/javascript" src="{% static 'assets02/libraries/bootstrap-sass/vendor/{% static 'assets02/javascripts/bootstrap/button.js"></script>
+<script type="text/javascript" src="{% static 'assets02/libraries/bootstrap-sass/vendor/{% static 'assets02/javascripts/bootstrap/collapse.js"></script>
+<script type="text/javascript" src="{% static 'assets02/libraries/bootstrap-sass/vendor/{% static 'assets02/javascripts/bootstrap/transition.js"></script>
+<script type="text/javascript" src="{% static 'assets02/libraries/jquery-smooth-scroll/src/jquery.smooth-scroll.js"></script>
+<script type="text/javascript" src="{% static 'assets02/libraries/isotope/jquery.isotope.min.js"></script>
+<script type="text/javascript" src="{% static 'assets02/libraries/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
+<script type="text/javascript" src="{% static 'assets02/libraries/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+<script type="text/javascript" src="{% static 'assets02/js/gosloo.js"></script>
 
 </body>
 </html>

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+{% extends 'init/base.html' %}
+{% load staticfiles %}
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="shortcut icon" href="{% static 'assets/img/favicon.png' %}">
+<title>Frost</title>
+</head>
+<body>
+{% block content %}
+
+
+<!--/.navbar -->
+<div class="offset"></div>
+<div class="light-wrapper">
+<div class="container inner">
+  <div class="row">
+    <div class="col-sm-8 content">
+      <div class="blog-posts classic-blog">
+        <div class="post">
+          <figure class="main"><a href="blog-post.html">
+            <div class="text-overlay">
+              <div class="info">Read More</div>
+            </div>
+            <img src="{% static 'assets/img/art/bb1.jpg' %}" alt="" /></a></figure>
+          <div class="post-content">
+            <h2 class="post-title"><a href="blog-post.html">Nibh Purus Pellentesque</a></h2>
+            <div class="meta"><span class="date">20 May</span><span class="categories"><a href="#">Photography</a>, <a href="#">Daily</a></span><span class="comments"><a href="#">15 Comments</a></span></div>
+            <p>Sed posuere consectetur est at lobortis. Maecenas sed diam eget risus varius blandit sit amet non magna. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
+            <a href="#" class="more">Continue Reading</a> </div>
+        </div>
+        <hr />
+        <div class="post">
+          <figure class="media-wrapper player main">
+            <iframe src="http://player.vimeo.com/video/24496773?title=0&amp;byline=0&amp;portrait=0" width="604" height="340" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+          </figure>
+          <div class="post-content">
+            <h2 class="post-title"><a href="blog-post.html">Vulputate Pellentesque Porta</a></h2>
+            <div class="meta"><span class="date">14 Apr</span><span class="categories"><a href="#">Photography</a>, <a href="#">Daily</a></span><span class="comments"><a href="#">15 Comments</a></span></div>
+            <p>Etiam porta sem malesuada magna mollis euismod. Duis mollis, est non commodo luctus, nisi erat em porttitor ligula, eget lacinia odio sem nec elit. Duis eu leo quam. Pellentesque ornare sem. </p>
+            <a href="#" class="more">Continue Reading</a> </div>
+        </div>
+        <hr />
+        <div class="post">
+          <figure class="main"><a href="blog-post.html">
+            <div class="text-overlay">
+              <div class="info">Read More</div>
+            </div>
+            <img src="{% static 'assets/img/art/bb2.jpg' %}" alt="" /></a></figure>
+          <div class="post-content">
+            <h2 class="post-title"><a href="blog-post.html">Porta Consectetur Sem</a></h2>
+            <div class="meta"><span class="date">5 Feb</span><span class="categories"><a href="#">Photography</a>, <a href="#">Daily</a></span><span class="comments"><a href="#">15 Comments</a></span></div>
+            <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Vestibulum id ligula porta felis euismod semper. Donec sed odio dui. Curabitur blandit tempus porttitor. Cras mattis consectetur purus. Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui.</p>
+            <a href="#" class="more">Continue Reading</a> </div>
+        </div>
+        <hr />
+        <div class="post">
+          <figure class="main"><a href="blog-post.html">
+            <div class="text-overlay">
+              <div class="info">Read More</div>
+            </div>
+            <img src="{% static 'assets/img/art/bb3.jpg' %}" alt="" /></a></figure>
+          <div class="post-content">
+            <h2 class="post-title"><a href="blog-post.html">Adipiscing Cras Vestibulum</a></h2>
+            <div class="meta"><span class="date">13 Jan</span><span class="categories"><a href="#">Photography</a>, <a href="#">Daily</a></span><span class="comments"><a href="#">15 Comments</a></span></div>
+            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Nullam quis risus eget urna mollis ornare vel eu leo. Nulla vitae elit libero, a pharetra augue. Maecenas sed diam eget risus varius blandit sit amet non magna. </p>
+            <a href="#" class="more">Continue Reading</a> </div>
+        </div>
+        <hr />
+      </div>
+      <!-- /.blog-posts -->
+
+      <div class="pagination">
+        <ul>
+          <li><a href="#">Prev</a></li>
+          <li class="active"><a href="#">1</a></li>
+          <li><a href="#">2</a></li>
+          <li><a href="#">3</a></li>
+          <li><a href="#">Next</a></li>
+        </ul>
+      </div>
+      <!-- /.pagination -->
+
+    </div>
+    <!-- /.content -->
+    <aside class="col-sm-4 sidebar lp30">
+      <div class="sidebox widget">
+        <form class="searchform" method="get">
+          <input type="text" id="s2" name="s" value="type and hit enter" onfocus="this.value=''" onblur="this.value='type and hit enter'"/>
+        </form>
+      </div>
+      <!-- /.widget -->
+      <div class="sidebox widget">
+        <div class="section-title">
+          <h3 class="widget-title">Popular Posts</h3>
+        </div>
+        <ul class="post-list">
+          <li>
+            <div class="icon-overlay"> <a href="blog-post.html"><img src="{% static 'assets/img/art/a1.jpg' %}" alt="" /> </a> </div>
+            <div class="meta">
+              <h6><a href="blog-post.html">Magna Mollis Ultricies</a></h6>
+              <em>3th Oct 2012</em> </div>
+          </li>
+          <li>
+            <div class="icon-overlay"> <a href="blog-post.html"><img src="{% static 'assets/img/art/a2.jpg' %}" alt="" /> </a> </div>
+            <div class="meta">
+              <h6><a href="blog-post.html">Ornare Nullam Risus</a></h6>
+              <em>28th Sep 2012</em> </div>
+          </li>
+          <li>
+            <div class="icon-overlay"> <a href="blog-post.html"><img src="{% static 'assets/img/art/a3.jpg' %}" alt="" /> </a> </div>
+            <div class="meta">
+              <h6><a href="blog-post.html">Euismod Nullam</a></h6>
+              <em>15th Aug 2012</em> </div>
+          </li>
+        </ul>
+        <!-- /.post-list -->
+      </div>
+      <!-- /.widget -->
+      <div class="sidebox widget">
+        <div class="section-title">
+          <h3 class="widget-title">Elsewhere</h3>
+        </div>
+        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Integer posuere erat a ante venenatis dapibus.</p>
+        <ul class="social">
+          <li><a href="#"><i class="icon-s-rss"></i></a></li>
+          <li><a href="#"><i class="icon-s-twitter"></i></a></li>
+          <li><a href="#"><i class="icon-s-facebook"></i></a></li>
+          <li><a href="#"><i class="icon-s-pinterest"></i></a></li>
+          <li><a href="#"><i class="icon-s-linkedin"></i></a></li>
+          <li><a href="#"><i class="icon-s-dribbble"></i></a></li>
+          <li><a href="#"><i class="icon-s-flickr"></i></a></li>
+        </ul>
+        <div class="clearfix"></div>
+      </div>
+      <!-- /.widget -->
+
+      <div class="sidebox widget">
+        <div class="section-title">
+          <h3 class="widget-title">Custom Text</h3>
+        </div>
+        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+        <p>Sed posuere consectetur est at lobortis. Vivamus sagittis lacus vel augue. Fusce  mauris condimentum.</p>
+      </div>
+      <!-- /.widget -->
+      <div class="sidebox widget">
+        <div class="section-title">
+          <h3 class="widget-title">Categories</h3>
+        </div>
+        <ul class="circled">
+          <li><a href="#">Web Design (21)</a></li>
+          <li><a href="#">Photography (19)</a></li>
+          <li><a href="#">Graphic Design (16)</a></li>
+          <li><a href="#">Manipulation (15)</a></li>
+          <li><a href="#">Motion Graphics (12)</a></li>
+        </ul>
+      </div>
+      <!-- /.widget -->
+      <div class="sidebox widget">
+        <div class="section-title">
+          <h3 class="widget-title">Tags</h3>
+        </div>
+        <ul class="tag-list">
+          <li><a href="#">Web</a></li>
+          <li><a href="#">Photography</a></li>
+          <li><a href="#">Illustation</a></li>
+          <li><a href="#">Fun</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Design</a></li>
+          <li><a href="#">Inspiration</a></li>
+          <li><a href="#">Tips</a></li>
+          <li><a href="#">Manipulation</a></li>
+          <li><a href="#">Graphic</a></li>
+          <li><a href="#">Travel</a></li>
+          <li><a href="#">Concept</a></li>
+          <li><a href="#">Print</a></li>
+        </ul>
+        <!-- /.tag-list -->
+      </div>
+      <!-- /.widget -->
+    </aside>
+    <!-- /.col-sm-4 .sidebar -->
+
+  </div>
+  <!-- /.row -->
+
+</div>
+<!-- /.container -->
+</div>
+<!-- /.light-wrapper -->
+
+
+{% endblock %}
+
+</body>
+</html>

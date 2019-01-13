@@ -1,0 +1,80 @@
+{% extends 'init/base.html' %}
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>Frost</title>
+
+</head>
+<body>
+{% block content %}
+
+<div class="body-wrapper">
+  <div class="offset"></div>
+  <div class="light-wrapper">
+    <div class="container inner">
+      <div class="blog-posts grid-blog col3">
+        {% for news in news_list %}
+            <div class="post">
+          <figure class="main"><a href="{% url 'web:news_detail' news.id %}">
+            <div class="text-overlay">
+              <div class="info" href="{% url 'web:news_detail' news.id %}">阅读更多</div>
+            </div>
+            <img src="{% static 'images/04.jpg' %}" alt="" /></a></figure>
+          <div class="post-content">
+            <h2 class="post-title"><a href="blog-post.html">{{ news.title}}</a></h2>
+            <div class="meta"><span class="date">{{ news.time }}</span></div>
+            <p>{{ news.description }}</p>
+            <a  class="more"  href="{% url 'web:news_detail' news.id %}">继续阅读</a> </div>
+        </div>
+        <hr />
+        {% endfor %}
+
+      </div>
+      <!-- /.blog-posts -->
+      
+      <div class="pagination">
+
+       <ul class="pagination" id="pager">
+                    {% if news_list.has_previous %}
+                        <li class="previous">
+                            <a href="/web/news/?page={{ news_list.previous_page_number }}">上一页</a>
+                        </li>
+                    {% else %}
+                        <li class="disabled"><a href="#">上一页</a></li>
+                    {% endif %}
+                    {% for num in paginator.page_range %}
+                        {% if num == currentPage %}
+                            <li class="item active">
+                                <a href="/web/news/?page={{ num }}">{{ num }}</a>
+                            </li>
+                        {% else %}
+                            <li class="item">
+                                <a href="/web/news/?page={{ num }}">{{ num }}</a>
+                            </li>
+                        {% endif %}
+                    {% endfor %}
+                    {% if news_list.has_next %}
+                        <li class="previous">
+                            <a href="/web/news/?page={{ news_list.next_page_number }}">下一页</a>
+                        </li>
+                    {% else %}
+                        <li class="disabled"><a href="#">下一页</a></li>
+                    {% endif %}
+
+                </ul>
+      </div>
+      <!-- /.pagination --> 
+      
+    </div>
+    <!-- /.container --> 
+  </div>
+  <!-- /.light-wrapper -->
+</div>
+{% endblock %}
+</body>
+</html>

@@ -132,17 +132,17 @@ EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 # reset password
 # https://www.zmrenwu.com/post/49/
 
-AUTHENTICATION_BACKENDS = (
-    'django.contrib.auth.backends.ModelBackend',
-    'users.backends.EmailBackend',
-)
+# AUTHENTICATION_BACKENDS = (
+#     'django.contrib.auth.backends.ModelBackend',
+#     # 'users.backends.EmailBackend',
+# )
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'upload').replace("//", "/")
 MEDIA_URL = '/upload/'
 
 STATIC_URL = '/static/'
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
-# STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
+# STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
 USE_TZ = False
 
 SITE_ID = 1
@@ -150,4 +150,4 @@ CKEDITOR_JQUERY_URL = 'https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery
 
 CKEDITOR_UPLOAD_PATH = 'upload/'
 CKEDITOR_IMAGE_BACKEND = "pillow"
-upload_path = "/Users/sk/PycharmProjects/ahu/upload/"
+# upload_path = "/Users/sk/PycharmProjects/ahu/upload/"
