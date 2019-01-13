@@ -4,16 +4,42 @@ from .models import IndexPicture, Project, News
 from django.core.paginator import PageNotAnInteger, Paginator, EmptyPage
 
 
+def getSecondLasts(i):
+    indexAllPictures = IndexPicture.objects.all()
+    try:
+        secondLasts = indexAllPictures.filter(pk=indexAllPictures.last().pk - i)
+        if secondLasts:
+            secondLast = secondLasts[0]
+            return secondLast, i
+        else:
+            i = i + 1
+            return getSecondLasts(i)
+    except:
+        i = i + 1
+        return getSecondLasts(i)
+
+def getThirdLasts(i):
+    indexAllPictures = IndexPicture.objects.all()
+    try:
+        thirdLasts = indexAllPictures.filter(pk=indexAllPictures.last().pk - i)
+        if thirdLasts:
+            thirdLast = thirdLasts[0]
+            return thirdLast
+        else:
+            i = i + 1
+            return getThirdLasts(i)
+    except:
+        i = i + 1
+        return getThirdLasts(i)
+
 def index(request):
     indexAllPictures = IndexPicture.objects.all()
     context = {}
     Last = indexAllPictures.last()
-    secondLasts = indexAllPictures.filter(pk=indexAllPictures.last().pk - 1)
-    if secondLasts:
-        secondLast = secondLasts[0]
-    thirdLasts = indexAllPictures.filter(pk=indexAllPictures.last().pk - 2)
-    if thirdLasts:
-        thirdLast = thirdLasts[0]
+    i = 1
+    secondLast, i = getSecondLasts(i)
+    thirdLast = getThirdLasts(i+1)
+
     context['Last'] = Last
     context['secondLast'] = secondLast
     context['thirdLast'] = thirdLast
