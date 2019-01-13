@@ -24,7 +24,7 @@
             <div class="grid-portfolio fix-portfolio">
               <ul class="filter">
                   {% for type in allType %}
-                      {% if type.nameEN == displayProject %}
+                      {% if type.nameEN == category %}
                         <li><a class="active" href="/web/services/?category={{ type.nameEN }}&page=1" data-filter="*">{{ type.nameCN }}</a></li>
                       {% else %}
                           <li><a href="/web/services/?category={{ type.nameEN }}&page=1" data-filter="*">{{ type.nameCN }}</a></li>
