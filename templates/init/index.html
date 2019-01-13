@@ -1,164 +1,65 @@
+{% extends 'init/base.html' %}
 {% load staticfiles %}
-<!doctype html>
-
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <meta name="author" content="Pragmatic Mates s.r.o. - http://pragmaticmates.com">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="#">
-    <link rel="stylesheet" type="text/css" href="{% static 'assets/css/animate.css' %}" media="screen, projection">
-    <link rel="stylesheet" type="text/css" href="{% static 'assets/libraries/font-awesome/css/font-awesome.css' %}" media="screen, projection">
-    <link rel="stylesheet" type="text/css" href="{% static 'assets/libraries/rs-plugin/css/settings.css' %}" media="screen, projection">
-    <link rel="stylesheet" type="text/css" href="{% static 'assets/css/animate.css' %}" media="screen, projection">
-    <link rel="stylesheet" type="text/css" href="{% static 'assets/css/gosloo.css' %}" media="screen, projection">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
 
-	<link href="http://fonts.useso.com/css?family=Raleway:300,400,500,600,700,800" rel="stylesheet" type="text/css">
+<title>{% block title %}Home{% endblock %}</title>
 
-    <title>Gosloo | Portfolio HTML Template</title>
 </head>
-
 <body>
+{% block content %}
+  <!--/.navbar -->
+    <div class="offset"></div>
+  <div id="home" class="section">
+    <div class="light-wrapper">
+      <div class="fullscreenbanner-container revolution">
+        <div class="fullscreenbanner">
+          <ul>
+            <li data-transition="fade"> <img src="{{ Last.picture.url }}" alt="" />
+              <div class="caption large sfb" data-x="center" data-y="245" data-speed="900" data-start="800" data-easing="Sine.easeOut">中磊工程造价咨询有限责任公司</div>
+              <div class="caption small sfb" data-x="center" data-y="319" data-speed="900" data-start="1500" data-easing="Sine.easeOut">保证体系、注重资源、技术专业</div>
+              <div class="caption small sfb" data-x="center" data-y="362" data-speed="900" data-start="2200" data-easing="Sine.easeOut">
+                <div class="smooth"><a href="{% url 'web:services' %}" class="btn btn-border">项目详情</a></div>
+              </div>
+            </li>
+            <li data-transition="fade"> <img src="{{ secondLast.picture.url }}" alt="" />
+              <div class="caption large customin customout" data-x="center" data-y="255" data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+						data-speed="600"
+						data-start="700"
+						data-easing="Back.easeOut"
+						data-endspeed="300"
+						data-endeasing="Power1.easeIn">ZL is a creative team</div>
+              <div class="caption small customin customout" data-x="center" data-y="329" data-customin="x:0;y:0;z:0;rotationX:90;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
+						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+						data-speed="600"
+						data-start="1100"
+						data-easing="Back.easeOut"
+						data-endspeed="300"
+						data-endeasing="Power1.easeIn">Specializing in branding, Cost & Arbitration consulting</div>
+            </li>
 
-<div id="wrapper">
-    <div class="header-wrapper">
-        <div class="header">
-            <div class="header-inner container clearfix">
-                <a href="index.html" class="header-logo">
-                    <img src="{% static 'assets/img/logo.png' %}" alt="#">
-                </a>
-
-                <nav class="header-nav navbar-collapse collapse" role="navigation">
-                    <ul class="nav nav-pills">
-                        <li class="active"><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About Us</a></li>                        
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                        <li><a href="blog.html">Blog</a></li>
-                        <li><a href="contact.html">Contact Us</a></li> 
-                    </ul><!-- /.nav -->
-                </nav><!-- /.header-nav -->
-
-                <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".header-nav">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button><!-- /.navbar-toggle -->
-
-                <ul class="social">
-                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                    <li><a href="#"><i class="fa fa-flickr"></i></a></li>
-                    <li><a href="#"><i class="fa fa-tumblr"></i></a></li>                                                              
-                </ul><!-- /.social -->
-            </div><!-- /.header-inner -->
-        </div><!-- /.header -->
-
-        <!-- REVOLUTION SLIDER -->
-        <div class="header-content">
-            <div class="container">
-                <div class="tp-banner-container">                                
-                    <div class="tp-banner rs-banner">
-                        <ul class="unstyled" style="position: relative">
-                            <li data-transition="fade" data-masterspeed="0" data-slotamount="6">
-                                <img src="assets/img/transparent.png" alt="">
-
-                                <!-- DUDE -->
-                                <div class="tp-caption sfb"
-                                    data-x="425"
-                                    data-y="0"
-                                    data-speed="900"
-                                    data-width="765"
-                                    data-height="911">
-
-                                    <img src="{% static 'assets/img/tmp/slider/dude.png' %}" alt="#">
-                                </div>
-                            </li>
-
-                        </ul>
-                    </div><!-- /.tp-banner -->        
-                </div><!-- /.tp-banner-container -->
-            </div><!-- /.container -->
+            <li data-transition="fade"> <img src="{{ thirdLast.picture.url }}" alt="" />
+              <div class="caption large lite sfb" data-x="center" data-y="245" data-speed="900" data-start="800" data-easing="Sine.easeOut">Your needs are important</div>
+              <div class="caption small lite sfb" data-x="center" data-y="319"  data-speed="900" data-start="1500" data-easing="Sine.easeOut">Because great design comes with understanding customer needs</div>
+              <div class="caption small sfb" data-x="center" data-y="362" data-speed="900" data-start="2200" data-easing="Sine.easeOut">
+                <div class="smooth"><a href="#contact" class="btn btn-border-lite">Get in Touch</a></div>
+              </div>
+            </li>
+          </ul>
+          <div class="tp-bannertimer tp-bottom"></div>
         </div>
-    </div><!-- /.header-wrapper -->
-	<div class="copyrights">Your Company Name</div>
-    <div class="main-wrapper">
-        <div class="main">
-            <div class="main-inner">
-            </div><!-- /.main-inner -->
-        </div><!-- /.main -->
-    </div><!-- /.main-wrapper -->
-
-    <div class="footer-wrapper">
-        <div class="footer">
-            <div class="footer-inner">
-                <div class="footer-top">
-                    <div class="container">
-                        <div class="row">
-                            <div class="footer-top-inner col-sm-12">
-                                <a href="#" class="footer-scroll-top">
-                                    <i class="fa fa-angle-double-up"></i>
-                                </a>
-                            </div><!-- /.footer-top-inner -->
-                        </div><!-- /.row -->
-                    </div><!-- /.container -->
-                </div><!-- /.footer-top -->
-
-                <div class="footer-bottom">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-12">
-                                <div class="footer-bottom-copyright">
-                                <p>
-                                    &copy; 2014 Gosloo <span class="separator">|</span> Pragmatic Mates <span class="separator">|</span> More Templates Your Company Name -
-                                </p>
-                                </div><!-- /.copyright -->
-
-                                <div class="footer-bottom-nav">
-                                    <ul class="nav nav-pills">
-                                        <li>
-                                            <a href="index.html">Home</a>                                        
-                                        </li>
-
-                                        <li>
-                                            <a href="about.html">About Us</a>
-                                        </li>
-
-                                        <li>
-                                            <a href="portfolio.html">Portfolio</a>
-                                        </li>
-
-                                        <li>
-                                            <a href="blog.html">Blog</a>
-                                        </li>               
-
-                                        <li>
-                                            <a href="contact.html">Contact us</a>
-                                        </li>                                                                                             
-                                    </ul>
-                                </div><!-- /.footer-bottom-nav -->
-                            </div><!-- /.col-sm-12 -->
-                        </div><!-- /.row -->
-                    </div><!-- /.container -->
-                </div><!-- /.footer-bottom -->
-            </div><!-- /.footer-inner -->
-        </div><!-- /.footer -->
-    </div><!-- /.footer-wrapper -->
-</div><!-- /#wrapper -->
-
-<script type="text/javascript" src="assets/js/jquery.js"></script>
-<script type="text/javascript" src="assets/libraries/bootstrap-sass/vendor/assets/javascripts/bootstrap/carousel.js"></script>
-<script type="text/javascript" src="assets/libraries/bootstrap-sass/vendor/assets/javascripts/bootstrap/button.js"></script>
-<script type="text/javascript" src="assets/libraries/bootstrap-sass/vendor/assets/javascripts/bootstrap/collapse.js"></script>
-<script type="text/javascript" src="assets/libraries/bootstrap-sass/vendor/assets/javascripts/bootstrap/transition.js"></script>
-<script type="text/javascript" src="assets/libraries/jquery-smooth-scroll/src/jquery.smooth-scroll.js"></script>
-<script type="text/javascript" src="assets/libraries/isotope/jquery.isotope.min.js"></script>
-<script type="text/javascript" src="assets/libraries/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
-<script type="text/javascript" src="assets/libraries/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
-<script type="text/javascript" src="assets/js/gosloo.js"></script>
+        <!-- /.fullscreenbanner -->
+      </div>
+      <!-- /.fullscreenbanner-container -->
+    </div>
+  </div>
+{% endblock %}
 
 </body>
 </html>

@@ -137,7 +137,7 @@ EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 #     # 'users.backends.EmailBackend',
 # )
 
-MEDIA_ROOT = os.path.join(BASE_DIR, 'upload').replace("//", "/")
+MEDIA_ROOT = os.path.join(BASE_DIR, 'upload').replace('\\', '/')+'/'
 MEDIA_URL = '/upload/'
 
 STATIC_URL = '/static/'

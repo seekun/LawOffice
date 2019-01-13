@@ -12,6 +12,7 @@
 
         {% endblock %}
     </title>
+    <link href="{% static 'my.css' %}" rel="stylesheet">
     <link href="{% static 'assets/css/bootstrap.css' %}" rel="stylesheet">
     <link href="{% static 'assets/css/settings.css' %}" rel="stylesheet">
     <link href="{% static 'assets/css/owl.carousel.css' %}" rel="stylesheet">
@@ -38,9 +39,20 @@
         <nav class="collapse navbar-collapse pull-right">
           <ul class="nav navbar-nav">
             <li><a href="{% url 'web:index' %}">首页</a></li>
-            <li><a href="{% url 'web:services' %}">项目</a></li>
+            <li class="dropdown"><a href="{% url 'web:services' %}" class="dropdown-toggle js-activated">项目</a>
+                <ul class="dropdown-menu">
+                    <li class="dropdown-submenu"><a href="/web/services/?category=OfficeBuilding">办公楼</a></li>
+                    <li class="dropdown-submenu"><a href="/web/services/?category=EducationResearch">教育及研究</a></li>
+                    <li class="dropdown-submenu"><a href="/web/services/?category=Residential">住宅</a></li>
+                    <li class="dropdown-submenu"><a href="/web/services/?category=Infrastructure">基础设施</a></li>
+                </ul>
             <li><a href="#about">关于我们</a></li>
             <li><a href="#about">期刊资料</a></li>
+              <li class="dropdown"><a href="{% url 'web:services' %}" class="dropdown-toggle js-activated">联系我们</a>
+                <ul class="dropdown-menu">
+                    <li class="dropdown-submenu"><a href="/web/services/?category=OfficeBuilding">各分所</a></li>
+                    <li class="dropdown-submenu"><a href="/web/services/?category=EducationResearch">信箱</a></li>
+                </ul>
 {#            <li class="dropdown"><a href="#" class="dropdown-toggle js-activated">Features</a>#}
 {#              <ul class="dropdown-menu">#}
 {#                <li class="dropdown-submenu"><a href="#">Blog</a>#}
@@ -85,7 +97,7 @@
 </div>
 <footer class="footer">
     <div class="container inner">
-      <p class="pull-left">© 2014 Frost. All rights reserved. More Templates Your Company Name -.</p>
+      <p class="pull-left">© 2019 中磊工程造价咨询有限责任公司. All rights reserved. </p>
       <ul class="social pull-right">
         <li><a href="#"><i class="icon-s-rss"></i></a></li>
         <li><a href="#"><i class="icon-s-twitter"></i></a></li>

@@ -27,7 +27,8 @@ blockquote {
     background: #468eb5;
 }
 .navbar-brand {
-    background: #549dc5;
+    /*background: #549dc5;*/
+    background: #5c88a06e;
 }
 .navbar-brand:hover {
     background: #468eb5
