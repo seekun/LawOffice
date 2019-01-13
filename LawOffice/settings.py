@@ -29,7 +29,6 @@ SECRET_KEY = '3mh(dx^9jlo%9l$(x4w2ie&vkkq#y(4s_$5lee46+vvt2wh^tt'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -43,6 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'web',
     'mdeditor',
+    'imagekit'
 ]
 
 MIDDLEWARE = [

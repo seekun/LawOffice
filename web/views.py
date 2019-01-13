@@ -122,7 +122,6 @@ def news(request):
     except EmptyPage:
         news_list = paginator.page(paginator.num_pages)
     context['news_list'] = news_list
-    print(news_list)
     return render(request, 'web/news.html', context)
 
 
