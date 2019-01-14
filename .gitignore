@@ -1,4 +1,4 @@
-ahu/dev_settings.py
+LawOffice/dev_settings.py
 users/migrations
 venv
 env
@@ -7,12 +7,12 @@ fabfile.py
 score.html
 templates/course.json
 templates/score.html
-ahu/__pycache__/settings.cpython-36.pyc
+LawOffice/__pycache__/settings.cpython-36.pyc
 users/__pycache__/urls.cpython-36.pyc
 users/__pycache__/views.cpython-36.pyc
 *.pyc
 db.sqlite3
-ahu/__pycache__/
+LawOffice/__pycache__/
 users/__pycache__/
 web/__pycache__/
 web/migrations/__pycache__/
