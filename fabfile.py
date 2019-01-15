@@ -6,7 +6,7 @@ GIT_REPO = "https://github.com/seekun/LawOffice.git"
 
 env.user = 'ubuntu'
 env.password = '7bRnLy^$^!sYSRMK'
-env.hosts = ['www.ahutong.com']
+env.hosts = ['www.tmsshikun.xyz']
 # env.hosts = ['193.112.97.157']
 env.port = '22'
 
