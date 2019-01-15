@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'web',
     'mdeditor',
     'imagekit'
+    # 'ckeditor_uploader',
 ]
 
 MIDDLEWARE = [
@@ -148,8 +149,8 @@ MEDIA_URL = '/upload/'
 
 STATIC_URL = '/static/'
 # 加入下面的配置
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
-# STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
+# STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
 USE_TZ = False
 
 SITE_ID = 1
@@ -158,4 +159,4 @@ CKEDITOR_JQUERY_URL = 'https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery
 CKEDITOR_UPLOAD_PATH = 'upload/'
 CKEDITOR_IMAGE_BACKEND = "pillow"
 # upload_path = "/Users/sk/PycharmProjects/ahu/upload/"
-upload_path = "/home/ubuntu/sites/demo.windytrees.cn/LawOffice/upload/"
+upload_path = "/home/ubuntu/sites/demo.tmsshikun.xyz/LawOffice/upload/"
