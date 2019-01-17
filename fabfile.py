@@ -11,7 +11,7 @@ env.hosts = ['www.tmsshikun.xyz']
 env.port = '22'
 
 def deploy():
-    source_folder = '/home/ubuntu/sites/demo.windytrees.cn/LawOffice'
+    source_folder = '/home/ubuntu/sites/demo.tmsshikun.xyz/LawOffice'
 
     run('cd %s && git pull' % source_folder )
     run("""
@@ -20,12 +20,12 @@ def deploy():
         ../env/bin/python manage.py makemigrations&&
         ../env/bin/python manage.py migrate --run-syncdb
         """.format(source_folder))
-    sudo('restart gunicorn-demo.windytrees.cn')
+    sudo('restart gunicorn-demo.tmsshikun.xyz')
     sudo('service nginx reload')
 
 
 def restart():
-    sudo('restart gunicorn-demo.windytrees.cn')
+    sudo('restart gunicorn-demo.tmsshikun.xyz')
     sudo('service nginx reload')
 
 # python3 users/compressImage.py
