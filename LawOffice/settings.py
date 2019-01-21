@@ -43,7 +43,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'web',
     'mdeditor',
-    'imagekit'
+    'imagekit',
+    'gunicorn',
     # 'ckeditor_uploader',
 ]
 
