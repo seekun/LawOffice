@@ -13,7 +13,7 @@ https://docs.djangoproject.com/en/2.1/ref/settings/
 import os
 
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost ', '.ahutong.com', '193.112.97.157', ".tmsshikun.xyz"]
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost ', '.ahutong.com', '193.112.97.157', ".tmsshikun.xyz", ".seekun.cn"]
 
 
 # AUTH_USER_MODEL = 'users.User'
