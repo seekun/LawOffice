@@ -18,7 +18,7 @@ def deploy():
         cd {} &&
         ../env/bin/python manage.py collectstatic --noinput &&
         ../env/bin/python manage.py makemigrations&&
-        ../env/bin/python manage.py migrate --run-syncdb
+        ../env/bin/python manage.py migrate
         """.format(source_folder))
     sudo('restart gunicorn-demo.seekun.cn')
     sudo('service nginx reload')
