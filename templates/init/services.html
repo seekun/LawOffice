@@ -1,5 +1,6 @@
 {% extends 'init/base.html' %}
 {% load staticfiles %}
+{% load thumbnail %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -41,7 +42,7 @@
                         <div class="text-overlay">
                           <div class="info">{{ item.title }}</div>
                         </div>
-                        <img src="{{ item.picture.url }}" alt="" />
+                        <img src="{% thumbnail item.picture 770x550 crop %}" alt="" />
                       </a>
                   </figure>
                 </li>

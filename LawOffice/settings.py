@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'mdeditor',
     'imagekit',
     'gunicorn',
+    'easy_thumbnails',
     # 'ckeditor_uploader',
 ]
 
