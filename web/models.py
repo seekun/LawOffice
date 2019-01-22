@@ -15,7 +15,11 @@ from imagekit.processors import ResizeToFill
 #  首页轮播图
 class IndexPicture(models.Model):
     name = models.CharField('名称', max_length=100, null=True, blank=True)
-    picture = models.ImageField('图片', upload_to="picture", null=True, blank=True)
+    picture = ProcessedImageField(upload_to="picture", null=True, blank=True,
+                                  processors=[ResizeToFill(1540, 1100)],
+                                  format='JPEG',
+                                  options={'quality': 95},
+                                  )
 
     def __str__(self):
         return self.name
