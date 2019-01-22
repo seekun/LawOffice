@@ -1,6 +1,5 @@
 <!doctype html>
 {% extends 'init/base.html' %}
-
 {% load staticfiles %}
 <html>
 <head>
@@ -10,8 +9,13 @@
     <meta name="author" content="Pragmatic Mates s.r.o. - http://pragmaticmates.com">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="#">
-
-
+    {% block style %}
+    <link rel="stylesheet" type="text/css" href="{% static 'assets02/css/animate.css' %}" media="screen, projection">
+    <link rel="stylesheet" type="text/css" href="{% static 'assets02/libraries/font-awesome/css/font-awesome.css' %}" media="screen, projection">
+    <link rel="stylesheet" type="text/css" href="{% static 'assets02/libraries/rs-plugin/css/settings.css' %}" media="screen, projection">
+    <link rel="stylesheet" type="text/css" href="{% static 'assets02/css/animate.css' %}" media="screen, projection">
+    <link rel="stylesheet" type="text/css" href="{% static 'assets02/css/gosloo.css' %}" media="screen, projection">
+    {% endblock %}
     <title>About Us | Gosloo | Portfolio HTML Template</title>
 </head>
 

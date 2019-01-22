@@ -1,0 +1,28 @@
+
+
+@media (min-width: 768px) {
+    .regions--contact-list .table-cell {
+        display: table-cell;
+        float: none;
+        width: 50%;
+        margin-right: 7.5px;
+        margin-left: 7.5px;
+        vertical-align: top;
+    }
+}
+
+.content-block {
+    position: relative;
+    width: 100%;
+    padding: 20px 25px;
+    color: #00235d;
+    background: rgba(203, 227, 255, 0.35);
+}
+
+
+.content-block .content-block--title {
+    padding-bottom: 15px;
+    font-family: "Gotham-Medium", Helvetica, sans-serif;
+    font-size: 18px;
+    border-bottom: 1px solid #e1e1e1;
+}

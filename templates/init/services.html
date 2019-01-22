@@ -20,7 +20,6 @@
         <div class="dark-wrapper">
           <div class="container inner">
             <h2 class="section-title text-center">项目展示</h2>
-{#            <p class="lead main text-center">伟大的设计理解客户需求</p>#}
             <div class="grid-portfolio fix-portfolio">
               <ul class="filter">
                   {% for type in allType %}
@@ -30,11 +29,6 @@
                           <li><a href="/web/services/?category={{ type.nameEN }}&page=1" data-filter="*">{{ type.nameCN }}</a></li>
                       {% endif %}
                   {% endfor %}
-{#                    <li><a class="active" href="#" data-filter="*">所有</a></li>#}
-{#                    <li><a href="{% url 'web:services' 'OfficeBuilding' %}" data-filter=".web">办公楼</a></li>#}
-{#                    <li><a href="{% url 'web:services' 'EducationResearch' %}" data-filter=".graphic">教育及研究</a></li>#}
-{#                    <li><a href="{% url 'web:services' 'Residential' %}" data-filter=".photo">住宅</a></li>#}
-{#                    <li><a href="{% url 'web:services' 'Infrastructure' %}" data-filter=".motion">基础设施</a></li>#}
               </ul>
 
               <!-- /filter -->
