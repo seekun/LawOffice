@@ -1,4 +1,7 @@
 LawOffice/dev_settings.py
+LawOffice/__pycache__/
+db.sqlite3
+web/__pycache__/
 users/migrations
 venv
 env
@@ -13,7 +16,6 @@ users/__pycache__/views.cpython-36.pyc
 *.pyc
 db.sqlite3
 LawOffice/__pycache__/
-users/__pycache__/
 web/__pycache__/
 web/migrations/__pycache__/
 __pycache__/
