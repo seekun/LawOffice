@@ -16,7 +16,7 @@ def deploy():
     run('cd %s && git pull' % source_folder )
     run("""
         cd {} &&
-        ../env/bin/python manage.py collectstatic --noinput &&
+        ../env/bin/python manage.py collectstatic &&
         ../env/bin/python manage.py makemigrations&&
         ../env/bin/python manage.py migrate
         """.format(source_folder))
