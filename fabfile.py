@@ -13,7 +13,8 @@ env.port = '22'
 def deploy():
     source_folder = '/home/ubuntu/sites/demo.seekun.cn/LawOffice'
 
-    run('cd %s && git pull' % source_folder )
+    # run('cd %s && git pull' % source_folder )
+    run('cd %s && git fetch --all && git reset --hard origin/master && git pull' % source_folder)
     run("""
         cd {} &&
         ../env/bin/python manage.py collectstatic &&
